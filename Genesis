@@ -1,0 +1,101 @@
+Genesis (FFVII-CC)
+Crystal Color: Red
+Weapon Type: Greatsword
+Spheres: A D E
+
+Skill 1: Magic Sword
+ Recover BRV to self based on iBRV (80%)
+ Set special effect [Dark Angel] on self for 8 turns.
+ Does not consume ability usage.
+ While special effect [Dark Angel] is active, becomes Black Feather.
+Skill 1 Alt: Black Feather
+ 5-hit Magic BRV attack.
+ After hit, moves own next turn to just before target's next turn (except during Summon Phase, or if own next turn is after target's).
+ Deals increased BRV damage to enemies afflicted with [Degraded Soul].
+ Uses: 6
+15cp: Shinra Rapier
+-Magic Sword-
+ +Increases BRV gain based on iBRV (+20%)
+ +Grants Magical ATK Up (40%) to self for 8 turns
+-Black Feather-
+ +Increases BRV potency
+c.55: Magic Sword Extend
+-Magic Sword-
+ +Adds 2 uses
+ +Greatly increases BRV gain based on iBRV (+100%)
+ +Triggers a 3-hit Magic BRV+HP attack after BRV gain
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
+ +While [Dark Angel] is active, turns BRV Attack to BRV Attack+ and HP Attack to HP Attack+
+-Black Feather-
+ +Becomes a 6-hit Magic BRV+HP attack
+ +Tremendously increases BRV potency
+ +Allows for 150% Stolen BRV overflow
+
+[Dark Angel]: Self: ATK Up (40%), HP Regen (8% Max HP). 
+              Party: Base duration of inflicted debuffs +2
+BRV Attack+: 3-hit Magic BRV attack.
+             Deals increased BRV damage to enemies afflicted with [Degraded Soul].
+HP Attack+: 2-hit Magic BRV+HP attack.
+            Deals increased BRV damage to enemies afflicted with [Degraded Soul].
+
+Skill 2: Dark Energy
+ 3-hit AoE Magic BRV+HP attack.
+ HP damage is split equally.
+ Inflicts [Degraded Soul] on all enemies for 3 turns.
+ Uses: 3
+35cp: Scarlet Rapier
+-Dark Energy-
+ +Adds 1 use
+ +Increases BRV potency
+ +Further increases BRV potency against a single target
+ +Extends base duration of [Degraded Soul] by 2 turns
+c.60: Dark Energy Extend
+ +Adds 2 uses
+ +Becomes a 5-hit AoE Magic BRV+HP attack
+ +Greatly increases BRV potency
+ +Allows for 180% Stolen BRV overflow
+ +Turns [Degraded Soul] into a stacking debuff, with max 7 stacks.
+ 
+[Degraded Soul]: Max BRV Down (30%), INT BRV Down (30%).
+                 Reduces target's BRV by 1/2 at the start of their turn.
+[Degraded Soul] (c.60): Adds a Gained BRV Down effect (50%).
+                        Adds +5% Max BRV Down/INT BRV Down per stack (Up to a total of 65%).
+                        +1 Stack whenever target takes a turn (Cannot increase stacks any other way).
+ 
+EX: Apocalypse
+ 4-hit AoE Magic BRV+HP attack.
+ Deals 100% HP damage to all enemies.
+ Grants [LOVELESS] to self for 6 turns.
+ Extends duration of existing [Degraded Soul] debuff by 1 turn.
+ Deals increased BRV damage to enemies afflicted with [Degraded Soul].
+ Recast: Slightly Slow
+  -LB1: Slightly increases BRV damage dealt
+  -LB2: Slightly reduces Recast speed
+  -LB3: Increases Max BRV and ATK by 30% while [Degraded Soul] is active
+ EX+: Increases BRV potency, allows for 120% Stolen BRV overflow
+  -LB1: Increases own ATK (50%) and iBRV (80%)
+  -LB2: At Quest start, grants 6 turns of [LOVELESS] to self
+        At Quest start, inflicts [Degraded Soul] on all enemies for 3 turns
+  -LB3: Becomes a 5-hit AoE Magic BRV+HP attack, triggered twice
+        Deals 100% HP damage to all enemies
+        Allows for 150% Stolen BRV overflow
+ 
+LD: Shadow Flare
+ 8-hit AoE Magic BRV+HP attack.
+ Deals 100% HP damage to all enemies.
+ Allows for 150% Stolen BRV overflow.
+ Deals increased BRV damage to enemies afflicted with [Degraded Soul].
+ Grants [Minerva's Blessing] to self for 6 turns.
+ Uses: 2
+  -LB1: ATK Up (+20%), Max BRV Up (+20%)
+        Increases BRV damage dealt with Shadow Flare
+        Turns BRV Attack, BRV Attack+ to BRV Attack++
+        Turns HP Attack, HP Attack+ to HP Attack++
+  -LB2: ATK Up (+20%), Max BRV Up (+20%)
+        [Minerva's Blessing] base duration +6
+  -LB3: ATK Up (+20%), Max BRV Up (+20%)
+        Adds 1 use to Shadow Flare
+        
+[Minerva's Blessing]: Self: Max BRV Up (50%), BRV refund after HP attacks (20%)
+                      Enemies: ATK Down (40%), HP Damage Dealt Down (10%)
