@@ -99,3 +99,7 @@ LD: Shadow Flare
         
 [Minerva's Blessing]: Self: Max BRV Up (50%), BRV refund after HP attacks (20%)
                       Enemies: ATK Down (40%), HP Damage Dealt Down (10%)
+BRV Attack++: 5-hit Magic BRV attack.
+              Deals increased BRV damage to enemies afflicted with [Degraded Soul].
+HP Attack++: 4-hit Magic BRV+HP attack.
+             Deals increased BRV damage to enemies afflicted with [Degraded Soul].
