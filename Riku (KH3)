@@ -1,0 +1,43 @@
+Riku (KH3)
+Weapon type: Greatsword
+Crystal Color: Black
+Spheres: A A E
+
+  -Dark Firaga-
+3-hit Fire/Dark Ranged BRV+HP attack.
+Grants 1 stack of [Darkness].
+Inflicts [Dark Haze] on target for 1 turn.
+Uses: 4
+ • 15cp: Soul Eater
++Increases potency of Dark Firaga
++Increases potency of [Dark Haze]'s effects and extends its duration by 2 turns
+ • c.55: Dark Firaga Extend
++Becomes a 5-hit Dark Ranged BRV+HP attack.
+ 
+  -Dark Break-
+3-hit AoE BRV attack.
+Grants 1 stack of [Darkness].
+Grants ATK Up (30%) to self for 4 turns.
+Uses: 6
+
+  -EX: Braveheart-
++Equips EX ability Dark Aura.
+9-hit Dark Melee BRV+HP attack.
+Deals 50% splash HP damage to non-targets.
+Allows for 150% Max BRV overflow.
+Grants 1 stack of [Darkness].
+Grants [Light of the Dawn] to self for 8 turns.
+Recast: Normal
+
+  -LD: End of Pain-
++Equips LD ability Meteor Crash.
+8-hit AoE Fire/Dark Melee BRV+HP attack.
+Allows for 150% Max BRV overflow.
+Deals 100% HP damage to all enemies.
+
+   -BT: Oblivion-
++Equips Finish Burst Ghost Drive.
+12-hit Dark Melee BRV+HP attack.
+Allows for 180% Max BRV damage overflow.
+Allows for 200% Max HP damage overflow.
+Deals 50% splash HP damage to non-targets.
