@@ -1,43 +1,112 @@
+Note that skill use counts do include the skill charges gained from crystal passives, I just don't feel like writing a whole passive list
+
 Riku (KH3)
 Weapon type: Greatsword
 Crystal Color: Black
 Spheres: A A E
 
-  -Dark Firaga-
-3-hit Fire/Dark Ranged BRV+HP attack.
-Grants 1 stack of [Darkness].
-Inflicts [Dark Haze] on target for 1 turn.
-Uses: 4
- • 15cp: Soul Eater
-+Increases potency of Dark Firaga
-+Increases potency of [Dark Haze]'s effects and extends its duration by 2 turns
- • c.55: Dark Firaga Extend
-+Becomes a 5-hit Dark Ranged BRV+HP attack.
+Skill 1: Dark Firaga
+ 3-hit Fire/Dark Ranged BRV+HP attack.
+ Grants 1 stack of [Darkness].
+ Inflicts [Dark Haze] on target for 1 turn.
+ Uses: 4
+15cp: Soul Eater
+ +Increases potency of Dark Firaga
+ +Increases potency of [Dark Haze]'s effects (+10%) and extends its duration by 2 turns
+ +Increases max stacks of [Darkness] by 1
+c.55: Dark Firaga Extend
+ +Adds 3 uses
+ +Becomes a 5-hit Dark Ranged BRV+HP attack
+ +Allows for 150% Stolen BRV overflow
  
-  -Dark Break-
-3-hit AoE BRV attack.
-Grants 1 stack of [Darkness].
-Grants ATK Up (30%) to self for 4 turns.
-Uses: 6
+[Darkness]: Physical ATK Up (40%), Max BRV Up (30%), Dark Enchant (20%). Does not expire, but can be dispelled.
+            Stacks up to 3 times(15cp/35cp increase stack cap by 1, max 5). 
+            Loses 1 stack every time Riku is Broken, and 2 stacks upon taking HP damage.
+            Triggers the follow-up attack Dark Cannon after using any ability (Excluding Finish Burst).
+            Strength of Dark Cannon depends on the number of [Darkness] stacks.
+[Dark Haze]: Blind (60%), SPD Down (30%) 
 
-  -EX: Braveheart-
-+Equips EX ability Dark Aura.
-9-hit Dark Melee BRV+HP attack.
-Deals 50% splash HP damage to non-targets.
-Allows for 150% Max BRV overflow.
-Grants 1 stack of [Darkness].
-Grants [Light of the Dawn] to self for 8 turns.
-Recast: Normal
+Follow-Up: Dark Cannon
+3-hit Dark Ranged BRV attack.
+Effect changes based on [Darkness] stacks.
+ -2 stacks: Increased BRV potency, inflicts ATK Down (30%) for 3 turns
+ -3 stacks: Adds HP damage after BRV hits.
+ -4 stacks: Adds BRV gain before BRV hits, extends duration of ATK Down by 2 turns
+ -5 stacks: Greatly increases BRV potency, allows for 120% Stolen BRV overflow
+ 
+Skill 2: Helm Splitter
+ 3-hit AoE Dark Melee BRV attack.
+ Grants 1 stack of [Darkness].
+ Grants ATK Up (30%) to self for 4 turns.
+ Uses: 6
+35cp: Way to Dawn
+ +Increases BRV potency of Helm Splitter
+ +Increases potency of ATK Up (+20%) and extends it duration by 2 turns.
+ +Increases max stacks of [Darkness] by 1
+c.60: Helm Splitter Extend
+ +Adds 5 uses
+ +Becomes a 4-hit AoE Dark Melee BRV+ST HP attack
+ +Allows for 180% Stolen BRV overflow
+ +Deals 50% splash HP damage to non-targets
 
-  -LD: End of Pain-
-+Equips LD ability Meteor Crash.
-8-hit AoE Fire/Dark Melee BRV+HP attack.
-Allows for 150% Max BRV overflow.
-Deals 100% HP damage to all enemies.
+EX: Braveheart
+ +Equips EX ability Dark Aura.
+ 9-hit Dark Melee BRV+HP attack.
+ Deals 50% splash HP damage to non-targets.
+ Allows for 150% Max BRV overflow.
+ Grants 1 stack of [Darkness].
+ Grants [Light of the Dawn] to self for 4 turns.
+ Recast: Normal
+  -LB1: Slightly increases BRV damage dealt
+  -LB2: Slightly reduces Recast speed
+  -LB3: Extends duration of [Light of the Dawn] to 8 turns
+ EX+: Increases BRV potency, grants an additional stack of [Darkness].
+      Inflicts Dark Resistance Down on all enemies for 6 turns.
+  -LB1: Increases own ATK (60%) and Max BRV (40%)
+        Turns BRV Attack to BRV Attack+ while [Light of the Dawn] is active
+        Turns HP Attack to HP Attack+ while [Light of the Dawn] is active
+  -LB2: At Quest start, grants 1 stack of [Darkness] to self
+        At Quest start, grants 8 turns of [Light of the Dawn] to self
+  -LB3: Becomes a 2-hit Dark Melee BRV+HP attack, triggered 9 times
+        Grants BRV to self based on 10% of HP damage dealt after each HP attack
+        Tremendously increases BRV potency
 
-   -BT: Oblivion-
-+Equips Finish Burst Ghost Drive.
-12-hit Dark Melee BRV+HP attack.
-Allows for 180% Max BRV damage overflow.
-Allows for 200% Max HP damage overflow.
-Deals 50% splash HP damage to non-targets.
+[Light of the Dawn]: Self: ATK Up (30%), Critical Rate Up (70%)
+                     Party: Dark Enchant (20%), Critical Rate Up (30%)
+BRV Attack+: 2-hit Dark Melee BRV attack.
+HP Attack+: 1-hit Dark Melee BRV+HP attack.
+            Allows for 120% Stolen BRV overflow.
+
+LD: End of Pain
+ +Equips LD ability Meteor Crash.
+ 8-hit AoE Fire/Dark Melee BRV+HP attack.
+ Allows for 150% Max BRV overflow.
+ Deals 100% HP damage to all enemies.
+ Grants 1 stack of [Darkness] to self.
+ Sets 2 stacks of special effect [Dark Shield] on self.
+ Uses: 3
+  -LB1: ATK Up (+30%), Max BRV Up (+20%)
+        Increases BRV damage dealt with Meteor Crash
+        Turns BRV Attack, BRV Attack+ to BRV Attack++
+        Turns HP Attack, HP Attack+ to HP Attack++
+  -LB2: ATK Up (+30%), Max BRV Up (+20%)
+        [Dark Shield] stacks +1
+  -LB3: ATK Up (+30%), Max BRV Up (+20%)
+        Adds +1 use to Meteor Crash
+
+[Dark Shield]: Renders Riku immune to Break. 
+               Stacks decrease by 1 each time Riku is protected from Break.
+BRV Attack++: 4-hit Dark Melee BRV attack.
+HP Attack++: 3-hit Dark Melee BRV+HP attacks.
+             Allows for 120% Stolen BRV overflow.
+
+BT: Oblivion
+ +Equips Finish Burst Ghost Drive.
+ 12-hit Dark Melee BRV+HP attack.
+ Allows for 180% Max BRV damage overflow.
+ Allows for 200% Max HP damage overflow.
+ Deals 50% splash HP damage to non-targets.
+BURST effect (5 turns)
+-All allies Dark enchant (20%)
+-All allies Physical ATK Up +200%
+-Maximum BRV damage limit +20%
