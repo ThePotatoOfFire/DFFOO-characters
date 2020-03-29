@@ -23,11 +23,17 @@ Skill 2: Rest
  Uses: 3
 35cp: Soul Glaive
  +Increases HP recovery based on ATK (+30%)
- +Increases BRV recovery based on ATK
+ +Increases BRV recovery based on ATK (+50%)
  +Grants ATK Up (40%) and Max BRV Up (40%) to self for 6 turns
 c.60: Rest Extend
  +Adds 2 uses
+ +Greatly increases BRV and HP recovered (+50% to each)
  +Extends BRV and HP recover to all allies (And buffs if 35cp passive is equipped)
+ +Turns BRV Attack to BRV Attack+ while buffed
+ +Turns HP Attack to HP Attack+ while buffed
+
+BRV Attack+: Recovers BRV to party based on own ATK (100%) before a 2-hit Magic Wind BRV attack.
+HP Attack+: Recovers BRV to party based on own ATK (100%) before a Magic Wind BRV+HP attack.
 
 EX: Tradewinds Spear
  +Equips EX ability Bifelgan's Bounty.
@@ -40,8 +46,13 @@ EX: Tradewinds Spear
   -LB3: Slightly increases HP recovery cap (+5%)
  EX+: 
   -LB1: Increases own ATK (60%) and Max BRV (40%)
-  -LB2: At Quest start, 
-  -LB3: 
+        For the first turn:
+        No Action Delay
+        Does not increase turn count
+        Decreases Friend Support and Summon action count
+  -LB2: At Quest start, grants ATK Up (40%) and Max BRV Up (40%) to party for 6 turns
+  -LB3: Recover BRV to party based on own ATK (200%), followed by a 4-hit Magic BRV+HP attack triggered twice.
+        Extends duration of all self buffs by 2 turns upon use.
 
 LD: Hired Help
  Recovers BRV to all allies based on own ATK (300%).
@@ -50,10 +61,16 @@ LD: Hired Help
  Grants [Break & Boost] to all allies for 2 turns.
  Uses: 3
   -LB1: ATK Up (40%)
+        Slightly increases BRV recovered (+50% based on ATK)
+        Turns BRV Attack, BRV Attack+ to BRV Attack++
+        Turns HP Attack, HP Attack+ to HP Attack++
   -LB2: ATK Up (40%)
+        Increases base duration of [Break & Boost] by 2 turns
   -LB3: ATK Up (40%)
         Adds +1 use to Hired Help.
   
 [Break & Boost]: BRV Regen (120% iBRV).
                  Gained BRV & Stolen BRV Overflow Up (30%)
-                 100% chance to Break when dealing BRV damage.
+                 100% chance to Break when dealing BRV damage (Excludes enemies already Broken).
+BRV Attack++: Recovers BRV to party based on own ATK (100%) before a 4-hit Magic Wind BRV attack.
+HP Attack++: Recovers BRV to party based on own ATK (100%) before a 3-hit Magic Wind BRV+HP attack.
