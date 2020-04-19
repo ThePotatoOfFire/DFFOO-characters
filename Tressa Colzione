@@ -44,7 +44,8 @@ EX: Tradewinds Spear
   -LB1: Slightly increases BRV damage dealt
   -LB2: Slightly reduces Recast speed
   -LB3: Slightly increases HP recovery cap (+5%)
- EX+: 
+ EX+: Greatly increases BRV potency, slightly increases Stolen BRV Overflow cap (+30%)
+      Grants [Green Pea] to self for 6 turns
   -LB1: Increases own ATK (60%) and Max BRV (40%)
         For the first turn:
         No Action Delay
@@ -53,6 +54,9 @@ EX: Tradewinds Spear
   -LB2: At Quest start, grants ATK Up (40%) and Max BRV Up (40%) to party for 6 turns
   -LB3: Recover BRV to party based on own ATK (200%), followed by a 4-hit Magic BRV+HP attack triggered twice.
         Extends duration of all self buffs by 2 turns upon use.
+
+[Green Pea]: Party: ATK Up (50%), Max BRV Up (20%)
+             Self: BRV Gained Up (20%)
 
 LD: Hired Help
  Recovers BRV to all allies based on own ATK (300%).
