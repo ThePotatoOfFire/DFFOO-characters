@@ -1,0 +1,58 @@
+The Hero (Original)
+Weapon type: Dagger
+Crystal Color: Yellow
+Spheres: A A D
+
+Skill 1: Hype Up
+ Grants special effect [Unleashed] to self.
+ Raises BRV by 50% of Max BRV.
+ Uses: 1
+15cp: Swashbuckler
+ +Increases the effects of [Unleashed] (+10% ATK and mBRV up)
+ +Increases BRV potency of Shadow Slash and Brilliance
+c.55:  Extend
+ +
+
+[Unleashed]: ATK Up (50%), Max BRV Up (60%)
+             Changes BRV Attack/+/++ to Shadow Slash
+             Changes HP Attack/+/++ to Brilliance
+             Dispels when Broken
+             Restores 1 use of Hype Up upon being Broken
+
+Skill 2: Hero's Might
+ 3-hit Melee BRV+HP attack.
+ Ignores target's DEF.
+ Grants BRV Regen (20%) to self for 4 turns.
+ Uses: 8
+35cp: 
+ +
+c.60:  Extend
+ +
+ 
+EX: Wooden Sword
+ +Equips EX ability Dark Drive
+ Recast: Normal
+  -LB1: Slightly increases BRV damage dealt
+  -LB2: Slightly reduces Recast speed
+  -LB3: Slightly increases HP recovery cap (+5%)
+ EX+: 
+  -LB1: Increases own ATK (60%) and Max BRV (50%)
+        For the first turn:
+        No Action Delay
+        Does not increase turn count
+        Decreases Friend Support and Summon action count
+  -LB2: 
+  -LB3: 
+
+LD: Ignition Blade 
+ Uses: 3
+  -LB1: ATK Up (40%)
+        Slightly increases BRV recovered (+50% based on ATK)
+        Turns BRV Attack, BRV Attack+ to BRV Attack++
+        Turns HP Attack, HP Attack+ to HP Attack++
+  -LB2: ATK Up (40%)
+        Increases base duration of [Break & Boost] by 2 turns
+  -LB3: ATK Up (40%)
+        Adds +1 use to Ignition Blade.
+  
+[Break & Boost]: 
