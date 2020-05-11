@@ -21,7 +21,7 @@ c.55: Dark Firaga Extend
  
 [Darkness]: Physical ATK Up (40%), Max BRV Up (30%), Dark Enchant (20%). Does not expire, but can be dispelled.
             Stacks up to 3 times(15cp/35cp increase stack cap by 1, max 5). 
-            Loses 1 stack every time Riku is Broken, and 2 stacks upon taking HP damage.
+            Loses 2 stacks every time Riku is Broken, and 1 stack upon taking HP damage. Will not fall below 1 stack this way.
             Triggers the follow-up attack Dark Cannon after using any ability (Excluding Finish Burst).
             Strength of Dark Cannon depends on the number of [Darkness] stacks.
 [Dark Haze]: Blind (60%), SPD Down (30%) 
@@ -97,7 +97,7 @@ LD: End of Pain
 [Dark Shield]: Renders Riku immune to Break. 
                Stacks decrease by 1 each time Riku is protected from Break.
 BRV Attack++: 4-hit Dark Melee BRV attack.
-HP Attack++: 3-hit Dark Melee BRV+HP attacks.
+HP Attack++: 3-hit Dark Melee BRV+HP attack.
              Allows for 120% Stolen BRV overflow.
 
 BT: Oblivion
@@ -109,4 +109,5 @@ BT: Oblivion
 BURST effect (5 turns)
 -All allies Dark enchant (20%)
 -All allies Physical ATK Up +200%
--Maximum BRV damage limit +20%
+-All allies Stolen BRV overflow limit +30%
+-All allies Maximum BRV damage limit +20%
