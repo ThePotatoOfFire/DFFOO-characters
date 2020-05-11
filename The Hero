@@ -15,17 +15,25 @@ c.55: Hypercharge Extend
  +Triggers a 2-hit Melee BRV+HP attack after use
  +Allows for 120% Gained BRV overflow
  +Allows for 150% Stolen BRV overflow
+Shadow Slash:
+ +Greatly increases BRV potency
+ +Allows for 120% Stolen BRV overflow
+Brilliance:
+ +Greatly increases BRV potency
+ +Further increases BRV damage dealt vs a single target
+ +Allows for 120% Stolen BRV overflow
 
 [Unleashed]: ATK Up (60%), Max BRV Up (70%)
+             DEF Down (70%), HP Damage Taken Up (20%)
+             When Breaking an enemy, delays their next turn by 1
              Changes BRV Attack/+ to Shadow Slash
              Changes HP Attack/+ to Brilliance
-             Dispels when Broken
+             Dispels when self is Broken (bad English I know but it's more specific this way)
              Restores 1 use of Hypercharge upon being Broken
 Shadow Slash: 2-hit Melee BRV+HP attack
               Grants BRV based on (50% of) HP damage dealt
               Low Action Delay
-Brilliance: 3-hit AoE Melee BRV+ST HP attack
-            Allows for 120% Stolen BRV overflow
+Brilliance: 2-hit AoE Melee BRV+ST HP attack
             Deals 20% splash HP damage to non-targets
 
 Skill 2: Hero's Might
@@ -50,6 +58,7 @@ EX: Wooden Sword
  Becomes Steel Drive+ when [Unleashed] is active:
   6-hit Melee BRV+HP attack
   Allows for 150% Stolen BRV overflow
+  BRV potency up compared to Steel Drive
  Recast: Normal
   -LB1: Slightly increases BRV damage dealt
   -LB2: Slightly reduces Recast speed
@@ -81,20 +90,21 @@ LD: Starshower
  Gain BRV based on (20% of) HP damage dealt after each HP attack.
  Grants [Iron Will] to self for 6 turns.
  Uses: 2
-  -LB1: ATK Up (50%)
+  -LB1: ATK Up (30%)
         Slightly increases BRV potency
         Increases BRV gained based on HP damage dealt (+10%)
-  -LB2: ATK Up (50%)
+  -LB2: ATK Up (30%)
         Increases base duration of [Iron Will] by 4 turns
-  -LB3: ATK Up (50%)
+  -LB3: ATK Up (30%)
         Adds +1 use to Starshower
   
 [Iron Will]: Self: INT BRV Up (150%)
                    Turns Shadow Slash to Shadow Slash+, Brilliance to Brilliance+
              Party: ATK Up (30%), Stolen BRV overflow +30%
 Shadow Slash+: 3-hit Melee BRV+HP attack
+               Allows for 120% Stolen BRV overflow
                Grants BRV based on (60% of) HP damage dealt
                Low Action Delay
-Brilliance+: 4-hit AoE Melee BRV+ST HP attack
+Brilliance+: 3-hit AoE Melee BRV+ST HP attack
              Allows for 150% Stolen BRV overflow
              Deals 50% splash HP damage to non-targets
