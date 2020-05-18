@@ -1,0 +1,44 @@
+Original Character Concept
+Weapon type: weapon
+Crystal Color: color
+Spheres: X X X
+
+Skill 1: name
+ 
+ Uses: X
+15cp: Weapon
+ +
+c.55: Skill1 Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+Skill 2: name
+ Description
+ Uses: X
+35cp: Weapon
+ +
+c.60: Skill2 Extend
+ +
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Weapon
+ +Equips EX ability name
+ Recast: Normal
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Weapon
+ +Equips LD ability name
+ Uses: X
+  -LB1:
+  -LB2:
+  -LB3:
