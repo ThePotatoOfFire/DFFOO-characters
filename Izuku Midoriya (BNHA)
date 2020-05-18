@@ -1,0 +1,121 @@
+Izuku Midoriya (BNHA)
+Weapon type: Fist
+Crystal Color: Green
+Spheres: A A C
+
+Skill 1: Detroit Smash
+ Gain BRV based on ATK values of self and allies (20%).
+ Triggers a 2-hit AoE Wind Melee BRV+ST HP attack after BRV gain.
+ Deals 60% more BRV damage when attacking a single target.
+ Consumes 50% of current HP on use when [Full Cowling] is not active.
+ Deals increased BRV damage (100%) when [Full Cowling] is not active.
+ Uses: 9
+15cp: Gym Gloves
+ +Increases BRV potency
+ +Raises BRV gain based on party ATK (+10%)
+ +Delays target by 1 turn
+c.55: Detroit Smash Extend
+ +Adds 3 uses
+ +Raises BRV gain based on party's ATK (+20%)
+ +Extends BRV gain to party
+ +Increases number of BRV hits to 5
+ +Tremendously increases total BRV potency
+ +Allows for 180% Stolen BRV overflow
+ +Initiates a Chase sequence after HP damage
+ +Turns BRV Attack to BRV Attack+(100%) when [Full Cowling] is not active
+ +Turns HP Attack to HP Attack+(100%) when [Full Cowling] is not active
+
+BRV Attack+(100%): Gain BRV based on ATK values of self and allies (10%) before a 3-hit Melee BRV attack.
+                  Consumes 20% of current HP on use.
+HP Attack+(100%): Gain BRV based on ATK values of self and allies (10%) before a 2-hit Melee BRV+HP attack.
+                  Consumes 20% of current HP on use.
+
+Skill 2: Full Cowling
+ Gain BRV based on ATK values of self and allies (30%).
+ Grants special effect [Full Cowling] to self for 3 turns.
+ Does not consume skill usage.
+ Becomes St. Louis Smash while [Full Cowling] is active.
+Skill 2 var.: St. Louis Smash
+ Gain BRV based on ATK values of self and allies (20%).
+ Triggers a 3-hit Melee BRV+HP attack after BRV gain.
+ Grants Max BRV Up (30%) to self for 4 turns.
+ Uses: 6
+35cp: Braced Gloves
+ +Increases BRV gain based on party ATK (+30%)
+ +Extends BRV gain to all allies
+Full Cowling:
+ +Extends duration of [Full Cowling] by 3 turns
+St. Louis Smash:
+ +Increases BRV gain based on party ATK (+10%)
+ +Increases BRV potency
+ +Increaes effects of Max BRV Up (+10%)
+c.60: Full Cowling Extend
+ +Adds 2 uses
+ +Turns BRV Attack to BRV Attack+(Control) when [Full Cowling] is active
+ +Turns HP Attack to HP Attack+(Control) when [Full Cowling] is active
+Full Cowling:
+ +Triggers a 3-hit Melee BRV+HP attack after use
+ +Nullifies Action Delay
+ +Does not increase turn count; increases Friend Support and Summon turn count
+St. Louis Smash:
+ +Greatly increases BRV potency
+ +Increases number of BRV hits to 6
+ +Greatly increases total BRV potency
+ +Allows for 150% Stolen BRV overflow
+ 
+[Full Cowling]: Max BRV Up (40%), SPD Up (100%), BRV Regen (40%)
+BRV Attack+(Control): Gain BRV based on ATK values of self and allies (20%) before a 2-hit Melee BRV attack.
+HP Attack+(Control): Gain BRV based on ATK values of self and allies (20%) before a 1-hit Melee BRV+HP attack.
+ 
+EX: Full Gauntlet
+ +Equips EX ability Manchester Smash
+Gain BRV based on ATK values of self and allies (50%).
+Triggers a 4-hit Melee BRV+HP attack after BRV gain.
+Allows for 120% Stolen BRV overflow.
+Deals 20% splash HP damage to non-targets.
+Grants [One For All] to self for 6 turns.
+Increases BRV damage dealt (100%) when [Full Cowling] is not active.
+Consumes 50% of current HP on use when [Full Cowling] is not active.
+ Recast: Slightly Fast
+  -LB1: Increases BRV damage dealt (10%)
+  -LB2: Slightly increases Recast speed (20%)
+  -LB3: Increases own Critical BRV damage dealt (30%)
+ EX+: Greatly increases BRV gain based on party ATK (+50%)
+      Increases BRV damage dealt
+  -LB1: Increases own ATK (50%) and Max BRV (60%)
+  -LB2: Grants 8 turns of Max BRV Up (40%) and [One For All] to self at Quest start
+        
+        Turns BRV Attack to BRV Attack++(Control) when [Full Cowling] is active
+        Turns HP Attack to HP Attack++(Control) when [Full Cowling] is active
+        
+        Turns BRV Attack to BRV Attack++(100%) when [Full Cowling] is not active
+        Turns HP Attack to HP Attack++(100%) when [Full Cowling] is not active
+  -LB3: Further increases BRV gain based on party ATK (+100%)
+        Triggers a Melee HP attack after BRV gain, followed by a 6-hit Melee BRV+HP attack
+        Allows for 120% Gained/Stolen BRV overflow
+
+[One For All]: Self: ATK Up (50%), HP Regen (12%)
+               Party: Gained, Stolen BRV Overflow Up (+30%)
+BRV Attack+(Control): Gain BRV based on ATK values of self and allies (20%) before a 3-hit Melee BRV attack.
+HP Attack+(Control): Gain BRV based on ATK values of self and allies (20%) before a 3-hit Melee BRV+HP attack.
+BRV Attack+(100%): Gain BRV based on ATK values of self and allies (10%) before a 5-hit Melee BRV attack.
+                   Consumes 20% of current HP on use.
+HP Attack+(100%): Gain BRV based on ATK values of self and allies (10%) before a 4-hit Melee BRV+HP attack.
+                  Consumes 20% of current HP on use.
+
+LD: Air Force Gloves
+ +Equips LD ability Delaware Smash: Air Force
+3-hit AoE Ranged Wind BRV+HP attack, triggered 3 times.
+HP damage dealt is spread evenly amongst targets.
+Allows for 150% Stolen BRV overflow.
+Inflicts [Smash Stun] on all enemies for 4 turns.
+ Uses: 3
+  -LB1: Raises party ATK (20%)
+        Increases BRV damage dealt (10%)
+  -LB2: Raises party ATK (20%)
+        Delays all targets by 1 turn after last HP attack
+  -LB3: Raises party ATK (20%)
+        Adds 1 use
+  
+[Smash Stun]: SPD Down (60%), Action Delay Up (Medium)
+              Reduces the rate at which BRV is restored to INT BRV after being Broken or dealing HP damage
