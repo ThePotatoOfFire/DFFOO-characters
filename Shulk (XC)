@@ -15,20 +15,39 @@ Back Slash:
 Monado Art: Buster
  3-hit AoE Melee BRV+ST HP attack.
  Greatly increases BRV damage dealt to Machine-type enemies.
- Uses: 6
+ Uses: 8
 15cp: Replica Monado
- +
+Back Slash:
+ +Increases BRV potency
+ +Increases Talent Gauge amount filled  (+10%)
+ +Grants Max BRV Up (40%) to self for 6 turns
+Monado Art: Buster
+ +Greatly improves BRV potency
+ +Increases BRV damage dealt when attacking a single target (+60%)
+ +Grants Max BRV Up (40%) to self for 6 turns
 c.55: Back Slash Extend
- +Adds 3 uses
+ +Adds 4 uses
+ +Turns BRV Attack to BRV Attack+ when [Activate Monado] is not active
+ +Turns BRV Attack to BRV Attack++ when [Activate Monado] is active
 Back Slash:
  +Becomes a 4-hit Melee BRV+HP attack
  +Greatly increases BRV potency
+ +Allows for 120% Stolen BRV overflow
+Monado Art: Buster
+ +Becomes a 6-hit AoE Melee+ST HP attack
+ +Greatly increases total BRV potency
+ +Deals 50% splash HP damage to non-targets
+ +Allows for 180% Stolen BRV overflow
 
 Talent Gauge:
 An overhead gauge that fills much like an EX recast gauge.
 Once Talent Gauge reaches 100%, turns into special effect [Activate Monado] for 3 turns.
+Once [Activate Monado]'s duration reaches 0, Talent Gauge returns to 0%.
 [Activate Monado]: Critical Hit Rate Up (100%), Critical Hit Damage Up (100%)
                    All BRV damage ignores DEF
+BRV Attack+: 2-hit Melee BRV attack
+BRV Attack++: 3-hit Melee BRV attack
+              Greatly increases BRV damage dealt to Machine-type enemies
 
 Skill 2: Stream Edge
 Stream Edge: 
@@ -41,44 +60,63 @@ Monado Art: Cyclone
  2-hit AoE Melee BRV+HP attack.
  Deals 100% HP damage to all enemies.
  Greatly increases BRV damage dealt to Machine-type enemies.
- Uses: 4
+ Uses: 3
 35cp: Monado Agni
- +
+Stream Edge:
+ +Multiply own BRV by 1.3 before HP damage (Occurs before BRV hits if c60 passive is equipped)
+Monado Art: Cyclone
+ +Greatly increases BRV potency
+ +Reduces enemy BRV to 0 before BRV hits (no effect if enemy is Broken)
 c.60: Stream Edge Extend
- +Adds 4 uses
+ +Adds 2 uses
+ +Turns HP Attack to HP Attack+ when [Activate Monado] is not active
+ +Turns HP Attack to HP Attack++ when [Activate Monado] is active
 Stream Edge:
  +Becomes a 4-hit AoE Melee BRV+HP attack
  +Allows for 120% Stolen BRV overflow
  +Resets enemy Break status before Breaking enemies
 Monado Art: Cyclone
  +Becomes a 5-hit AoE Melee BRV+HP attack
+ +Greatly increases BRV potency
  +Allows for 120% Stolen BRV overflow
- +
  
-Put any buff/debuff descriptions or brv/hp+ variants here
+HP Attack+: 2-hit Melee BRV+HP attack
+HP Attack++: 2-hit Melee BRV+HP attack
+             Greatly increases BRV damage dealt to Machine-type enemies
  
 EX: Monado
  +Equips EX ability Shaker Edge
 Shaker Edge:
- 4-hit Melee BRV+HP attack.
+ 3-hit Melee BRV+HP attack.
  Allows for 120% Stolen BRV overflow.
  Grants [Shadow Eye] to self for 2 turns after use.
  Fills Talent Gauge by 20%.
  Becomes Monado Art: Purge when [Activate Monado] is active.
 Monado Art: Purge
- 5-hit Melee BRV+HP attack.
+ 4-hit Melee BRV+HP attack.
  Greatly increases BRV damage dealt to Machine-type enemies.
  Allows for 150% Stolen BRV overflow.
  Inflicts [Aura Seal] on target for 2 turns.
  Grants [Vision] to self for 2 turns.
 Recast: Slightly Slow
-  -LB1:
-  -LB2:
-  -LB3:
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Slightly increases BRV damage dealt (+10%)
+  -LB2: Increases Recast speed by 20%
+  -LB3: Increases party's SPD (+20%) when [Activate Monado] is active
+ EX+: Greatly increases BRV potency of Shaker Edge/Monado Art: Purge
+      Slightly increases 
+  -LB1: Increases own ATK (60%) and Max BRV (50%)
+  -LB2: Start Quest with 6 turns Max BRV Up (40%) and 20% Talent Gauge fill
+  -LB3: Increases own Stolen BRV overflow limit for all attacks (+30%)
+       Shaker Edge:
+        +Becomes a 3-hit Melee BRV+HP attack, triggered twice
+        +Tremedously increases BRV potency
+        +Gain BRV based on (30% of) HP damage dealt after both HP attacks
+        +Deals 20% total splash HP damage to non-targets
+       Monado Art: Purge:
+        +Becomes a 4-hit Melee BRV+HP attack, triggered twice
+        +Tremendously increases BRV potency
+        +Gain BRV based on (30% of) HP damage dealt after both HP attacks
+        +Deals 20% total splash HP damage to non-targets
 
 [Shadow Eye]: ATK Up (50%)
               Prevents enemies from targeting self
@@ -86,6 +124,8 @@ Recast: Slightly Slow
              Does not prevent aura effects that target self or allies.
 [Vision]: Evasion Rate Up (50%)
           When self or an ally is about to take fatal damage, Shulk intercepts with a free turn in which his skills change
+           *During this turn, Shulk cannot use EX, LD, c65 or CA abilities.
+           *Does not increase turn count. Increases Friend Support, Summon, and Burst phase turn count.
 Light Heal: Replaces BRV Attack.
             Heals an ally for 15% of their Max HP.
 Monado Art: Shield: Replaces HP Attack.
@@ -97,7 +137,7 @@ Monado Art: Armor: Replaces Stream Edge/Monado Art: Cyclone.
                    Does not consume skill usage.
                    Grants [Monado Armor] to all allies for 1 turn.
 [Monado Shield]: Blocks HP damage based on own INT BRV (50%).
-[Monado Speed]: Evasion Rate Up (100%)
+[Monado Speed]: Evasion Rate Up (90%)
 [Monado Armor]: PHY Damage Reduction (60%)
                 MAG Damage Reduction (60%)
 
@@ -111,9 +151,12 @@ LD: True Monado
  Fills Talent Gauge to 100% and activates [Activate Monado] before BRV hits.
  Inflicts [Bleed] on all targets for 6 turns.
  Uses: 2
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Raises party's ATK, Max BRV by 20%
+        Increases BRV damage dealt (+10%)
+  -LB2: Raises party's ATK, Max BRV by 20%
+        Improves the effects of [Bleed] (+30%)
+  -LB3: Raises party's ATK, Max BRV by 20%
+        Adds +1 use
   
 [Bleed]: Poison (20% target Max BRV)
-         Deals HP damage by 80% of Attack (will not reduce HP below 1)
+         Deals HP damage by 50% of Attack (will not reduce HP below 1)
