@@ -1,0 +1,93 @@
+Shulk (Xenoblade Chronicles)
+Weapon type: Unique
+Crystal Color: Red
+Spheres: A B D
+
+A note on Shulk: His skills change. A lot. His base game mechanics are hard to translate perfectly into DFFOO format so I did the
+best I could. His flowchart is gonna end up like Alisae's or worse
+
+Skill 1: Back Slash
+Back Slash:
+ 1-hit Melee BRV+HP attack.
+ Greatly increases BRV damage dealt when attacking enemies not targeting self.
+ Fills Talent Gauge by 20%.
+ Becomes Monado Art: Buster when [Activate Monado] is active.
+Monado Art: Buster
+ 3-hit Melee BRV+HP attack.
+ Greatly increases BRV damage dealt to Machine-type enemies.
+ Uses: 6
+15cp: Replica Monado
+ +
+c.55: Skill1 Extend
+ +
+
+Talent Gauge:
+An overhead gauge that fills much like an EX recast gauge.
+Once Talent Gauge reaches 100%, turns into special effect [Activate Monado] for 3 turns.
+[Activate Monado]: Critical Hit Rate Up (100%), Critical Hit Damage Up (100%)
+
+Skill 2: Stream Edge
+Stream Edge: 
+ Breaks all enemies, if not already Broken.
+ AoE Melee HP attack.
+ Deals 100% HP damage to all enemies.
+ Fills Talent Gauge by 50%.
+ Becomes Monado Art: Cyclone when [Activate Monado] is active.
+Monado Art: Cyclone
+ 2-hit AoE Melee BRV+HP attack.
+ Deals 100% HP damage to all enemies.
+ Greatly increases BRV damage dealt to Machine-type enemies.
+ Uses: 4
+35cp: Monado Agni
+ +
+c.60: Skill2 Extend
+ +
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Monado
+ +Equips EX ability Shaker Edge
+Shaker Edge:
+ 4-hit Melee BRV+HP attack.
+ Allows for 120% Stolen BRV overflow.
+ Grants [Shadow Eye] to self for 2 turns after use.
+ Fills Talent Gauge by 20%.
+ Becomes Monado Art: Eater when [Activate Monado] is active.
+Monado Art: Eater
+ 3-hit AoE Melee BRV+HP attack.
+ HP damage dealt is split evenly between targets.
+ Greatly increases BRV damage dealt to Machine-type enemies.
+ Allows for 150% Stolen BRV overflow.
+ Inflicts [Bleed] on all targets for 3 turns.
+ Grants [Vision] to self for 2 turns.
+Recast: Slightly Slow
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+[Shadow Eye]: ATK Up (50%)
+              Prevents enemies from targeting self
+[Bleed]: Deals HP damage by 40% of Attack (will not reduce HP below 1)
+[Vision]: Evasion Rate Up (50%)
+          When self or an ally is about to take fatal damage, Shulk intercepts with a free turn in which his skills change
+
+
+LD: True Monado
++Equips LD ability Monado Art: Purge
+ 3-hit Melee BRV+HP attack, triggered twice.
+ Gain BRV based on (50% of) HP damage dealt after both HP attacks.
+ Greatly increases BRV damage dealt to Machine-type enemies.
+ Deals 50% splash HP damage to non-targets.
+ Fills Talent Gauge by 20%.
+ Inflicts [Aura Seal] on main target for 4 turns.
+ Uses: 2
+  -LB1:
+  -LB2:
+  -LB3:
+  
+ [Aura Seal]: Prevents enemies from affecting player party with aura effects.
+              Does not prevent aura effects that target self or allies.
