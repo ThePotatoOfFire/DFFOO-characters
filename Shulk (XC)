@@ -13,18 +13,22 @@ Back Slash:
  Fills Talent Gauge by 20%.
  Becomes Monado Art: Buster when [Activate Monado] is active.
 Monado Art: Buster
- 3-hit Melee BRV+HP attack.
+ 3-hit AoE Melee BRV+ST HP attack.
  Greatly increases BRV damage dealt to Machine-type enemies.
  Uses: 6
 15cp: Replica Monado
  +
-c.55: Skill1 Extend
- +
+c.55: Back Slash Extend
+ +Adds 3 uses
+Back Slash:
+ +Becomes a 4-hit Melee BRV+HP attack
+ +Greatly increases BRV potency
 
 Talent Gauge:
 An overhead gauge that fills much like an EX recast gauge.
 Once Talent Gauge reaches 100%, turns into special effect [Activate Monado] for 3 turns.
 [Activate Monado]: Critical Hit Rate Up (100%), Critical Hit Damage Up (100%)
+                   All BRV damage ignores DEF
 
 Skill 2: Stream Edge
 Stream Edge: 
@@ -40,7 +44,15 @@ Monado Art: Cyclone
  Uses: 4
 35cp: Monado Agni
  +
-c.60: Skill2 Extend
+c.60: Stream Edge Extend
+ +Adds 4 uses
+Stream Edge:
+ +Becomes a 4-hit AoE Melee BRV+HP attack
+ +Allows for 120% Stolen BRV overflow
+ +Resets enemy Break status before Breaking enemies
+Monado Art: Cyclone
+ +Becomes a 5-hit AoE Melee BRV+HP attack
+ +Allows for 120% Stolen BRV overflow
  +
  
 Put any buff/debuff descriptions or brv/hp+ variants here
@@ -52,13 +64,12 @@ Shaker Edge:
  Allows for 120% Stolen BRV overflow.
  Grants [Shadow Eye] to self for 2 turns after use.
  Fills Talent Gauge by 20%.
- Becomes Monado Art: Eater when [Activate Monado] is active.
-Monado Art: Eater
- 3-hit AoE Melee BRV+HP attack.
- HP damage dealt is split evenly between targets.
+ Becomes Monado Art: Purge when [Activate Monado] is active.
+Monado Art: Purge
+ 5-hit Melee BRV+HP attack.
  Greatly increases BRV damage dealt to Machine-type enemies.
  Allows for 150% Stolen BRV overflow.
- Inflicts [Bleed] on all targets for 3 turns.
+ Inflicts [Aura Seal] on target for 2 turns.
  Grants [Vision] to self for 2 turns.
 Recast: Slightly Slow
   -LB1:
@@ -71,23 +82,38 @@ Recast: Slightly Slow
 
 [Shadow Eye]: ATK Up (50%)
               Prevents enemies from targeting self
-[Bleed]: Deals HP damage by 40% of Attack (will not reduce HP below 1)
+[Aura Seal]: Prevents enemies from affecting player party with aura effects.
+             Does not prevent aura effects that target self or allies.
 [Vision]: Evasion Rate Up (50%)
           When self or an ally is about to take fatal damage, Shulk intercepts with a free turn in which his skills change
-
+Light Heal: Replaces BRV Attack.
+            Heals an ally for 15% of their Max HP.
+Monado Art: Shield: Replaces HP Attack.
+                    Grants [Monado Shield] to all allies for 1 turn.
+Monado Art: Speed: Replaces Back Slash/Monado Art: Buster.
+                   Does not consume skill usage.
+                   Grants [Monado Speed] to one ally for 1 turn.
+Monado Art: Armor: Replaces Stream Edge/Monado Art: Cyclone.
+                   Does not consume skill usage.
+                   Grants [Monado Armor] to all allies for 1 turn.
+[Monado Shield]: Blocks HP damage based on own INT BRV (50%).
+[Monado Speed]: Evasion Rate Up (100%)
+[Monado Armor]: PHY Damage Reduction (60%)
+                MAG Damage Reduction (60%)
 
 LD: True Monado
-+Equips LD ability Monado Art: Purge
- 3-hit Melee BRV+HP attack, triggered twice.
- Gain BRV based on (50% of) HP damage dealt after both HP attacks.
++Equips LD ability Monado Art: Eater
+ 3-hit AoE Melee BRV+ST HP attack, triggered twice.
+ Gain BRV based on (20% of) HP damage dealt after both HP attacks.
  Greatly increases BRV damage dealt to Machine-type enemies.
  Deals 50% splash HP damage to non-targets.
- Fills Talent Gauge by 20%.
- Inflicts [Aura Seal] on main target for 4 turns.
+ Dispels all enemy buffs, including framed buffs.
+ Fills Talent Gauge to 100% and activates [Activate Monado] before BRV hits.
+ Inflicts [Bleed] on all targets for 6 turns.
  Uses: 2
   -LB1:
   -LB2:
   -LB3:
   
- [Aura Seal]: Prevents enemies from affecting player party with aura effects.
-              Does not prevent aura effects that target self or allies.
+[Bleed]: Poison (20% target Max BRV)
+         Deals HP damage by 80% of Attack (will not reduce HP below 1)
