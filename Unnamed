@@ -100,7 +100,7 @@ LD: Starshower
   
 [Iron Will]: Self: INT BRV Up (150%)
                    Turns Shadow Slash to Shadow Slash+, Brilliance to Brilliance+
-             Party: ATK Up (30%), Stolen BRV overflow +30%
+             Party: ATK Up (40%), Stolen BRV overflow +30%
 Shadow Slash+: 3-hit Melee BRV+HP attack
                Allows for 120% Stolen BRV overflow
                Grants BRV based on (60% of) HP damage dealt
