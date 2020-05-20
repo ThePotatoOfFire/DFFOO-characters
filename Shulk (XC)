@@ -160,3 +160,19 @@ LD: True Monado
   
 [Bleed]: Poison (20% target Max BRV)
          Deals HP damage by 50% of Attack (will not reduce HP below 1)
+         
+BT: Monado II
++Equips Burst ability Monado Unbound
+ 12-hit BRV attack + HP attack
+ Deals 80% splash HP damage to non-targets
+
+Maximum BRV damage limit +150% (up to 24997)
+Maximum obtainable BRV & HP damage limit +200% (up to 299997)
+
+BURST Effect (5 turns, party-wide)
+• BRV damage dealt +50%
+• All BRV damage ignores DEF
+• Maximum BRV damage limit +20% (up to 11998)
+• Stolen BRV overflow limit +30%
+* Same character's BURST effects do not stack
+BT Theme: You Will Know Our Names
