@@ -1,0 +1,45 @@
+Zuko
+Weapon type: Sword
+Crystal Color: Red
+Spheres: A A E
+
+Skill 1: Flamewheel
+ 3-hit AoE Melee Fire attack.
+ Grants 3 stacks of [Prince's Fury] to self (does not expire).
+ Uses: 7
+15cp: Dual Broadswords
+ +Increases BRV potency
+c.55: Skill1 Extend
+ +
+
+[Prince's Fury]: Fire enchant
+
+Skill 2: name
+ Description
+ Uses: X
+35cp: Weapon
+ +
+c.60: Skill2 Extend
+ +
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Weapon
+ +Equips EX ability name
+ Recast: Normal
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Weapon
+ +Equips LD ability name
+ Uses: X
+  -LB1:
+  -LB2:
+  -LB3:
