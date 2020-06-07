@@ -1,0 +1,119 @@
+Zuko (Avatar: The Last Airbender)
+Weapon type: Sword
+Crystal Color: Red
+Spheres: A A E
+
+Skill 1: Flamewheel
+ 3-hit AoE Fire Melee attack.
+ Grants 3 stacks of [Prince's Fury] to self (does not expire).
+ Uses: 7
+15cp: Dual Broadswords
+ +Increases BRV potency of Flamewheel, Dragon's Breath I/II/III, Steel Slash I/II/III
+ +Increases ATK Up effect of [Prince's Fury] (+20%)
+c.55: Flamewheel Extend
+ +Adds 1 use
+-Flamewheel
+ +Tremendously increases BRV potency
+ +Becomes a 6-hit AoE Fire Melee BRV+HP attack
+ +HP damage is split evenly between enemies
+ +Allows for 180% Stolen BRV overflow
+-Dragon's Breath
+ When using Dragon's Breath I/II/III:
+ +Increases number of BRV hits by 1
+ +Greatly raises BRV potency
+ +Adds an AoE HP attack after BRV hits
+ +Allows for 120/150/180% Stolen BRV overflow based on stack count (3, 2, 1 respectively)
+ +HP damage is spit equally between enemies
+ When using Steel Slash I/II/III:
+ +Tremendously increases BRV potency
+ +Allows for 120/150/180% Stolen BRV overflow based on stack count (3, 2, 1 respectively)
+
+[Prince's Fury]: Stacking buff, max 3 stacks.
+                 Self Fire Enchant (20%), ATK Up (30%). Effects do not change based on stack count.
+                 When stack count is 3:
+                 BRV Attack becomes Dragon's Breath III.
+                 HP Attack becomes Steel Slash III.
+                 When stack count is 2:
+                 BRV Attack becomes Dragon's Breath II.
+                 HP Attack becomes Steel Slash II.
+                 When stack count is 3:
+                 BRV Attack becomes Dragon's Breath I.
+                 HP Attack becomes Steel Slash I.
+Dragon's Breath I: Reduces enemy BRV by 1/2 before a 2-hit AoE Melee BRV attack.
+                   Dispels [Prince's Fury].
+Dragon's Breath II: 2-hit AoE Fire Melee BRV attack.
+                    Reduces [Prince's Fury] stack count by 1.
+Dragon's Breath III: 1-hit AoE Fire Melee BRV attack.
+                     Reduces [Prince's Fury] stack count by 1.
+Steel Slash I: 4-hit Melee BRV+HP attack.
+               Dispels [Prince's Fury].
+Steel Slash II: 3-hit Melee BRV+HP attack.
+                Reduces [Prince's Fury] stack count by 1.
+Steel Slash III: 2-hit Melee BRV+HP attack.
+                 Reduces [Prince's Fury] stack count by 1.
+
+Skill 2: Blade of Redemption
+ 5-hit Fire Melee BRV+HP attack.
+ If target is not broken before the HP attack(First HP attack if c.55 passive is equipped), inflicts BREAK on target.
+ If target is broken before the HP attack(First HP attack is c.55 passive is equipped), cancels target's BREAK status.
+ Uses: 6
+35cp: Spirit Saber
+ +Greatly increases BRV potency
+ +Grants Max BRV Up (50%) to self for 6 turns before use
+ +Nullifies Action Delay when inflicting BREAK with Blade of Redemption(= extra turn)
+  -Extra turn does not increase turn count
+  -Cannot trigger an additional turn during extra turn
+c.60: Blade of Redemption Extend
+ +Adds 1 use
+ +Becomes a 3-hit Fire Melee BRV+HP attack, followed by a 4-hit Fire Melee BRV+HP attack.
+ +Greatly raises BRV potency
+ +Raises BRV based on own ATK (100%) after first HP attack
+ +When Breaking an enemy with Blade of Redemption, lowers existing stacks of [Prince's Fury] by 1
+  -Will not reduce stacks below 1
+ 
+EX: Sun Warrior's Sword
+ +Equips EX ability Dancing Dragon
+ 12-hit Fire Melee BRV+HP attack.
+ Allows for 150% Stolen BRV overflow.
+ Grants [Secrets of the Dragon] to self for 2 turns after first HP attack.
+ Recast: Slow
+  -LB1: Increases BRV damage dealt by Dancing Dragon by 10%
+  -LB2: Increases Recast Speed by 20%
+  -LB3: Increases duration of all self buffs by 2 turns after use
+ EX+: Greatly increases BRV potency
+      Extends base duration of [Secrets of the Dragon] by 2 turns
+      Becomes a 6-hit Fire Melee BRV+HP attack, triggered twice
+      Gain BRV based on (20% of) HP damage dealt after first HP attack
+  -LB1: Raises own ATK (80%) and Max BRV (40%)
+  -LB2: Start Quest with 1 stack of [Prince's Fury] and 4 turns of [Secrets of the Dragon]
+  -LB3: Becomes a 4-hit Fire Melee BRV+HP attack, triggered 4 times.
+        Gain BRV based on (20% of) HP damage dealt after each HP attack.
+
+[Secrets of the Dragon]: Party: ATK Up (30%), Fire Enchant (20%)
+                         Self: BRV Regen (60% iBRV)
+                         Enemies: Fire Resistance Down
+
+LD: Phoenix Blades
+ +Equips LD ability Royal Blaze
+ 8-hit AoE Fire Melee BRV+HP attack.
+ Allows for 150% Stolen BRV overflow.
+ HP damage is split evenly between enemies.
+ Grants 1 stack of [Prince's Fury] to self.
+  -Does not add to or overwrite existing stacks
+ Inflicts [Scar of the Banished] on all targets for 6 turns.
+ Uses: 3
+  -LB1: Raises own ATK (40%)
+        Increases BRV damage dealt by 10%
+  -LB2: Raises own ATK (40%)
+        Extends base duration of [Scar of the Banished] by 2 turns.
+  -LB3: Raises own ATK (40%)
+        Adds 1 use
+ LD Extend:
+  +Slightly increases BRV potency
+  +Becomes a 4-hit AoE Fire Melee BRV+HP attack, triggered twice
+  +Cancels all target's BREAK status after first HP attack
+  +Recovers BRV to self based on own ATK after first HP attack (150%)
+
+[Scar of the Banished]: BRV Damage Taken Up (30%), Max BRV Down (30%)
+                        When target gains BRV (Green text), automatically inflicts BREAK.
+                        -Does not trigger for BREAK Bonus or natural BRV recovery
