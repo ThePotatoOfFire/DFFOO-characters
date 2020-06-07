@@ -30,13 +30,13 @@ c.55: Flamewheel Extend
 
 [Prince's Fury]: Stacking buff, max 3 stacks.
                  Self Fire Enchant (20%), ATK Up (30%). Effects do not change based on stack count.
-                 When stack count is 3:
+                 -When stack count is 3:
                  BRV Attack becomes Dragon's Breath III.
                  HP Attack becomes Steel Slash III.
-                 When stack count is 2:
+                 -When stack count is 2:
                  BRV Attack becomes Dragon's Breath II.
                  HP Attack becomes Steel Slash II.
-                 When stack count is 1:
+                 -When stack count is 1:
                  BRV Attack becomes Dragon's Breath I.
                  HP Attack becomes Steel Slash I.
 Dragon's Breath I: Reduces enemy BRV by 1/2 before a 2-hit AoE Melee BRV attack.
