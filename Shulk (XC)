@@ -163,8 +163,9 @@ LD: True Monado
          
 BT: Monado II
 +Equips Burst ability Monado Unbound
- 12-hit BRV attack + HP attack
+ 12-hit Melee BRV+HP attack
  Deals 80% splash HP damage to non-targets
+ Greatly increases BRV damage dealt to Machine-type enemies
 
 Maximum BRV damage limit +150% (up to 24997)
 Maximum obtainable BRV & HP damage limit +200% (up to 299997)
