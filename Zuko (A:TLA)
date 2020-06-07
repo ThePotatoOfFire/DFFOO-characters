@@ -7,27 +7,7 @@ Skill 1: Flamewheel
  3-hit AoE Fire Melee attack.
  Grants 3 stacks of [Prince's Fury] to self (does not expire).
  Uses: 7
-15cp: Dual Broadswords
- +Increases BRV potency of Flamewheel, Dragon's Breath I/II/III, Steel Slash I/II/III
- +Increases ATK Up effect of [Prince's Fury] (+20%)
-c.55: Flamewheel Extend
- +Adds 1 use
--Flamewheel
- +Tremendously increases BRV potency
- +Becomes a 6-hit AoE Fire Melee BRV+HP attack
- +HP damage is split evenly between enemies
- +Allows for 180% Stolen BRV overflow
--Dragon's Breath
- When using Dragon's Breath I/II/III:
- +Increases number of BRV hits by 1
- +Greatly raises BRV potency
- +Adds an AoE HP attack after BRV hits
- +Allows for 120/150/180% Stolen BRV overflow based on stack count (3, 2, 1 respectively)
- +HP damage is spit equally between enemies
- When using Steel Slash I/II/III:
- +Tremendously increases BRV potency
- +Allows for 120/150/180% Stolen BRV overflow based on stack count (3, 2, 1 respectively)
-
+ 
 [Prince's Fury]: Stacking buff, max 3 stacks.
                  Self Fire Enchant (20%), ATK Up (30%). Effects do not change based on stack count.
                  -When stack count is 3:
@@ -51,6 +31,27 @@ Steel Slash II: 3-hit Melee BRV+HP attack.
                 Reduces [Prince's Fury] stack count by 1.
 Steel Slash III: 2-hit Melee BRV+HP attack.
                  Reduces [Prince's Fury] stack count by 1.
+ 
+15cp: Dual Broadswords
+ +Increases BRV potency of Flamewheel, Dragon's Breath I/II/III, Steel Slash I/II/III
+ +Increases ATK Up effect of [Prince's Fury] (+20%)
+c.55: Flamewheel Extend
+ +Adds 1 use
+-Flamewheel
+ +Tremendously increases BRV potency
+ +Becomes a 6-hit AoE Fire Melee BRV+HP attack
+ +HP damage is split evenly between enemies
+ +Allows for 180% Stolen BRV overflow
+-Dragon's Breath
+ When using Dragon's Breath I/II/III:
+ +Increases number of BRV hits by 1
+ +Greatly raises BRV potency
+ +Adds an AoE HP attack after BRV hits
+ +Allows for 120/150/180% Stolen BRV overflow based on stack count (3, 2, 1 respectively)
+ +HP damage is spit equally between enemies
+ When using Steel Slash I/II/III:
+ +Tremendously increases BRV potency
+ +Allows for 120/150/180% Stolen BRV overflow based on stack count (3, 2, 1 respectively)
 
 Skill 2: Blade of Redemption
  5-hit Fire Melee BRV+HP attack.
