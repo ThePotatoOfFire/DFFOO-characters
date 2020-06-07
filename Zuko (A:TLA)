@@ -99,7 +99,7 @@ LD: Phoenix Blades
  Allows for 150% Stolen BRV overflow.
  HP damage is split evenly between enemies.
  Grants 1 stack of [Prince's Fury] to self.
-  -Does not add to or overwrite existing stacks
+  -Overwrites existing stacks
  Inflicts [Scar of the Banished] on all targets for 6 turns.
  Uses: 3
   -LB1: Raises own ATK (40%)
