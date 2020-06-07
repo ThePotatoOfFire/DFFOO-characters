@@ -120,8 +120,7 @@ Recast: Slightly Slow
 
 [Shadow Eye]: ATK Up (50%)
               Prevents enemies from targeting self
-[Aura Seal]: Prevents enemies from affecting player party with aura effects.
-             Does not prevent aura effects that target self or allies.
+[Aura Seal]: Prevents enemies from affecting self or player party with aura effects.
 [Vision]: Evasion Rate Up (50%)
           When self or an ally is about to take fatal damage, Shulk intercepts with a free turn in which his skills change
            *During this turn, Shulk cannot use EX, LD, c65 or CA abilities.
