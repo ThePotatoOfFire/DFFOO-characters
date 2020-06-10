@@ -1,0 +1,83 @@
+Tidus (FFX) Remake
+Weapon type: Sword
+Crystal Color: Blue
+Spheres: A A E
+
+Skill 1: Delay Buster
+ 1-hit Melee BRV attack.
+ Delays target's next action by 1 turn.
+ Uses: 6
+15cp: Astral Sword
+ +Greatly increases BRV potency
+ +Grants ATK Up (30%) and SPD Up (30%) to self for 5 turns after use
+ +Increases the delay effect by 1 turn
+c.55: Delay Buster Extend
+ +Adds 3 uses
+ +Gain BRV based on ATK (150%) before a 3-hit Melee BRV+HP attack
+ +Tremendously increases BRV potency
+ +Allows for 150% Stolen BRV overflow
+ +Increases the delay effect by 1 turn
+
+Skill 2: Jecht Shot
+ 2-hit Ranged BRV+HP attack.
+ Inflicts DEF Down (30%) on target for 3 turns.
+ Grants [Ace Striker] to self for 3 turns after use.
+ If [Ace Striker] is already active, becomes Jecht Shot II.
+Skill 2 Alt: Jecht Shot II
+ 3-hit Ranged BRV+HP attack.
+ Inflicts DEF Down (30%) and ATK Down (30%) on target for 3 turns.
+ Uses: 4
+35cp: Brotherhood
+ +Adds 1 use
+ +Greatly increases BRV potency
+Jecht Shot:
+ +Increases the ATK/SPD Up effects of Ace Striker (+10%)
+ +Extends the duration of [Ace Striker] by 3 turns
+Jecht Shot, Jecht Shot II:
+ +Extends the duration of existing [Ace Striker] by 1 turn on use
+ +Increases the effects of inflicted debuffs (20%)
+ +Extends the duration of inflicted debuffs by 3 turns
+c.60: Jecht Shot Extend
+ +Adds 1 use
+ +Greatly increases BRV potency
+ +Inflicts Action Delay Up on target for 6 turns after last HP attack (both versions)
+Jecht Shot:
+ +Becomes a 2-hit Ranged BRV+HP attack triggered 3 times
+ +Recovers BRV to self based on (20% of) HP damage dealt after the first two HP attacks
+ +Allows for 120% Stolen BRV overflow
+Jecht Shot II:
+ +Greatly increases BRV potency (effect up compared to Jecht Shot)
+ +Becomes a 2-hit Ranged BRV+HP attack triggered 4 times
+ +Recovers BRV to self based on (20% of) HP damage dealt after the first three HP attacks
+ +Allows for 150% Stolen BRV overflow
+
+ 
+[Ace Striker]: ATK Up (40%), SPD Up (50%)
+               Increases own Max BRV based on number of debuffs on enemy (+10% per debuff, 60% max)
+
+EX: Force Saber
+ +Equips EX ability Slice & Dice
+ Recast: Slightly Slow
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Arc Sword
+ +Equips LD ability Energy Rain
+8-hit AoE Water Ranged BRV+HP attack.
+BRV hits are dispersed when multiple enemies are present.
+Deals 100% HP damage to all enemies.
+Allows for 150% Stolen BRV overflow.
+ Uses: 2
+  -LB1:
+  -LB2:
+  -LB3:
+
+BT: Razzmatazz
+ +Equips BT ability Blitz Ace
