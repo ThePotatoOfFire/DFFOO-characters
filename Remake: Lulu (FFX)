@@ -1,0 +1,105 @@
+Remake: Lulu (FFX)
+Weapon type: Unique
+Crystal Color: Black
+Spheres: A D D
+
+Skill 1: Blizzard
+ 1-hit Ice Magic BRV+HP attack.
+ Grants 1 stack of special effect [Doll Master] to self. (max 3)
+ When [Doll Master] stacks are at 2, becomes Blizzara.
+ When [Doll Master] stacks are at 3, becomes Blizzaga.
+Skill 1 alt: Blizzara
+ 2-hit Ice Magic BRV+HP Attack.
+ Grants 1 stack of special effect [Doll Master] to self. (max 3)
+Skill 1 alt: Blizzaga
+ 3-hit Ice magic BRV+HP attack.
+ Uses: 7
+15cp: Mana Mog
+ +Greatly increases BRV potency
+c.55: Blizzard Extend
+ +Adds 3 uses
+ +Turns BRV Attack to BRV Attack+ while [Doll Master] is active
+Blizzard:
+ +Greatly increases BRV potency
+ +Becomes a 4-hit AoE Ice Magic BRV+HP attack
+ +HP damage is distributed evenly
+Blizzara:
+ +Greatly increases BRV potency
+ +Becomes a 5-hit AoE Ice Magic BRV+HP attack
+ +HP damage is distributed evenly
+Blizzaga:
+ +Tremendously increases BRV potency
+ +Becomes a 6-hit AoE Ice Magic BRV+HP attack
+ +HP damage is distributed evenly
+
+[Doll Master]: Self: ATK Up (30%/40%/50%) based on stack count
+                     BRV Regen (40%/60%/80% iBRV) based on stack count
+               Party: Ice Enchant (20%)
+                      Max BRV Up (20%/30%/40%) based on stack count
+BRV Atack+: 2-hit Ice Magic BRV attack
+            Raises party's BRV based on individual Max BRV
+
+Skill 2: Heavenly Strike
+ 2-hit Ice Magic BRV attack.
+ Delays target by 2 turns.
+ Uses: 3
+35cp: Ice Moomba
+ +Adds 1 use
+ +Increases BRV potency
+ +Grants Max BRV Up (40%) to party for 6 turns
+c.60: Heavenly Strike Extend
+ +Adds 1 use
+ +Grants BRV to party based on (40% of) own Max BRV before BRV hits
+ +Becomes a 5-hit Ice Magic BRV+HP attack
+ +Greatly increases BRV potency
+ +Deals 50% splash HP damage to non-targets
+ +Inflicts Ice Resistance Down on all enemies for 4 turns
+ +Turns HP Attack to HP Attack+ while [Doll Master] is active
+ 
+HP Attack+: 2-hit Ice Magic BRV+HP attack
+            Grants BRV to allies (excl. self) based on (50% of) HP damage dealt
+ 
+EX: Booster Cactuar
+ +Equips EX ability Blizzaga Fury
+3-hit AoE Ice Magic BRV+HP attack, triggered 3 times.
+Triggers 1 additional 3-hit AoE Ice Magic BRV+HP attack for each stack of [Doll Master] on self. (Max 6 times)
+Inflicts Ice Resistance Down on all targets after first HP attack.
+Grants [Alluring Mage] to self for 6 turns.
+ Recast: Slightly Slow
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Blizzaga Fury by 20%
+  -LB3: Increases party Weakness damage dealt by 20%
+ EX+: Greatly increases BRV potency
+      Allows for 120% Stolen BRV overflow
+  -LB1: Raises own ATK (50%) and Max BRV (50%)
+  -LB2: At Quest start:
+        Grants [Alluring Mage] to self for 6 turns
+        Grants 1 stack of [Doll Master] to self
+        Grants Max BRV Up (40%) to party for 6 turns
+  -LB3: Tremendously increases BRV potency
+        Increases own BRV by 10% of TOTAL HP damage dealt after each HP attack (excl. last)
+
+[Alluring Mage]: ATK Up (60%), Max BRV Up (40%)
+                 Ice Enchant (20%)
+
+LD: Space Bandit
+ +Equips LD ability Diamond Dust
+12-hit AoE Ice Magic BRV+HP attack.
+HP damage is distributed evenly.
+Allows for 180% Stolen BRV overflow.
+Inflicts [Sub-Zero] on all enemies for 6 turns.
+ Uses: 2
+  -LB1: Raises party's ATK (10%), Max BRV (10%)
+        Increases BRV damage dealt by 10%
+  -LB2: Raises party's ATK (10%), Max BRV (10%)
+        Extends base duration of [Sub-Zero] by 6 turns
+  -LB3: Raises party's ATK (10%), Max BRV (10%)
+        Adds 1 use
+Board Passive: LD Extend
+ +Greatly increases BRV potency
+ +Becomes a 6-hit AoE Ice Magic BRV+HP attack, triggered twice
+ +Restores BRV to party based on (30% of) HP damage dealt after first HP attack
+
+[Sub-Zero]: Ice Resistance Down
+            Gained BRV Down (70%) (Green text only, does not affect natural BRV recovery or BREAK bonus)
+            Unable to inflict debuffs/cleanse self of debuffs
