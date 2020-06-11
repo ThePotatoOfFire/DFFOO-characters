@@ -16,7 +16,6 @@ c.55: Delay Buster Extend
  +Gain BRV based on ATK (150%) before a 3-hit Melee BRV+HP attack
  +Tremendously increases BRV potency
  +Allows for 150% Stolen BRV overflow
- +Increases the delay effect by 1 turn
 
 Skill 2: Jecht Shot
  2-hit Ranged BRV+HP attack.
@@ -30,43 +29,51 @@ Skill 2 Alt: Jecht Shot II
 35cp: Brotherhood
  +Adds 1 use
  +Greatly increases BRV potency
+ +Increases the effects of inflicted debuffs (20%)
+ +Extends the duration of inflicted debuffs by 3 turns
 Jecht Shot:
  +Increases the ATK/SPD Up effects of Ace Striker (+10%)
  +Extends the duration of [Ace Striker] by 3 turns
-Jecht Shot, Jecht Shot II:
+Jecht Shot II:
+ +Further increases BRV potency
  +Extends the duration of existing [Ace Striker] by 1 turn on use
- +Increases the effects of inflicted debuffs (20%)
- +Extends the duration of inflicted debuffs by 3 turns
 c.60: Jecht Shot Extend
  +Adds 1 use
  +Greatly increases BRV potency
  +Inflicts Action Delay Up on target for 6 turns after last HP attack (both versions)
 Jecht Shot:
  +Becomes a 2-hit Ranged BRV+HP attack triggered 3 times
- +Recovers BRV to self based on (20% of) HP damage dealt after the first two HP attacks
+ +Increases own BRV by 20% of total HP damage dealt after each HP attack (excl. last)
  +Allows for 120% Stolen BRV overflow
 Jecht Shot II:
  +Greatly increases BRV potency (effect up compared to Jecht Shot)
  +Becomes a 2-hit Ranged BRV+HP attack triggered 4 times
- +Recovers BRV to self based on (20% of) HP damage dealt after the first three HP attacks
+ +Increases own BRV by 20% of total HP damage dealt after each HP attack (excl. last)
  +Allows for 150% Stolen BRV overflow
 
  
-[Ace Striker]: ATK Up (40%), SPD Up (50%)
+[Ace Striker]: ATK Up (40%), SPD Up (40%)
                Increases own Max BRV based on number of debuffs on enemy (+10% per debuff, 60% max)
 
 EX: Force Saber
  +Equips EX ability Slice & Dice
+6-hit AoE Water Melee BRV+HP attack.
+Allows for 150% Stolen BRV overflow.
+BRV hits are dispersed when more than one enemy is present.
+Grants [Winning Spirit] to self for 6 turns.
+Inflicts Water Resistance Down on all targets for 6 turns.
  Recast: Slightly Slow
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Slice & Dice by 20%
+  -LB3: Increases party BRV damage dealt to broken targets by 20%
  EX+:
   -LB1:
   -LB2:
   -LB3:
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Winning Spirit]: Self: Water Enchant (20%), ATK Up (40%)
+                        Restores own BRV back to INT BRV within 1 turn after dealing HP damage or getting broken
+                  Party: SPD Up (40%), Stolen BRV Overflow Limit Up (+30%) 
 
 LD: Arc Sword
  +Equips LD ability Energy Rain
@@ -74,10 +81,31 @@ LD: Arc Sword
 BRV hits are dispersed when multiple enemies are present.
 Deals 100% HP damage to all enemies.
 Allows for 150% Stolen BRV overflow.
+Grants 1 stack of special effect [Blitz Off!] to self for 8 turns (Limit 3 stacks).
  Uses: 2
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Raises ATK (20%) and Max BRV (20%)
+        Increases BRV damage dealt by 10%
+  -LB2: Raises ATK (20%) and Max BRV (20%)
+        Extends the duration of [Blitz Off!] by 8 turns
+  -LB3: Raises ATK (20%) and Max BRV (20%)
+        Adds 1 use
+
+[Blitz Off!]: Self Max BRV Up (30%/40%/50%) based on stack count
+              All enemies SPD Down (40%/50%/60%) based on stack count
+              Restore BRV to self after using an ability based on stack count (10%/15%/20%)
+              Stack count does not decrease upon expiration
 
 BT: Razzmatazz
  +Equips BT ability Blitz Ace
+8-hit Melee BRV+HP attack.
+Deals 80% spash HP damage to non-targets.
+Maximum BRV damage limit +150% (24997)
+Maximum HP damage limit +100% (199998)
+
+BURST effect (5 turns, party-wide):
+-Increases BRV damage dealt by 50%; grants 50% Water Enchant
+-Maximum BRV damage limit +20% (up to 11998)
+-Increases stolen BRV overflow limit by 30%
+-Same character's BURST effects do not stack
+
+BT Theme: The Blitzers (X)
