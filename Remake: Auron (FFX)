@@ -5,58 +5,96 @@ Spheres: B E E
 
 Skill 1: Banishing Blade
  3-hit Melee BRV+HP attack.
- Inflicts ATK Down (20%), DEF Down (20%), INT BRV Down (20%), and Max BRV Down (20%) on target for 4 turns.
+ Inflicts ATK Down (20%), DEF Down (20%), INT BRV Down (20%), and Max BRV Down (20%) on target for 3 turns.
  Uses: 5
 15cp: Kotetsu
  +Increases BRV potency
  +Increases effects of all debuffs inflicted (+20%)
- +Extends the duration of all inflicted debuffs by 4 turns
+ +Extends the duration of all inflicted debuffs by 3 turns
 c.55: Banishing Blade Extend
  +Adds 3 uses
  +Becomes a 5-hit Melee BRV+HP attack
  +Greatly increases total BRV potency
  +Allows for 150% Stolen BRV overflow
  +Combines all inflicted debuffs into [Full Break] debuff, and increases the effects by 10%
+ +Turns BRV Attack to BRV Attack+ for 8 turns after use
 
 [Full Break]: ATK Down (30%), DEF Down (30%), INT BRV Down (30%), Max BRV Down (30%)
               *All effects +20% when 35cp passive is equipped
+BRV Attack+: 2-hit Melee BRV Attack
+             Deals greater BRV damage against debuffed targets
 
 Skill 2: Sentinel
  Gain BRV based on own DEF (100%).
- Grants [Sentinel] to self for 3 turns.
+ Grants [Sentinel] to self for 4 turns.
  Uses: 3
 35cp: Riot Blade
  +Increases BRV gain based on DEF (+100%)
- +
+ +Increases DEF Up effect of [Sentinel] (+100%)
+ +Increases BRV Damage Reduction effect of [Sentinel] (+10%)
+ +Extends base duration of [Sentinel] by 4 turns.
+ +Grants ATK Up (40%) to self for 8 turns
 c.60: Sentinel Extend
- +
+ +Adds 2 uses
+ +Extends BRV gain based on own DEF to party
+ +Multiplies own BRV by 1.4 before a 3-hit Melee BRV+HP attack
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
+ +Turns HP Attack to HP Attack+ for 8 turns after use
  
 [Sentinel]: DEF Up (100%), BRV Damage Reduction (20%)
-            Covers ST BRV/HP damage for party
- 
+            Covers ST BRV/HP damage for allies
+HP Attack+: 1-hit Melee BRV+HP attack
+            Grants BRV to party based on (20% of) HP damage dealt
+            Deals greater BRV damage against debuffed targets
+
 EX: Conqueror
  +Equips EX ability Tornado
+5-hit AoE Melee BRV+HP attack.
+Deals 100% HP damage to all targets.
+Grants [Bushido] to self for 8 turns.
  Recast: Slow
-  -LB1:
-  -LB2:
-  -LB3:
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Tornado by 20%
+  -LB3: Inflicts Melee Resistance Down on all targets for 6 turns
+ EX+: Greatly increases BRV potency
+      Allows for 120% Stolen BRV overflow
+      Deals greater BRV damage against debuffed targets
+  -LB1: Raises own ATK (50%) and Max BRV (80%)
+  -LB2: At Quest start:
+        Grants [Sentinel], ATK Up (40%) to self for 8 turns
+        Fills Recast gauge to MAX
+  -LB3: Becomes a 5-hit AoE Melee BRV+HP attack, triggered twice.
+        Deals 100% HP damage to all targets.
+        Turns [Melee Resistance Down] into a framed debuff, and extends its base duration by 2 turns.
+        Deals greater BRV damage against debuffed targets.
+        Turns BRV Attack, BRV Attack+ to BRV Attack++ while [Bushido] is active
+        Turns HP Attack, HP Attack+ to HP Attack++ while [Bushido] is active
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Bushido]: Max BRV Up (60%), Stolen BRV Overflow Limit Up (30%)
+BRV Attack++: BRV Attack+: 3-hit Melee BRV attack
+              Deals greater BRV damage against debuffed targets
+HP Attack+: 2-hit Melee BRV+HP attack
+            Allows for 120% Stolen BRV overflow
+            Grants BRV to party based on (30% of) HP damage dealt
+            Deals greater BRV damage against debuffed targets
 
 LD: Heaven's Cloud
  +Equips LD ability Dragon Fang
+4-hit AoE Melee BRV+HP attack, triggered twice.
+Resets BREAK status on all targets after first HP attack.
+Inflicts [Threatened] on all targets for 3 turns.
  Uses: 3
-  -LB1: 
+  -LB1: Raises ATK (30%), DEF (80%)
         Increases BRV damage dealt by 10%
-  -LB2: 
-        
-  -LB3: 
+  -LB2: Raises ATK (30%), DEF (80%)
+        Extends base duration of [Threatened] by 3 turns
+  -LB3: Raises ATK (30%), DEF (80%)
         Adds 1 use
 Board Passive: LD Extend
- +
+ +Greatly increases BRV potency
+ +Increases own BRV by (20% of) HP damage dealt after first HP attack
+ +Delays all targets by 1 turn after last HP attack
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Threatened]: BRV Damage Dealt Down (50%)
+              HP Damage Dealt Down (50%)
