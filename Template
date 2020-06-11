@@ -42,3 +42,18 @@ LD: Weapon
   -LB1:
   -LB2:
   -LB3:
+Board Passive: LD Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+BT: Weapon
+ +Equips Burst ability name
+description
+Maximum BRV damage limit +x% (up to x)
+Maximum HP damage limit +x% (up to x)
+
+BURST effect (x turns, party-wide):
+-
+
+BT Theme: x
