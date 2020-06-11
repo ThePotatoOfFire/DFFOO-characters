@@ -66,14 +66,27 @@ Inflicts Water Resistance Down on all targets for 6 turns.
   -LB1: Increases BRV damage dealt by 10%
   -LB2: Increases recast speed of Slice & Dice by 20%
   -LB3: Increases party BRV damage dealt to broken targets by 20%
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
+ EX+: Greatly increases BRV potency
+      BRV hits become AoE
+      Deals 20% splash HP damage to non-targets
+  -LB1: Increases own ATK (40%) and Max BRV (60%)
+        Turns BRV Attack to Quick Hit while [Winning Spirit] is active
+        Turns HP Attack to Sphere Shot while [Winning Spirit] is active
+  -LB2: When Quest starts:
+        -Grants [Ace Striker] to self for 6 turns
+        -Fills EX gauge to MAX
+  -LB3: Becomes a 4-hit AoE Water Melee BRV+ST HP attack, triggered twice.
+        Deals 50% splash HP damage to non-targets.
+        Increases own BRV by 20% of total HP damage dealt after first HP attack.
 
 [Winning Spirit]: Self: Water Enchant (20%), ATK Up (40%)
                         Restores own BRV back to INT BRV within 1 turn after dealing HP damage or getting broken
                   Party: SPD Up (40%), Stolen BRV Overflow Limit Up (+30%) 
+Quick Hit: 3-hit Melee BRV attack.
+           When breaking target, nullifies Action Delay and grants a free turn that does not increase turn count.
+Sphere Shot: 3-hit Ranged BRV+HP attack.
+             Allows for 120% Stolen BRV overflow.
+             Deals 50% increased BRV damage when attacking a broken target.
 
 LD: Arc Sword
  +Equips LD ability Energy Rain
@@ -92,15 +105,15 @@ Grants 1 stack of special effect [Blitz Off!] to self for 8 turns (Limit 3 stack
 
 [Blitz Off!]: Self Max BRV Up (30%/40%/50%) based on stack count
               All enemies SPD Down (40%/50%/60%) based on stack count
-              Restore BRV to self after using an ability based on stack count (10%/15%/20%)
+              Restore BRV to self after using an ability based on stack count (10%/15%/20% of Max BRV)
               Stack count does not decrease upon expiration
 
 BT: Razzmatazz
  +Equips BT ability Blitz Ace
 8-hit Melee BRV+HP attack.
 Deals 80% spash HP damage to non-targets.
-Maximum BRV damage limit +150% (24997)
-Maximum HP damage limit +100% (199998)
+Maximum BRV damage limit +150% (up to 24997)
+Maximum HP damage limit +100% (up to 199998)
 
 BURST effect (5 turns, party-wide):
 -Increases BRV damage dealt by 50%; grants 50% Water Enchant
