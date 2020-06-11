@@ -95,6 +95,7 @@ BRV hits are dispersed when multiple enemies are present.
 Deals 100% HP damage to all enemies.
 Allows for 150% Stolen BRV overflow.
 Grants 1 stack of special effect [Blitz Off!] to self for 8 turns (Limit 3 stacks).
+Inflicts Water Resistance Down on all targets for 6 turns.
  Uses: 2
   -LB1: Raises ATK (20%) and Max BRV (20%)
         Increases BRV damage dealt by 10%
@@ -102,6 +103,10 @@ Grants 1 stack of special effect [Blitz Off!] to self for 8 turns (Limit 3 stack
         Extends the duration of [Blitz Off!] by 8 turns
   -LB3: Raises ATK (20%) and Max BRV (20%)
         Adds 1 use
+Board Passive: Energy Rain Extend
+ +Increases BRV potency
+ +Slightly increases Stolen BRV overflow limit (+30%)
+ +Does not consume use count on next turn (excl. some abilities)
 
 [Blitz Off!]: Self Max BRV Up (30%/40%/50%) based on stack count
               All enemies SPD Down (40%/50%/60%) based on stack count
