@@ -1,0 +1,62 @@
+Remake: Auron (FFX)
+Weapon type: Greatsword
+Crystal Color: Red
+Spheres: B E E
+
+Skill 1: Banishing Blade
+ 3-hit Melee BRV+HP attack.
+ Inflicts ATK Down (20%), DEF Down (20%), INT BRV Down (20%), and Max BRV Down (20%) on target for 4 turns.
+ Uses: 5
+15cp: Kotetsu
+ +Increases BRV potency
+ +Increases effects of all debuffs inflicted (+20%)
+ +Extends the duration of all inflicted debuffs by 4 turns
+c.55: Banishing Blade Extend
+ +Adds 3 uses
+ +Becomes a 5-hit Melee BRV+HP attack
+ +Greatly increases total BRV potency
+ +Allows for 150% Stolen BRV overflow
+ +Combines all inflicted debuffs into [Full Break] debuff, and increases the effects by 10%
+
+[Full Break]: ATK Down (30%), DEF Down (30%), INT BRV Down (30%), Max BRV Down (30%)
+              *All effects +20% when 35cp passive is equipped
+
+Skill 2: Sentinel
+ Gain BRV based on own DEF (100%).
+ Grants [Sentinel] to self for 3 turns.
+ Uses: 3
+35cp: Riot Blade
+ +Increases BRV gain based on DEF (+100%)
+ +
+c.60: Sentinel Extend
+ +
+ 
+[Sentinel]: DEF Up (100%), BRV Damage Reduction (20%)
+            Covers ST BRV/HP damage for party
+ 
+EX: Conqueror
+ +Equips EX ability Tornado
+ Recast: Slow
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Heaven's Cloud
+ +Equips LD ability Dragon Fang
+ Uses: 3
+  -LB1: 
+        Increases BRV damage dealt by 10%
+  -LB2: 
+        
+  -LB3: 
+        Adds 1 use
+Board Passive: LD Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
