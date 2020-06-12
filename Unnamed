@@ -87,7 +87,7 @@ LD: Starshower
  1-hit Ranged BRV+HP attack, triggered 12 times.
  Allows for 120% Stolen BRV overflow.
  BRV hits are dispersed when multiple enemies are present.
- Gain BRV based on (20% of) HP damage dealt after each HP attack.
+ Gain BRV based on (20% of) total HP damage dealt after each HP attack.
  Grants [Iron Will] to self for 6 turns.
  Uses: 2
   -LB1: ATK Up (30%)
@@ -97,6 +97,10 @@ LD: Starshower
         Increases base duration of [Iron Will] by 4 turns
   -LB3: ATK Up (30%)
         Adds +1 use to Starshower
+Board Passive: Starshower Extend
+ +Slightly increases BRV gain based on HP damage dealt (+10%)
+ +Greatly increases BRV potency
+ +Allows for 120% Gained BRV overflow
   
 [Iron Will]: Self: INT BRV Up (150%)
                    Turns Shadow Slash to Shadow Slash+, Brilliance to Brilliance+
