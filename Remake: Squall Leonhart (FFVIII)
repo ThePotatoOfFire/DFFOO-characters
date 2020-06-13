@@ -1,0 +1,73 @@
+Remake: Squall Leonhart (FFVIII)
+Weapon type: Sword
+Crystal Color: Black
+Spheres: A A A
+
+///
+Before digging in to this: Squall's battle stance and skill animations are all way cooler in 012. So, that's what I'm basing this off of.
+///
+
+Skill 1: Solid Barrel
+ 4-hit Melee BRV attack.
+ If BRV reaches at least 50% Max BRV after the last BRV hit, adds an additional 3-hit Melee BRV attack.
+ Uses: 6
+15cp: Twin Lance
+ +Increases BRV potency
+c.55: Solid Barrel Extend
+ +Adds 2 uses
+ +Becomes a 4-hit Melee BRV+HP attack
+ +If BRV reaches at least 50% Max BRV after the last BRV hit, adds an additional 1-hit Melee BRV+HP attack, triggered 3 times.
+ +Increases own BRV by 20% of HP damage dealt after each HP attack (excl. last)
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+Skill 2: Rough Divide
+ 1-hit AoE Melee BRV+ST HP attack.
+ Grants 
+ Uses: 5
+35cp: Cutting Trigger
+ +
+c.60: Rough Divide Extend
+ +
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Shear Trigger
+ +Equips EX ability Renzokuken
+ 8-hit Melee BRV+HP attack.
+ Allows for 150% Stolen BRV overflow.
+ Grants [Lionheart] to self for 6 turns.
+ No Action Delay.
+ Does not consume use count on next turn (excl. some abilities)
+ Recast: Slightly Slow
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Organix
+ +Equips LD ability Fated Circle
+ Uses: x
+  -LB1:
+  -LB2:
+  -LB3:
+Board Passive: LD Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+BT: Blasting Edge
+ +Equips Burst ability Renzokuken: Blasting Zone
+description
+Maximum BRV damage limit +x% (up to x)
+Maximum HP damage limit +x% (up to x)
+
+BURST effect (x turns, party-wide):
+-
+
+BT Theme: x
