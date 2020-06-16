@@ -13,61 +13,113 @@ Skill 1: Solid Barrel
  Uses: 6
 15cp: Twin Lance
  +Increases BRV potency
+ +Grants ATK Up (40%) and Max BRV Up (40%) to self for 6 turns after initial BRV attack
 c.55: Solid Barrel Extend
  +Adds 2 uses
  +Becomes a 4-hit Melee BRV+HP attack
  +If BRV reaches at least 50% Max BRV after the last BRV hit, adds an additional 1-hit Melee BRV+HP attack, triggered 3 times.
- +Increases own BRV by 20% of HP damage dealt after each HP attack (excl. last)
- 
-Put any buff/debuff descriptions or brv/hp+ variants here
+ +Increases own BRV by 10% of HP damage dealt after each HP attack (excl. last)
 
-Skill 2: Rough Divide
- 1-hit AoE Melee BRV+ST HP attack.
- Grants 
+Skill 2: Revolver Drive
+ Gain BRV based on own ATK (50%) before a 3-hit Melee BRV+HP attack.
+ Grants [Lionheart] to self for 3 turns.
  Uses: 5
 35cp: Cutting Trigger
- +
+ +Increases BRV potency
+ +Increases BRV gain based on ATK (+50%)
+ +Extends duration of [Lionheart] by 3 turns
 c.60: Rough Divide Extend
- +
+ +Adds 2 uses
+ +Greatly increases BRV gain based on ATK (+100%)
+ +Becomes a 3-hit Melee BRV+HP attack triggered twice
+ +Tremendously increases BRV potency
+ +Increases own BRV based on 20% of HP damage dealt after first HP attack.
+ +Deals 50% TOTAL splash HP damage to non-targets on final HP attack
  
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Lionheart]: ATK Up (50%), INT BRV Up (60%), BRV Regen (80% iBRV)
  
 EX: Shear Trigger
  +Equips EX ability Renzokuken
  8-hit Melee BRV+HP attack.
  Allows for 150% Stolen BRV overflow.
- Grants [Lionheart] to self for 6 turns.
- No Action Delay.
- Does not consume use count on next turn (excl. some abilities)
+ Triggers Rough Divide after use if HP damage dealt equals at least 120% Max BRV.
+ Inflicts [Draw] on target for 4 turns.
+ Grants [Junction] to self for 4 turns.
+Rough Divide:
+ 3-hit AoE Melee BRV+ST HP attack.
+ Deals increased BRV damage when attacking a single target.
  Recast: Slightly Slow
-  -LB1:
-  -LB2:
-  -LB3:
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Extends base duration of [Draw] and [Junction] by 2 turns
+  -LB3: Increases recast speed of Renzokuken by 20%
+ EX+: Turns BRV Attack to BRV Attack+, HP Attack to HP Attack+
+      Renzokuken:
+      -Greatly increases BRV potency
+      -Extends base duration of [Draw] and [Junction] by 2 turns
+      Rough Divide:
+      -Tremendously increases BRV potency
+      -Allows for 120% Stolen BRV overflow
+      -Deals 20% splash HP damage to non-targets
+  -LB1: Increases own ATK (50%) and Max BRV (50%)
+  -LB2: At Quest start:
+        Grants ATK Up (40%) and Max BRV Up (40%) to self for 6 turns
+        Grants [Lionheart] to self for 6 turns
+  -LB3: Turns BRV Attack, BRV Attack+ to BRV Attack++
+        Turns HP Attack, HP Attack+ to HP Attack++
+        Renzokuken:
+        -Further increases BRV potency
+        -Allows for 180% Stolen BRV overflow
+        Rough Divide:
+        -Becomes a 5-hit AoE Melee BRV+ST HP attack
+        -Allows for 150% Stolen BRV overflow
+        -Deals 20% splash HP damage to non-targets
+        
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Draw]: Will randomly select one of the following effects to apply to target:
+        -ATK Down (50%)
+        -SPD Down (50%)
+        -Max BRV Down (50%)
+[Junction]: Grants one of three effects based on the stat debuffed by [Draw]:
+            -ATK Up (50%)
+            -SPD Up (50%)
+            -Max BRV Up (50%)
+BRV Attack+: 2-hit Melee BRV attack
+BRV Attack++: 3-hit Melee BRV attack
+HP Attack+: 1-hit Melee BRV+HP attack
+HP Attack++: 2-hit Melee BRV+HP attack
+             Deals 20% splash HP damage to non-targets
 
 LD: Organix
  +Equips LD ability Fated Circle
- Uses: x
-  -LB1:
-  -LB2:
-  -LB3:
-Board Passive: LD Extend
- +
-
-Put any buff/debuff descriptions or brv/hp+ variants here
+ 3-hit AoE Ranged BRV+HP attack, triggered twice.
+ HP damage dealt is split evenly.
+ Increases own BRV based on 20% of HP damage dealt after first HP attack.
+ Allows for 120% Stolen BRV overflow.
+ Grants special effect [Roaring Hammer] to self for 8 turns.
+ Uses: 3
+  -LB1: Increases own ATK (20%)
+        Increases BRV damage dealt by 10%
+  -LB2: Increases own ATK (20%)
+        Extends duration of [Roaring Hammer] by 8 turns
+  -LB3: Increases own ATK (20%)
+        Adds 1 use
+Board Passive: Fated Circle Extend
+ +Becomes a 4-hit AoE Ranged BRV+HP attack, triggered twice
+ +Greatly increases BRV potency
+ +Allows for 150% Stolen BRV overflow
+ +Increases BRV gain based on HP damage dealt (+10%)
+ 
+[Roaring Hammer]: Raises own ATK (50%) and Stolen BRV Overflow Limit (+30%)
 
 BT: Blasting Edge
- +Equips Burst ability Renzokuken: Blasting Zone
-description
-Maximum BRV damage limit +x% (up to x)
-Maximum HP damage limit +x% (up to x)
+ +Equips BT ability Blasting Zone
+15-HIT AoE melee BRV attack + AoE HP attack
+Moderately raises BRV damage dealt when attacking single target
+HP damage is split equally amongst all enemies
+Maximum BRV damage limit +20%
+Maximum HP damage limit +100%
 
-BURST effect (x turns, party-wide):
--
+BURST Effect (4 turns, party-wide):
+ -Moderately raises HP damage dealt (on non-targets) by abilities with splash damage (+50%)
 
-BT Theme: x
+BT Theme: Force Your Way (VIII)
