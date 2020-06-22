@@ -1,4 +1,3 @@
-
 Katara (Avatar: The Last Airbender)
 Weapon type: Unique
 Crystal Color: Blue
@@ -13,7 +12,7 @@ Skill 1: Glacier
  +Extends base duration of [Frozen Solid] by 2 turns
 c.55: Glacier Extend
  +Becomes a 4-hit AoE Water Magic BRV+HP attack, followed by a 2-hit AoE Ice Magic BRV+HP attack.
- +Increases own BRV by 20% of HP damage dealt after first HP attack
+ +Increases own BRV by 10% of HP damage dealt after first HP attack
  +Allows for 150% Stolen BRV overflow on first BRV+HP attack
  +HP damage is divided evenly
  +Deals full HP damage to all targets on second HP attack
@@ -23,7 +22,8 @@ c.55: Glacier Extend
                 Water/Ice Resistance Down
 
 Skill 2: Soothing Waters
- Recovers party's HP based on own INT BRV (40%) and grants [Spirit Water] for 3 turns. 
+ Recovers party's HP based on own INT BRV (40%)
+ Grants [Spirit Water] to party for 3 turns. 
  Uses: 4
 35cp: Seashell Pendant
  +Adds 1 use
@@ -31,12 +31,14 @@ Skill 2: Soothing Waters
  +Extends base duration of [Spirit Water] by 3 turns
  +Grants BRV to party based on own INT BRV (120%)
 c.60: Soothing Waters Extend
- +
+ +Improves HP recovery based on INT BRV (+100% iBRV)
+ +Improves BRV recovery based on INT BRV (+180% iBRV)
+ +Triggers a 3-hit Water Magic BRV+HP attack after use
  
 [Spirit Water]: HP Regen based on HP healed by Soothing Waters (30%)
  
 EX: Fire Nation Pendant
- +Equips EX ability Freezing Rain
+ +Equips EX ability Water Whip
 7-hit Water Magic BRV attack.
 BRV hits are dispersed when there is more than one target.
 1-hit AoE Ice Magic BRV+HP attack.
@@ -45,13 +47,25 @@ Allows for 150% Stolen BRV overflow.
 Restores HP to party based on HP damage dealt (15%)
 Enters [Octopus Stance] for 8 turns.
  Recast: Slightly Slow
-  -LB1:
-  -LB2:
-  -LB3:
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Transience by 20%
+  -LB3: Increases own Weakness BRV damage dealt by 20%
+ EX+: Tremendously increases BRV potency
+      Raises Stolen BRV overflow limit (+30%)
+      Becomes a 7-hit Water Magic BRV+AoE HP attack
+      BRV hits are dispersed when there is more than one target.
+      Increases own BRV based on 50% of HP damage dealt.
+      1-hit AoE Ice Magic BRV+HP attack.
+  -LB1: Raises own ATK (50%) and Max BRV (50%)
+  -LB2: At Quest start:
+        Does not consume use count on first turn (excl. some abilities)
+        Raises Recast gauge to MAX
+  -LB3: Greatly increases BRV potency
+        Becomes a 7-hit Water Magic BRV+AoE HP attack
+        BRV hits are dispersed when there is more than one target
+        Increases own BRV based on 50% of HP damage dealt
+        5-hit AoE Ice Magic BRV+HP attack
+        HP damage is split evenly
 
 [Octopus Stance]: Self: ATK Up (40%), HP Regen (10% Max HP), BRV Regen (120% iBRV)
                   Party: Water/Ice Enchant (20%)
@@ -77,11 +91,14 @@ LD: Aang's Pendant
         Turns BRV Attack, BRV Attack+ to HP Attack++ while [Forbidden Power] is active
         Turns HP Attack, HP Attack+ to HP Attack++ while [Forbidden Power] is active
   -LB2: Raises ATK (20%) and Max BRV (10%)
-        
+        Extends base duration of [Forbidden Power] by 2 turns
   -LB3: Raises ATK (20%) and Max BRV (10%)
-        
+        Adds 1 use
+
 Board Passive: LD Extend
- +
+ +Increases BRV gain based on INT BRV (+150% iBRV)
+ +Increases BRV Steal effect of [Blood Prison] by 10%
+ +Does not consume use count on next turn (excl. some abilities)
 
 [Blood Prison]: Inflicts Paralysis
                 DEF Down (60%), Max BRV Down (90%)
@@ -89,6 +106,7 @@ Board Passive: LD Extend
 [Forbidden Power]: HP Damage Dealt Up (30%)
                    ATK Up (100%)
                    Max HP Down (40%)
+                   DEF Down (60%)
                    Delays own next turn by 1 upon expiring
 BRV Attack++: 6-hit Water Magic BRV attack
               BRV hits are dispersed when more than one target is present
