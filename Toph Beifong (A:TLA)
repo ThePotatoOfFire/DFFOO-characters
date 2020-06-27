@@ -1,0 +1,52 @@
+Toph Beifong (Avatar: The Last Airbender)
+Weapon type: Unique
+Crystal Color: Green
+Spheres: A A B
+
+Special Effect [World's Greatest Earthbender]: Earth Resistance Up, Melee Evasion Up (30%)
+                                               Ranged/Magic Evasion Down (50%)
+
+Skill 1: Toph Wall
+ Grants [Earth Wall] to party for 2 turns.
+ 2-hit Earth Melee BRV+HP attack.
+ Uses: 5
+15cp: Weapon
+ +Greatly increases BRV potency
+c.55: Toph Boulder Extend
+ +
+
+Skill 2: Toph Quake
+ 2-hit AoE Earth Melee BRV+HP attack.
+ Deals 100% HP damage to all targets.
+ Grants [Blind Bandit] to self for 3 turns.
+ Uses: 4
+35cp: Weapon
+ +
+c.60: Toph Quake Extend
+ +
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Ba Sing Se Headband
+ +Equips EX ability Toph Zero
+ Recast: Normal
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Badgermole Headband
+ +Equips LD ability Toph Steel
+ Uses: X
+  -LB1:
+  -LB2:
+  -LB3:
+Board Passive: LD Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
