@@ -1,0 +1,90 @@
+Avatar Aang (Avatar: The Last Airbender)
+Weapon type: Staff
+Crystal Color: Blue
+Spheres: A C D
+
+Side note: His EX pose would totally be the marble trick. 
+
+Skill 1: Aero Blade
+ 1-hit Wind Magic BRV attack, followed by a 1-hit AoE Wind Magic BRV attack.
+ Uses: 7
+15cp: Nomad Glider
+ +
+c.55: Aero Blade Extend
+ +
+
+Put 
+
+Skill 2: Meditation
+ Gain BRV based on INT BRV (200%)
+ Grants 1 stack of [Avatar's Spirit] to self for 3 turns (Max 4 stacks).
+ Uses: 4
+35cp: Foggy Swamp Staff
+ +
+c.60: Meditation Extend
+ +Adds 1 use
+ 
+[Avatar's Spirit]: 1 stack: ATK Up (30%), BRV Regen (60% iBRV)
+                            Follow up all abilities (excl. c65) with Water Whip
+                   2 stacks: Max BRV Up (20%), DEF Up (60%)
+                             Triggers Rockshot after Water Whip
+                   3 stacks: Critical BRV Damage Up (60%)
+                             Triggers Phoenix Dive after Rockshot
+                   4 stacks: INT BRV Up (100%), Elemental Weakness Damage Up (50%)
+                             Triggers Vortex after Phoenix Dive
+Water Whip: 2-hit Water Magic BRV attack.
+Rockshot: 1-hit Earth Magic BRV+HP attack.
+          Recovers BRV to self based on 20% of HP damage dealt.
+Phoenix Dive: 1-hit Fire Magic BRV attack, followed by a 1-hit AoE Fire Magic BRV attack.
+Vortex: 2-hit AoE Wind Magic BRV+HP attack.
+        
+
+ 
+EX: Invasion Staff
+ +Equips EX ability Whirlwind
+ 6-hit AoE Wind Magic BRV+HP attack.
+ HP damage dealt is split evenly.
+ Allows for 150% Stolen BRV overflow.
+ Grants 1 stack of [Avatar's Spirit] to self for 6 turns (Max 4 stacks).
+ Inflicts [Force of Nature] on all targets for 6 turns.
+ Recast: Normal
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+[Force of Nature]: Fire/Water/Earth/Wind Resistance Down
+                   DEF Down (40%)
+
+LD: Spirit Staff
+ +Equips LD ability Chakra Seal
+ Set all target's BRV to 0.
+ Cancels BREAK status.
+ Grants BRV to party based on INT BRV (300%).
+ Inflicts [Chakra Seal] on all targets for 4 turns.
+ Uses: 2
+  -LB1:
+  -LB2:
+  -LB3:
+Board Passive: LD Extend
+ +
+
+[Chakra Seal]: Elemental BRV Attack Silence (Prevents target from using elemental BRV attacks)
+               Max BRV Down (40%)
+
+BT: Roku's Staff
+ +Equips Burst ability Wrath of the Cosmos
+5-hit Wind Magic BRV+HP attack
+5-hit Water Magic BRV+HP attack
+5-hit Earth Magic BRV+HP attack
+5-hit Fire Magic BRV+HP attack
+Maximum BRV damage limit +x% (up to x)
+Maximum HP damage limit +x% (up to x)
+
+BURST effect (x turns, party-wide):
+-
+
+BT Theme: x
