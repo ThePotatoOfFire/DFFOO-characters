@@ -94,8 +94,8 @@ LD: End of Pain
   -LB3: ATK Up (+30%), Max BRV Up (+20%)
         Adds +1 use to Meteor Crash
 
-[Dark Shield]: Renders Riku immune to Break. 
-               Stacks decrease by 1 each time Riku is protected from Break.
+[Dark Shield]: BREAK Immuntity
+               Stacks decrease by 1 each time target is protected from BREAK.
 BRV Attack++: 4-hit Dark Melee BRV attack.
 HP Attack++: 3-hit Dark Melee BRV+HP attack.
              Allows for 120% Stolen BRV overflow.
