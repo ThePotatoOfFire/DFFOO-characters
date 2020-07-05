@@ -3,28 +3,58 @@ Weapon type: Sword
 Crystal Color: Yellow
 Spheres: A E E
 
-Skill 1: name
- 
- Uses: X
-15cp: Weapon
- +
-c.55: Skill1 Extend
- +
+Skill 1: Blast Punch
+ Gain BRV based on ATK (50%) before a 1-hit Melee BRV+HP attack.
+ Becomes Blast Rush when [Ascension] is active.
+Blast Rush:
+ 5-hit Melee BRV+HP attack.
+ Uses: 6
+15cp: Lumia
+ +Greatly increases BRV potency of Blast Punch and Blast Rush
+ +Increases BRV gain based of ATK when using Blast Punch (+50%)
+c.55: Blast Punch Extend
+ +Greatly increases BRV gain based on ATK (+100%)
 
 Put any buff/debuff descriptions or brv/hp+ variants here
 
-Skill 2: name
- Description
- Uses: X
-35cp: Weapon
- +
-c.60: Skill2 Extend
- +
+Skill 2: Riptide
+ Raises own BRV based on ATK (30%), then multiplies BRV by x1.3.
+ Grants [Ascension] to self for 5 turns.
+ Becomes Unbound Blade when [Ascension] is active.
+ Does not consume skill usage.
+Unbound Blade:
+ 2-hit AoE Melee BRV+ST HP attack.
+ Deals 20% splash HP damage to non-targets.
+ Delays all targets by 2 turns.
+ Inflicts [Banish] on all enemies for 2 turns.
+ Uses: 3
+35cp: Flamentine
+ +Greatly increases BRV gain based on ATK (+50%) when using Riptide
+ +Greatly increases BRV potency of Unbound Blade
+ +Increases splash HP damage dealt with Unbound Blade (+30%)
+ +Extends duration of [Banish] by 2 turns
+c.60: Riptide Extend
+ +Adds 1 use
+ +Increases BRV gain based on ATK (+70%) when using Riptide
+ +Triggers a 3-hit Melee BRV+HP attack after using Riptide
+ +Turns BRV Attack to BRV Attack+ while [Ascension] is active
+ +Turns HP Attack to HP Attack+ while [Ascension] is active
+Unbound Blade:
+ +Tremendously increases BRV potency
+ +Becomes a 4-hit AoE Melee BRV+HP attack
+ +Allows for 180% Stolen BRV overflow
  
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Ascension]: ATK Up (40%), Max BRV Up (80%)
+             HP Regen (20%)
+             Thunder Enchant (20%)
+[Banish]: INT BRV Down (30%)
+          Prevents target from gaining buffs
+BRV Attack+: 2-hit Thunder Melee BRV attack
+HP Attack+: 1-hit AoE Thunder Melee BRV+ST HP attack
+            Allows for 120% Stolen BRV overflow
  
-EX: Weapon
- +Equips EX ability name
+EX: Champion
+ +Equips EX ability Fatal Volley
  Recast: Normal
   -LB1:
   -LB2:
@@ -34,26 +64,43 @@ EX: Weapon
   -LB2:
   -LB3:
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Daring Duelist]:
+Shock: 3-hit AoE Thunder Melee BRV attack.
+       Dispels 1 buff on all targets when Breaking/attacking a Broken target
+Dynamo: 2-hit Thunder Melee BRV+HP attack, triggered twice.
 
-LD: Weapon
- +Equips LD ability name
- Uses: X
-  -LB1:
-  -LB2:
-  -LB3:
+LD: Repulsor
+ +Equips LD ability Danse Macabre
+Sets own HP to 1.
+1-hit Melee BRV+HP attack, triggered 6 times.
+BRV/HP attacks are distributed based on number of enemies.
+Converts 50% of total HP damage dealt to BRV before last HP attack.
+Allows for 150% Stolen BRV overflow.
+Allows for 120% Gained BRV overflow.
+Grants [Shadow Image] to self for 2 turns.
+ Uses: 2
+  -LB1: Raises own ATK (20%)
+        Increases BRV damage dealt by 10%
+  -LB2: Raises own ATK (20%)
+        Extends duration of [Shadow Image] by 2 turns
+  -LB3: Raises own ATK (20%)
+        Adds 1 use
 Board Passive: LD Extend
- +
+ +Becomes a 2-hit Melee BRV+HP attack, triggered 6 times
+ +Allows for 180% Stolen BRV overflow
+ +Allows for 150% Gained BRV overflow
+ +Greatly increases BRV potency
+ 
+[Shadow Image]: Raises BRV damage dealt based on how low current HP is compared to Max HP (minimum 20%, maximum 110%)
+                Evasion Rate Up (90%)
+                Extends base duration of all debuffs inflicted by self by 2 turns
 
-Put any buff/debuff descriptions or brv/hp+ variants here
-
-BT: Weapon
- +Equips Burst ability name
+BT: Caliburn
+ +Equips Burst ability Pride of Gavalon
 description
 Maximum BRV damage limit +x% (up to x)
 Maximum HP damage limit +x% (up to x)
 
-BURST effect (x turns, party-wide):
--
-
-BT Theme: x
+BURST effect (4 turns, all enemies):
+-Disables all BRV/HP damage reduction auras
+-Prevents debuff auras from affecting the party
