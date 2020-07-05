@@ -7,19 +7,27 @@ Skill 1: Blast Punch
  Gain BRV based on ATK (50%) before a 1-hit Melee BRV+HP attack.
  Becomes Blast Rush when [Ascension] is active.
 Blast Rush:
- 5-hit Melee BRV+HP attack.
+ 4-hit Melee BRV+HP attack.
  Uses: 6
 15cp: Lumia
  +Greatly increases BRV potency of Blast Punch and Blast Rush
  +Increases BRV gain based of ATK when using Blast Punch (+50%)
+ +Grants ATK Up (40%) to self for 6 turns after using Blast Punch or Blast Rush
 c.55: Blast Punch Extend
  +Greatly increases BRV gain based on ATK (+100%)
-
-Put any buff/debuff descriptions or brv/hp+ variants here
+ +Becomes a 3-hit Melee BRV+HP attack
+ +Greatly increases BRV potency
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
+Blast Rush:
+ +Becomes a 1-hit Melee BRV+HP attack, triggered 5 times
+ +Increases own BRV by 20% of total HP damage dealt after each HP attack (excl. last)
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
 
 Skill 2: Riptide
  Raises own BRV based on ATK (30%), then multiplies BRV by x1.3.
- Grants [Ascension] to self for 5 turns.
+ Grants [Ascension] to self for 4 turns.
  Becomes Unbound Blade when [Ascension] is active.
  Does not consume skill usage.
 Unbound Blade:
@@ -49,22 +57,38 @@ Unbound Blade:
              Thunder Enchant (20%)
 [Banish]: INT BRV Down (30%)
           Prevents target from gaining buffs
-BRV Attack+: 2-hit Thunder Melee BRV attack
-HP Attack+: 1-hit AoE Thunder Melee BRV+ST HP attack
+BRV Attack+: 4-hit Thunder Melee BRV attack
+HP Attack+: 3-hit AoE Thunder Melee BRV+ST HP attack
             Allows for 120% Stolen BRV overflow
  
 EX: Champion
  +Equips EX ability Fatal Volley
- Recast: Normal
-  -LB1:
-  -LB2:
-  -LB3:
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
+3-hit AoE Ranged Thunder BRV+HP attack.
+Deals 100% HP damage to all targets.
+Inflicts INT BRV Down (50%) and Sap on all targets for 4 turns.
+Inflicts Confusion on all targets for 1 turn.
+Grants [Daring Duelist] to self for 3 turns.
+ Recast: Slightly Slow
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Fatal Volley by 20%
+  -LB3: Extends duration of [Daring Duelist] by 3 turns
+ EX+: Combines INT BRV Down and Sap into [Hollow Curse], and extends its duration by 2 turns
+      Grants [Ascension] to self for 4 turns after use
+  -LB1: Raises own ATK (40%) and Max BRV (60%)
+  -LB2: At Quest Start:
+        Grants [Daring Duelist] and ATK Up (50%) to self for 6 turns
+        Fills Recast Gauge to 70%
+  -LB3: Becomes a 6-hit AoE Thunder Ranged BRV+HP attack
+        Allows for 150% Stolen BRV overflow
+        If [Ascension] is active, resets all targets' BREAK status before BRV hits
+        Turns BRV Attack, BRV Attack+ to Shock when [Ascension] is active
+        Turns HP Attack, HP Attack+ to Dynamo when [Ascension] is active
 
-[Daring Duelist]:
+[Daring Duelist]: INT BRV Up (150%), Max BRV Up (50%)
+                  Raises own ATK based on number of enemies present (30%/60%/90%)
+                  BRV Regen, effect up based on number of enemies present (50%/100%/150% iBRV)
+[Hollow Curse]: INT BRV Down (50%), Max BRV Down (50%), Sap
+                Thunder Resistance Down
 Shock: 3-hit AoE Thunder Melee BRV attack.
        Dispels 1 buff on all targets when Breaking/attacking a Broken target
 Dynamo: 2-hit Thunder Melee BRV+HP attack, triggered twice.
@@ -72,7 +96,7 @@ Dynamo: 2-hit Thunder Melee BRV+HP attack, triggered twice.
 LD: Repulsor
  +Equips LD ability Danse Macabre
 Sets own HP to 1.
-1-hit Melee BRV+HP attack, triggered 6 times.
+1-hit Melee BRV+HP attack, triggered 8 times.
 BRV/HP attacks are distributed based on number of enemies.
 Converts 50% of total HP damage dealt to BRV before last HP attack.
 Allows for 150% Stolen BRV overflow.
@@ -86,7 +110,8 @@ Grants [Shadow Image] to self for 2 turns.
   -LB3: Raises own ATK (20%)
         Adds 1 use
 Board Passive: LD Extend
- +Becomes a 2-hit Melee BRV+HP attack, triggered 6 times
+ +Becomes a 2-hit Melee BRV+HP attack, triggered 8 times
+ +Deals 50% total splash HP damage to non-targets on last HP attack
  +Allows for 180% Stolen BRV overflow
  +Allows for 150% Gained BRV overflow
  +Greatly increases BRV potency
@@ -97,9 +122,10 @@ Board Passive: LD Extend
 
 BT: Caliburn
  +Equips Burst ability Pride of Gavalon
-description
-Maximum BRV damage limit +x% (up to x)
-Maximum HP damage limit +x% (up to x)
+12-HIT Thunder Melee BRV+HP attack
+
+Maximum BRV damage limit +150%
+Maximum HP damage limit +200%
 
 BURST effect (4 turns, all enemies):
 -Disables all BRV/HP damage reduction auras
