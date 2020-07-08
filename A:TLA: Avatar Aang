@@ -9,7 +9,7 @@ Skill 1: Aero Blade
  1-hit Wind Magic BRV attack, followed by a 1-hit AoE Wind Magic BRV attack.
  Uses: 7
 15cp: Nomad Glider
- +
+ +Greatly increases BRV potency
 c.55: Aero Blade Extend
  +
 
@@ -24,7 +24,7 @@ Skill 2: Meditation
 c.60: Meditation Extend
  +Adds 1 use
  
-[Avatar's Spirit]: 1 stack: ATK Up (30%), BRV Regen (60% iBRV)
+[Avatar's Spirit]: 1 stack: ATK Up (30%), BRV Regen (600% iBRV)
                             Follow up all abilities (excl. c65) with Water Whip
                    2 stacks: Max BRV Up (20%), DEF Up (60%)
                              Triggers Rockshot after Water Whip
@@ -40,7 +40,7 @@ Vortex: 2-hit AoE Wind Magic BRV+HP attack.
         
 
  
-EX: Invasion Staff
+EX: Invasion Glider
  +Equips EX ability Whirlwind
  6-hit AoE Wind Magic BRV+HP attack.
  HP damage dealt is split evenly.
