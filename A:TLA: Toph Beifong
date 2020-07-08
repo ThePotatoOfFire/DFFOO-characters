@@ -61,10 +61,16 @@ EX: Ba Sing Se Headband
         - Does not increase turn count
         - Decreases Friend Support and Summon action count
   -LB3: Becomes a 6-hit AoE Earth Melee BRV+HP attack
+        Deals 100% HP damage to all targets
         Allows for 150% Stolen BRV overflow
+        Turns BRV Attack to BRV Attack+ while buffed
+        Turns HP Attack to HP Attack+ while buffed
 
 [Earthen Exposure]: Earth Resistance Down, BRV Damage Taken Up (20%)
                     Evasion Rate Down (40%)
+BRV Attack+: 3-hit AoE Earth Melee BRV attack
+             Grants BRV to allies based on BRV damage dealt (50%)
+HP Attack+: 1-hit AoE Earth Melee BRV attack, followed by a 2-hit Earth Melee BRV+HP attack
 
 Inspiration: https://media1.tenor.com/images/3d3d3cca544e87019ecc5da36537e34e/tenor.gif?itemid=8139218
 
@@ -85,7 +91,7 @@ Board Passive: LD Extend
  +Becomes a 6-hit Earth Melee BRV+HP attack, followed by a 2-hit AoE Earth Melee BRV+HP attack
  +Recovers BRV to self based on HP damage dealt after first HP attack (40%)
 
-[Steelsuit]: BRV/HP Damage Reduction based on stacks (20%/50%/80%)
-             Forces enemies to target self, unless [Target Lock] is active
+[Steelsuit]: BRV/HP Damage Reduction based on stacks (30%/40%/50%)
+             Forces enemies to target self ([Target Lock] debuff takes priority)
 
 Inspiration: https://media.giphy.com/media/TJa4Vhu4Adffxq4Plw/giphy.gif
