@@ -13,7 +13,7 @@ Skill 1: Toph Wall
  +Extends base duration of [Earth Wall] by 2 turns
 c.55: Toph Wall Extend
  +Adds 1 use
- +Grants BRV to party based on own ATK
+ +Grants BRV to party based on own ATK (150%)
  +Becomes a 4-hit Earth Melee BRV+HP attack
  +Extends base duration of [Earth Wall] by 4 turns
  +Adds an HP Damage Resist effect to [Earth Wall] (20%)
