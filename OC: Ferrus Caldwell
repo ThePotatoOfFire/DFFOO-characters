@@ -127,6 +127,6 @@ BT: Caliburn
 Maximum BRV damage limit +150%
 Maximum HP damage limit +200%
 
-BURST effect (4 turns, all enemies):
--Disables all BRV/HP damage reduction auras
--Prevents debuff auras from affecting the party
+BURST effect (3 turns, all enemies):
+-Disables all BRV/HP damage reduction and BRV gain reduction auras
+-Maximum BRV Damage limit -40% (to 5999)
