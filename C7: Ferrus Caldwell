@@ -7,7 +7,7 @@ Skill 1: Blast Punch
  Gain BRV based on ATK (50%) before a 1-hit Melee BRV+HP attack.
  Becomes Blast Rush when [Ascension] is active.
 Blast Rush:
- 4-hit Melee BRV+HP attack.
+ 3-hit Melee BRV+HP attack.
  Uses: 6
 15cp: Lumia
  +Greatly increases BRV potency of Blast Punch and Blast Rush
@@ -20,7 +20,8 @@ c.55: Blast Punch Extend
  +Allows for 120% Gained BRV overflow
  +Allows for 150% Stolen BRV overflow
 Blast Rush:
- +Becomes a 1-hit Melee BRV+HP attack, triggered 5 times
+ +Raises BRV based on own ATK (150%)
+ +Becomes a 1-hit Melee BRV+HP attack, triggered 4 times
  +Increases own BRV by 20% of total HP damage dealt after each HP attack (excl. last)
  +Allows for 120% Gained BRV overflow
  +Allows for 150% Stolen BRV overflow
