@@ -1,0 +1,111 @@
+Tera Caldwell
+Weapon type: Greatsword
+Crystal Color: Red
+Spheres: B C E
+
+Skill 1: Full Swing
+ 2-hit AoE Melee BRV attack.
+ Inflicts [Crush] on all targets for 4 turns.
+ Uses: 5
+15cp: Lumber Axe
+ +Increases BRV potency
+ +Extends base duration of [Crush] by 4 turns
+ +Grants ATK Up (40%) to self for 6 turns
+c.55: Full Swing Extend
+ +Becomes a 5-hit AoE Melee BRV+HP attack
+ +HP Damage dealt is split evenly
+ +Allows for 180% Stolen BRV overflow
+ +Recovers HP to self based on HP damage dealt (30%, up to 20% max HP)
+
+[Crush]: DEF Down (40%), BRV Damage Taken Up (20%)
+         HP Recovery Down (50%)
+
+Skill 2: Eternal Flame
+ Removes active [Eternal Flame].
+ Sets [Eternal Flame] on target.
+ Uses: 3
+35cp: Solar Axe
+ +Grants BRV to party based on own INT BRV (150%)
+ +Increases BRV damage dealt with [Eternal Flame]'s trap attack
+ +Adds a BRV gain effect (50% INT BRV) before [Eternal Flame]'s BRV hits
+c.60: Skill2 Extend
+ +Adds 3 uses
+ +Triggers a 3-hit Melee BRV+HP attack
+ +Adds a Max BRV Down (20%) effects to [Eternal Flame]
+  When using [Eternal Flame]'s trap attack:
+ +Reduces target's BRV by 1/2 before BRV hits
+ +Becomes a 3-hit Fire Melee BRV+HP attack
+ +Increases HP recovered based on HP damage dealt (+10%)
+ +Raises HP recover cap (+10%)
+ 
+[Eternal Flame]: Triggers a 1-hit Fire Melee BRV+HP attack at the beginning of the target's turn.
+                 Heals party based on HP damage dealt (10% HP damage, 10% max HP)
+                 BREAK status inflicted with this attack will not delay target
+ 
+EX: Double Trouble
+ +Equips EX ability Big Burn
+ 8-hit AoE Fire Melee BRV+HP attack.
+ HP damage dealt is split evenly.
+ Allows for 150% Stolen BRV overflow.
+ Grants [Striker] to self for 6 turns.
+ Inflicts Fire Resistance Down and [Target Lock] on all targets for 6 turns.
+ Recast: Normal
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Big Burn by 20%
+  -LB3: Enemy attacks will not reduce HP below 1 while HP is at least 50% of MAX
+ EX+: Increases recast speed of Big Burn by 10%
+      Greatly increases BRV potency
+      Allows for 180% Stolen BRV overflow
+  -LB1: Raises ATK (60%) and Max BRV (80%)
+  -LB2: At Quest Start:
+        -Grants [Striker] to self for 6 turns
+        -On first turn:
+         -Does not consume use count
+         -No Action Delay
+         -Does not increase turn count
+         -Decreases Friend Support and Summon action count
+  -LB3: Becomes a 6-hit AoE Fire Melee BRV+HP attack, triggered twice.
+        Greatly increases BRV potency
+        Heals party based on HP damage dealt (30% HP damage, 25% max HP)
+        Full Swing use +1 after use (up to initial value)
+        Turns BRV Attack to BRV Attack+ while party's HP >= 50%
+        Turns BRV Attack to BRV Attack++ when any party member's HP =< 50%
+        Turns HP Attack to HP Attack+ while party's HP >= 50%
+        Turns HP Attack to HP Attack++ when any party member's HP =< 50%
+
+[Striker]: Self: ATK Up (50%), Fire Enchant (20%), HP Damage Conversion (30% of HP damage taken is blocked and converted into BRV gain)
+           Party: HP Regen (12% max HP), BRV Damage Taken Down (50%)
+BRV Attack+: 4-hit Fire Melee BRV attack.
+             Grants BRV to party based on own INT BRV (150%)
+HP Attack+: 3-hit Fire Melee BRV+HP attack.
+            Grants BRV to party based on HP damage dealt (30%)
+BRV Attack++: 3-hit Fire Melee BRV attack.
+              Restores HP to party based on BRV damage dealt (50% BRV damage, 15% max HP)
+HP Attack++: 2-hit Fire Melee BRV+HP attack.
+             Restores HP to party based on HP damage dealt (50% HP damage, 15% max HP)
+
+LD: Dragon Claw
+ +Equips LD ability Dragonheart
+ 8-hit Fire Melee BRV+HP attack.
+ Deals 50% splash HP damage to non-targets.
+ Allows for 180% Stolen BRV overflow.
+ Sets [Target Lock] on all targets for 6 turns.
+ Grants 1 stack of special effect [Sanctuary] to self.
+ Uses: 2
+  -LB1: Raises own Max BRV, Attack by 20%
+        Increases BRV damage dealt by 10%
+  -LB2: Raises own Max BRV, Attack by 20%
+        Grants an extra stack of [Sanctuary] on use
+  -LB3: Raises own Max BRV, Attack by 20%
+        Adds 1 use
+Board Passive: LD Extend
+ +Becomes a 6-hit Fire Melee BRV+HP attack, followed by a 4-hit Fire Melee BRV+HP attack
+ +Deals 50% HP damage to non-targets on first HP attack, and 50% TOTAL HP damage to non-targets on second HP attack
+ +Increases BRV potency
+
+[Sanctuary]: When any party member's HP falls below 10%:
+             -Enemy attacks will not reduce HP below 1
+             -Enemy attacks will not reduce BRV below 1
+             -Restores party's HP (50% Max HP)
+             -Grants BRV to party based on individual Max BRV (50%)
+             -Removes 1 stack of [Sanctuary]
