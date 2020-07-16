@@ -1,0 +1,156 @@
+Cid Raines (FFXIII)
+Weapon type: Fist
+Crystal Color: Black
+Spheres: A A E
+
+Skill 1: Offensive Shift
+ Dispels own [Recovery Shift].
+ Grants [Offensive Shift] to self for 6 turns.
+ Raises own BRV based on Max BRV (30%).
+ BRV Attack, BRV Attack+ become Mortal Crush while [Offensive Shift] is active.
+ HP Attack, HP Attack+ become Ruinga while [Offensive Shift] is active.
+ Uses: 3
+15cp: Cid's Gloves
+ +Extends base duration of [Offensive Shift] by 2 turns
+ +Nullifies Action Delay
+ +Improves BRV gain based on Max BRV (+10%)
+  When using Mortal Crush:
+ +Increases BRV potency
+  When using Ruinga:
+ +Increases BRV potency
+ +Increases BRV damage dealt when attacking a single target (60%)
+c.55: Offensive Shift Extend
+ +Adds 2 uses
+ +Improves BRV gain based on Max BRV (+20%)
+ +Triggers a 3-hit Melee BRV+HP attack after use
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
+  When Using Mortal Crush:
+ +Greatly increases BRV potency
+ +Deals HP damage after BRV hits
+ +Allows for 120% Stolen BRV overflow
+ +Grants BRV to self based on HP damage dealt (30%)
+  When using Ruinga:
+ +Becomes a 3-hit AoE Magic BRV+ST HP attack
+ +Deals 50% HP damage to non-targets
+ +Greatly increases BRV potency
+ +Allows for 120% Stolen BRV overflow
+
+[Offensive Shift]: ATK Up (50%), Max BRV Up (40%)
+                   BRV Regen (80% iBRV)
+                   Stolen BRV Overflow Limit Up (30%)
+Mortal Crush: 5-hit Melee BRV Attack.
+              Instantly inflicts BREAK on all enemies when BREAKING main target
+               *Does not affect enemies that are already BROKEN
+Ruinga: 1-hit AoE Magic BRV+ST HP attack.
+        Instantly inflicts BREAK on all enemies when BREAKING any target
+         *Does not affect enemies that are already BROKEN
+
+Skill 2: Recovery Shift
+ Dispels own [Offensive Shift].
+ Grants [Recovery Shift] to self for 6 turns.
+ Raises own BRV based on INT BRV (100%).
+ BRV Attack, BRV Attack+ become Cure while [Recovery Shift] is active.
+ HP Attack, HP Attack+ become Ruin while [Recovery Shift] is active.
+ Uses: 3
+35cp: Godhand
+ +Extends base duration of [Recovery Shift] by 2 turns
+ +Nullifies Action Delay
+ +Improves BRV gain based on INT BRV (+50%)
+ +Restores HP to self (10% max HP)
+  When using Cure:
+ +Increases BRV gained from excess HP recovery (+100%)
+ +Reduces Action Delay
+  When using Ruin:
+ +Increases BRV gain based on INT BRV (50%)
+ +Increases BRV potency
+ +Restores HP to party based on HP damage dealt (20%, 15% max HP cap)
+c.60: Recovery Shift Extend
+ +Adds 2 uses
+ +Improves BRV gain based on INT BRV (+150%)
+ +Multiplies own BRV by 1.3 before a 2-hit Magic BRV+HP attack
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
+  When Using Cure:
+ +Extends effects to party
+ +Improves HP recovery based on INT BRV (40%)
+ +Raises HP recovery limit (+10%)
+  When using Ruin:
+ +Increases BRV gain based on INT BRV (+100%)
+ +Greatly increases BRV potency
+ +Allows for 120% Gained BRV overflow
+ +Allows for 120% Stolen BRV overflow
+ +Grants BRV to party based on HP damage dealt (20%)
+ 
+[Recovery Shift]: DEF Up (80%), INT BRV Up (60%), Max BRV Up (40%)
+                  HP Regen (15% max HP)
+                  Gained BRV Overflow Limit Up (30%)
+Cure: Restores HP to party based on own INT BRV (60%, 20% Max HP cap)
+      Excess HP recovered is converted to BRV Gain (100%)
+Ruin: Gain BRV based on INT BRV (150%), followed by a 2-hit Magic BRV+HP attack.
+      Instantly inflicts BREAK on all enemies when BREAKING main target
+       *Does not affect enemies that are already BROKEN
+ 
+EX: Seraphim Claw
+ +Equips EX ability Seraphic Ray
+4-hit AoE Magic BRV+HP attack.
+Deals 100% HP damage to all targets.
+Removes all buffs from targets.
+Instantly inflicts BREAK on all enemies when BREAKING any target
+ *Does not affect enemies that are already BROKEN
+ Recast: Slightly Slow
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Seraphic Ray by 20%
+  -LB3: Grants [Will to Fight Fate] to self for 4 turns upon use
+ EX+: Increases BRV potency
+      Allows for 120% Stolen BRV overflow
+      BRV Attack becomes BRV Attack+ while [Offensive Shift] and [Recovery Shift] are not active
+      HP Attack becomes HP Attack+ while [Offensive Shift] and [Recovery Shift] are not active
+  -LB1: Increases own ATK (40%) and Max BRV (40%)
+        Extends duration of all self buffs by 2 turns after use
+  -LB2: At Quest start:
+        Grants [Will to Fight Fate] to self for 6 turns
+        For the first turn:
+        -Does not consume ability uses
+        -No Action Delay
+        -Does not increase turn count
+        -Decreases Friend Support and Summon action count
+  -LB3: Gain BRV based on INT BRV (120%) before a 6-hit AoE Magic BRV+HP attack.
+        Allows for 120% Stolen BRV overflow.
+        Allows for 120% Gained BRV overflow.
+
+[Will to Fight Fate]: ATK Up (50%), Max BRV Up (30%)
+                      Increases BRV damage dealt to BROKEN targets (50%)
+BRV Attack+: 3-hit Melee BRV attack.
+             Instantly inflicts BREAK on all enemies when BREAKING main target
+              *Does not affect enemies that are already BROKEN
+HP Attack+: 2-hit Melee BRV+HP attack.
+            Instantly inflicts BREAK on all enemies when BREAKING main target
+             *Does not affect enemies that are already BROKEN
+
+LD: Oversoul
+ +Equips LD ability Metamorphose
+Completely recovers own HP.
+Grants BRV to self based on Max BRV (100%).
+Grants special effect [Metamorphosis] to self for 3 turns.
+8-hit AoE Magic BRV+HP attack.
+HP damage dealt is split evenly.
+Allows for 180% Stolen BRV overflow.
+Allows for 120% Gained BRV overflow.
+Instantly inflicts BREAK on all enemies when BREAKING any target
+ *Does not affect enemies that are already BROKEN
+ Uses: 3
+  -LB1: Raises own ATK (20%)
+        Increases BRV damage dealt by 10%
+  -LB2: Raises own ATK (20%)
+        Extends base duration of [Metamorphosis] by 3 turns
+  -LB3: Raises own ATK (20%)
+        Adds 1 use
+Board Passive: LD Extend
+ +Increases BRV gain based on Max BRV (+100%)
+ +Triggers an AoE HP attack after BRV gain (but before BRV attacks)
+ +HP damage dealt is split evenly
+ 
+[Metamorphosis]: ATK Up (60%), INT BRV Up (50%), Max BRV Up (40%)
+                 BRV Damage Reduction (20%)
+                 If BRV is less than INT BRV at turn start, recovers BRV back to INT BRV
