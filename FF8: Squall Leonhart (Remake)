@@ -1,3 +1,5 @@
+His rework as of 7/17/2020 is pretty damn good so this is kinda obsolete now
+
 Remake: Squall Leonhart (FFVIII)
 Weapon type: Sword
 Crystal Color: Black
@@ -83,10 +85,11 @@ Rough Divide:
             -ATK Up (50%)
             -SPD Up (50%)
             -Max BRV Up (50%)
-BRV Attack+: 2-hit Melee BRV attack
-BRV Attack++: 3-hit Melee BRV attack
-HP Attack+: 1-hit Melee BRV+HP attack
-HP Attack++: 2-hit Melee BRV+HP attack
+BRV Attack+: 4-hit Melee BRV attack
+BRV Attack++: 4-hit Melee BRV attack
+              Last hit is AoE
+HP Attack+: 2-hit Melee BRV+HP attack
+HP Attack++: 3-hit Melee BRV+HP attack
              Deals 20% splash HP damage to non-targets
 
 LD: Organix
