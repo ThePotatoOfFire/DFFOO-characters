@@ -1,18 +1,19 @@
 Olberic Eisenberg
 Weapon type: Greatsword
 Crystal Color: Black
-Spheres: B C C
+Spheres: A B D
 
 Skill 1: Incite
  Gain BRV based on Max BRV (30%).
  Grants 1 stack of [Stout Wall] to self for 3 turns (Max 3 stacks).
  Inflicts [Target Lock] on all enemies for 2 turns.
- BRV Attack, BRV Attack+ become Level Slash when [Stout Wall] is active
+ BRV Attack, BRV Attack+ become Level Slash when [Stout Wall] is active.
  Uses: 3
 15cp: Knight's Sword
  +Improves BRV gain based on Max BRV (+10%)
  +Extends duration of [Stout Wall] by 3 turns
  +Extends duration of [Target Lock] by 2 turns
+ +Removes 1 debuff from self
   Level Slash:
  +Increases BRV potency
  +Extends duration of [Target Lock] by 1 turn
@@ -21,46 +22,89 @@ c.55: Incite Extend
  +Adds 2 uses
  +Improves BRV gain based on Max BRV (+20%)
  +Extends BRV gain to party members
- +Triggers a 3-hit Melee BRV+HP attack after use
+ +Triggers a 2-hit AoE Melee BRV+ST HP attack after use
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
   Level Slash:
  +Becomes a 2-hit AoE Melee BRV+HP attack
  +HP damage dealt is split evenly
  +Allows for 120% Stolen BRV overflow
- +Grants BRV to self based on HP damage dealt (20%)
+ +Grants BRV to self based on HP damage dealt (30%)
 
-[Stout Wall]: DEF Up (100%/150%/200%), HP Regen (10%/20%/30%)
+[Stout Wall]: DEF Up (100%/175%/250%), HP Regen (10%/20%/30%)
 Level Slash: 1-hit AoE Melee BRV attack.
              Inflicts [Target Lock] on all targets for 2 turns.
 
 Skill 2: Abide
  Gain BRV based on ATK (50%).
  Grants 1 stack of [Surpassing Power] to self for 3 turns (Max 3 stacks).
- HP Attack, HP Attack+ become Cross Strike when [Surpassing Power] is active
+ HP Attack, HP Attack+ become Cross Strike when [Surpassing Power] is active.
  Uses: 3
 35cp: Dragon Saber
- +
-c.60: Skill2 Extend
- +
+ +Improves BRV gain based on ATK (+50%)
+ +Extends duration of [Surpassing Power] by 3 turns
+ +Removes 1 debuff from self
+  Cross Strike:
+ +Increases BRV potency
+ +Improves BRV gain based on HP damage dealt (+20%)
+c.60: Abide Extend
+ +Adds 2 uses
+ +Improves BRV gain based on ATK (+80%)
+ +Triggers a 3-hit Melee BRV+HP attack after use
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
+  Cross Strike:
+ +Greatly increases BRV potency
+ +Grants BRV to self based on ATK (80%) before BRV attacks
+ +Becomes a 3-hit Melee BRV+HP attack
+ +Deals 20% HP damage to non-targets
+ +Allows for 120% Stolen BRV overflow
  
-[Surpassing Power]: ATK Up (60%/80%/100%)
+[Surpassing Power]: ATK Up (60%/80%/100%), Max BRV Up (50%/65%/80%)
 Cross Strike: 2-hit Melee BRV+HP attack.
-              Grants BRV to self based on HP damage dealt (20%)
+              Grants BRV to party based on HP damage dealt (20%)
  
 EX: Battle-Tested Blade
  +Equips EX ability Brand's Thunder
+Gain BRV based on ATK (120%).
+Removes target's BREAK status.
+4-hit Melee BRV+HP attack.
+Allows for 150% Stolen BRV overflow.
+Inflicts [Spearhead] on targets for 4 turns.
  Recast: Normal
-  -LB1:
-  -LB2:
-  -LB3:
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Brand's Thunder by 20%
+  -LB3: When BREAKING an enemy with any BRV attack:
+        Delay's target's next turn by 1
+ EX+: Greatly increases BRV potency
+      Deals 20% HP damage to non-targets
+      Inflicts [Spearhead] on all enemies for 4 turns
+  -LB1: Increases ATK (40%) and Max BRV (50%)
+        Turns BRV Attack to BRV Attack+
+        Turns HP Attack to HP Attack+
+  -LB2: At Quest start:
+        -Grants 1 stack of [Stout Wall] and [Surpassing Power] for 6 turns
+        -Fills EX Gauge to MAX
+  -LB3: Improves BRV gain based on ATK (+70%)
+        Becomes a 6-hit Melee BRV+HP attack
+        Deals 50% HP damage to non-targets
+        Grants BRV to party based on HP damage dealt (30%)
+        Allows for 120% Gained BRV overflow
+        Allows for 180% Stolen BRV overflow
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Spearhead]: DEF Down (50%)
+             Following effects trigger for Obleric:
+             -Grants additional turn after target's turn
+             -Does not increase turn count
+             -Returns to original turn order after additional turn
+BRV Attack+: 3-hit Melee BRV attack
+HP Attack+ 2-hit Melee BRV+HP attack
+           Grants BRV to party based on HP damage dealt (20%)
 
 LD: Carnage Blade
  +Equips LD ability Guardian Liondog
+ 1-hit Melee BRV+HP attack, triggered 10 times.
+ BRV+HP attacks are dispersed when more than 1 enemy is present.
  Uses: 2
   -LB1:
   -LB2:
@@ -68,4 +112,6 @@ LD: Carnage Blade
 Board Passive: LD Extend
  +
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Unbending Blade]: BRV Damage Reduction (70%)
+                   HP Damage Reduction (50%)
+                   Restores HP to self based on HP damage received (30%)
