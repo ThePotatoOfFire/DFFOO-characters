@@ -1,0 +1,71 @@
+Olberic Eisenberg
+Weapon type: Greatsword
+Crystal Color: Black
+Spheres: B C C
+
+Skill 1: Incite
+ Gain BRV based on Max BRV (30%).
+ Grants 1 stack of [Stout Wall] to self for 3 turns (Max 3 stacks).
+ Inflicts [Target Lock] on all enemies for 2 turns.
+ BRV Attack, BRV Attack+ become Level Slash when [Stout Wall] is active
+ Uses: 3
+15cp: Knight's Sword
+ +Improves BRV gain based on Max BRV (+10%)
+ +Extends duration of [Stout Wall] by 3 turns
+ +Extends duration of [Target Lock] by 2 turns
+  Level Slash:
+ +Increases BRV potency
+ +Extends duration of [Target Lock] by 1 turn
+ +Grants party BRV based on individual Max BRV before use (40%)
+c.55: Incite Extend
+ +Adds 2 uses
+ +Improves BRV gain based on Max BRV (+20%)
+ +Extends BRV gain to party members
+ +Triggers a 3-hit Melee BRV+HP attack after use
+  Level Slash:
+ +Becomes a 2-hit AoE Melee BRV+HP attack
+ +HP damage dealt is split evenly
+ +Allows for 120% Stolen BRV overflow
+ +Grants BRV to self based on HP damage dealt (20%)
+
+[Stout Wall]: DEF Up (100%/150%/200%), HP Regen (10%/20%/30%)
+Level Slash: 1-hit AoE Melee BRV attack.
+             Inflicts [Target Lock] on all targets for 2 turns.
+
+Skill 2: Abide
+ Gain BRV based on ATK (50%).
+ Grants 1 stack of [Surpassing Power] to self for 3 turns (Max 3 stacks).
+ HP Attack, HP Attack+ become Cross Strike when [Surpassing Power] is active
+ Uses: 3
+35cp: Dragon Saber
+ +
+c.60: Skill2 Extend
+ +
+ 
+[Surpassing Power]: ATK Up (60%/80%/100%)
+Cross Strike: 2-hit Melee BRV+HP attack.
+              Grants BRV to self based on HP damage dealt (20%)
+ 
+EX: Battle-Tested Blade
+ +Equips EX ability Brand's Thunder
+ Recast: Normal
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Carnage Blade
+ +Equips LD ability Guardian Liondog
+ Uses: 2
+  -LB1:
+  -LB2:
+  -LB3:
+Board Passive: LD Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
