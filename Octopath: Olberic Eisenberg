@@ -78,6 +78,7 @@ Inflicts [Spearhead] on targets for 4 turns.
         Delay's target's next turn by 1
  EX+: Greatly increases BRV potency
       Deals 20% HP damage to non-targets
+      Grants BRV to party based on HP damage dealt (20%)
       Inflicts [Spearhead] on all enemies for 4 turns
   -LB1: Increases ATK (40%) and Max BRV (50%)
         Turns BRV Attack to BRV Attack+
@@ -92,8 +93,8 @@ Inflicts [Spearhead] on targets for 4 turns.
         Allows for 120% Gained BRV overflow
         Allows for 180% Stolen BRV overflow
 
-[Spearhead]: DEF Down (50%)
-             Following effects trigger for Obleric:
+[Spearhead]: HP Damage Dealt Down (20%)
+             Following effects trigger for Olberic:
              -Grants additional turn after target's turn
              -Does not increase turn count
              -Returns to original turn order after additional turn
@@ -105,13 +106,25 @@ LD: Carnage Blade
  +Equips LD ability Guardian Liondog
  1-hit Melee BRV+HP attack, triggered 10 times.
  BRV+HP attacks are dispersed when more than 1 enemy is present.
+ Increases own BRV by 20% of total HP damage dealt after each HP attack (excl. last).
+ Allows for 120% Gained BRV overflow.
+ Allows for 150% Stolen BRV overflow.
+ Grants [Unbending Blade] to self for 8 turns.
  Uses: 2
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Raises ATK (10%) and Max HP (5%)
+        Increases BRV damage dealt by 10%
+  -LB2: Raises ATK (10%) and Max HP (5%)
+        Extends base duration of [Unbending Blade] by 8 turns
+  -LB3: Raises ATK (10%) and Max HP (5%)
+        Adds 1 use
 Board Passive: LD Extend
- +
+ +Increases BRV potency
+ +Improves BRV gain based on HP damage dealt (+10%)
+ +Increases stack count of existing [Stout Wall] and [Surpassing Power] by 1, and extends their duration by 2 turns
 
 [Unbending Blade]: BRV Damage Reduction (70%)
                    HP Damage Reduction (50%)
+                   When taking HP damage:
                    Restores HP to self based on HP damage received (30%)
+                   Grants BRV to self based on HP damage received (30%)
+                   
