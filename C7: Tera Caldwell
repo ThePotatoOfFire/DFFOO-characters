@@ -26,19 +26,20 @@ Skill 2: Eternal Flame
  Uses: 3
 35cp: Solar Axe
  +Grants BRV to party based on own INT BRV (150%)
- +Increases BRV damage dealt with [Eternal Flame]'s trap attack
- +Adds a BRV gain effect (50% INT BRV) before [Eternal Flame]'s BRV hits
-c.60: Skill2 Extend
+ +Increases BRV gain based on ATK with [Eternal Flame]'s trap attack (+50%)
+c.60: Eternal Flame Extend
  +Adds 3 uses
  +Triggers a 3-hit Melee BRV+HP attack
  +Adds a Max BRV Down (20%) effects to [Eternal Flame]
   When using [Eternal Flame]'s trap attack:
- +Reduces target's BRV by 1/2 before BRV hits
- +Becomes a 3-hit Fire Melee BRV+HP attack
+ +Reduces target's BRV by 1/2 before BRV gain
+ +Improves BRV gain based on ATK (+100%)
  +Increases HP recovered based on HP damage dealt (+10%)
  +Raises HP recover cap (+10%)
  
-[Eternal Flame]: Triggers a 1-hit Fire Melee BRV+HP attack at the beginning of the target's turn.
+[Eternal Flame]: Reduces target's BRV by 100% of own ATK
+　               Increases own BRV by 100% of own ATK
+　               Deals HP damage by 100% of current BRV
                  Heals party based on HP damage dealt (10% HP damage, 10% max HP)
                  BREAK status inflicted with this attack will not delay target
  
