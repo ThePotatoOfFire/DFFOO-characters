@@ -64,13 +64,17 @@ LD: Spirit Staff
  Set all target's BRV to 0.
  Cancels BREAK status.
  Grants BRV to party based on INT BRV (300%).
- Inflicts [Chakra Seal] on all targets for 4 turns.
+ Allows for 120% Gained BRV overflow.
+ Inflicts [Chakra Seal] on all targets for 2 turns.
  Uses: 2
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Raises ATK by 10%
+        Increases BRV damage dealt by 10%
+  -LB2: Raises ATK by 10%
+        Extends base duration of [Chakra Seal] by 2 turns
+  -LB3: Raises ATK by 10%
 Board Passive: LD Extend
- +
+ +Allows for 150% Gained BRV overflow
+ +Deals HP damage to all targets based on 100% of own current BRV (does not consume BRV)
 
 [Chakra Seal]: Elemental BRV Attack Silence (Prevents target from using elemental BRV attacks)
                Max BRV Down (40%)
@@ -86,5 +90,3 @@ Maximum HP damage limit +x% (up to x)
 
 BURST effect (x turns, party-wide):
 -
-
-BT Theme: x
