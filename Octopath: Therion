@@ -1,0 +1,100 @@
+Therion (Octopath Traveler)
+Weapon type: Dagger
+Crystal Color: Black
+Spheres: A C E
+
+Skill 1: HP Thief
+ 1-hit Melee BRV+HP Attack.
+ Restores HP to self based on HP damage dealt (20%).
+ Uses: 6
+15cp: Stinging Dagger
+ +Increases BRV potency
+ +Increases HP recovered based on HP damage dealt (+5%)
+ +Triggers ability a second time if HP is above 50% after initial use
+c.55: HP Thief Extend
+ +Adds 1 use
+ +Becomes a 2-hit Melee BRV+HP attack, triggered twice
+ +Grants BRV to self based on HP damage dealt after first HP attack (50%)
+ +Grants BRV to self based on TOTAL HP damage dealt after second HP attack (20%)
+ +Extends duration of existing [Fleetfoot] by 1 turn
+ +Extends duration of all self buffs by 1 turn when breaking/attacking a broken target
+
+Skill 2: Wildfire
+ Gain BRV based on ATK (100%)
+ 1-hit Fire Magic BRV attack.
+ Deals increased BRV damage when attacking an enemy's weakness (+50%).
+ Grants [Fleetfoot] to self for 2 turns.
+ Uses: 4
+35cp: Arcane Knife
+ +Increases BRV potency
+ +Improves BRV gain based on ATK (+40%)
+ Extends base duration of [Fleetfoot] by 2 turns
+ +Triggers ability a second time if HP is above 50% after initial use
+c.60: Wildfire Extend
+ +Adds 2 uses
+ +Becomes a 4-hit Fire Magic BRV+HP attack
+ +Improves BRV gain based on ATK (+60%)
+ +Allows for 120% Gained BRV overflow
+ +Allows for 150% Stolen BRV overflow
+ 
+[Fleetfoot]: Fire Enchant (40%)
+             ATK Up (30%), SPD Up (20%), Evasion Up (40%)
+             HP Damage Taken Up (30%)
+ 
+EX: Trickster's Dagger
+ +Equips EX ability Aeber's Reckoning
+Inflicts BREAK on all targets (unless already BROKEN) 
+4-hit AoE Melee BRV+HP attack.
+Deals 100% HP damage to all targets.
+BRV damage is also modified by SPD (BRV Damage * 0.3 SPD)
+ Recast: Slightly Slow
+  -LB1: Increases BRV damage dealt by 10%
+  -LB2: Increases recast speed of Aeber's Reckoning by 20%
+  -LB3: Inflicts Fire Resistance Down on all targets for 6 turns
+ EX+: Greatly increases BRV potency
+      Allows for 120% Stolen BRV Overflow
+      Triggers ability a second time if HP is above 50% after initial use
+      BRV Attack becomes BRV Attack+ when HP is below 50%
+      HP Attack becomes HP Attack+ when HP is below 50%
+      BRV Attack becomes BRV Attack++ when HP is above 50%
+      HP Attack becomes HP Attack++ when HP is above 50%
+  -LB1: Raises own ATK (50%) and Max BRV (60%)
+  -LB2: At Quest Start:
+        -Grants [Fleetfoot] to self for 4 turns
+        -Fills Recast Gauge to MAX
+  -LB3: Becomes a 6-hit AoE Melee BRV+HP attack
+        Allows for 150% Stolen BRV Overflow
+        Adds the following effect to [Fleetfoot]:
+         While [Fleetfoot] is active
+         -Nullifies Action Delay when inflicting BREAK, grants 1 extra turn
+         -Extra turn does not increase turn count
+         -Cannot trigger an additional turn during extra turn
+
+BRV Attack+: 2-hit Melee BRV attack.
+HP Attack+: 2-hit Melee BRV+HP attack.
+            Grants BRV to self based on HP damage dealt (20%).
+BRV Attack++: 4-hit Melee BRV attack.          
+HP Attack++: 2-hit Melee BRV+HP attack, triggered twice.
+             Grants BRV to self based on HP damage dealt after both HP attacks (20%).
+
+LD: Skybreaker
+ +Equips LD ability Shackle Foe
+6-hit Fire Melee BRV+HP attack.
+Deals 50% splash HP damage to non-targets.
+Allows for 180% Stolen BRV Overflow.
+Inflicts [Insult to Injury] on all targets for 4 turns.
+Inflicts Fire Resistance Down on all targets for 6 turns.
+ Uses: 2
+  -LB1: Raises own ATK (20%) and SPD (10%)
+        Increases BRV damage dealt by 10%
+  -LB2: Raises own ATK (20%) and SPD (10%)
+        Extends base duration of [Insult to Injury] by 4 turns
+  -LB3: Raises own ATK (20%) and SPD (10%)
+        Adds 1 use
+Board Passive: LD Extend
+ +Greatly increases BRV potency
+ +Triggers ability a second time if HP is above 50% after initial use
+
+[Insult to Injury]: BRV Damage Dealt Down (50%)
+                    Weakness BRV Damage Taken Up (60%)
+                    BREAK/BROKEN BRV Damage Taken Up (40%)
