@@ -1,0 +1,62 @@
+Estinien Wyrmblood
+Weapon type: Spear
+Crystal Color: Red
+Spheres: A A A
+
+Skill 1: Dragonfire Dive
+ 1-hit AoE Fire Ranged BRV+ST HP attack.
+ Grants [Blood of the Dragoon] to self for 3 turns.
+ Becomes Stardiver when [Life of the Dragoon] is active.
+Skill 1 Alt: Stardiver
+ 3-hit AoE Fire Ranged BRV+ST HP attack.
+ Deals 50% splash HP damage to non-targets.
+ Uses: 6
+15cp: Weapon
+ +
+c.55: Skill1 Extend
+ +
+
+[Blood of the Dragoon] ATK Up (30%), Max BRV Up (40%)
+                       Critical BRV Damage Dealt Up (30%)
+                       Turns BRV Attack to High Jump
+                       Turns HP Attack to Geirskogul
+[Life of the Dragoon] ATK Up (50%), Max BRV Up (60%)
+                       Critical BRV Damage Dealt Up (60%)
+                       Critical Hit Rate Up (100%)
+                       Turns BRV Attack to Spineshatter Dive
+                       Turns HP Attack to Nastrond
+
+Skill 2: True Thrust
+ 3-hit Melee BRV+HP attack.
+ Becomes Raiden Thrust when [Life of the Dragoon] is active.
+ Uses: X
+35cp: Weapon
+ +
+c.60: Skill2 Extend
+ +
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Gae Bolg
+ +Equips EX ability Wheeling Thrust
+ Recast: Normal
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Holy Lance
+ +Equips LD ability Coerthan Torment
+ Uses: X
+  -LB1:
+  -LB2:
+  -LB3:
+Board Passive: LD Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
