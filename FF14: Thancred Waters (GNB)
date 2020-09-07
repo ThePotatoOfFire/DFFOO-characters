@@ -1,1 +1,53 @@
 Thancred Waters (Gunbreaker)
+Weapon type: Sword
+Crystal Color: White
+Spheres: A A B
+
+Skill 1: Keen Edge
+ 2-hit Melee BRV+HP attack.
+ Grants [No Mercy] to self for 3 turns.
+ Uses: 8
+15cp: High Steel Gunblade
+ +Increases BRV potency
+ +Extends base duration of [No Mercy] by 3 turns
+c.55: Keen Edge Extend
+ +
+
+[No Mercy]: ATK Up (30%), Max BRV UP (30%)
+            BRV damage dealt up when an enemy is targeting self (30%)
+Powder Gauge: 
+
+Skill 2: Demon Slaughter
+ 1-hit AoE Melee BRV attack.
+ Inflicts [Target Lock] on all targets for 2 turns.
+ Uses: 5
+35cp: Neo-Ishgardian Manatrigger
+ +
+c.60: Demon Slaughter Extend
+ +
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Lion Heart
+ +Equips EX ability name
+ Recast: Normal
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Crownsblade
+ +Equips LD ability Gunmetal Soul
+ Uses: 2
+  -LB1:
+  -LB2:
+  -LB3:
+Board Passive: LD Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
