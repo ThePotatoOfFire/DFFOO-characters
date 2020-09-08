@@ -6,30 +6,32 @@ Spheres: A A B
 Skill 1: Keen Edge
  2-hit Melee BRV+HP attack.
  Grants [No Mercy] to self for 3 turns.
+ Triggers Brutal Shell after use when attacking an enemy targeting self.
  Uses: 8
 15cp: High Steel Gunblade
  +Increases BRV potency
  +Extends base duration of [No Mercy] by 3 turns
 c.55: Keen Edge Extend
- +
+ +Becomes a 4-hit Melee BRV+HP attack
 
 [No Mercy]: ATK Up (30%), Max BRV UP (30%)
-            BRV damage dealt up when an enemy is targeting self (30%)
+            BRV damage dealt up when an enemy is targeting self (50%)
 Powder Gauge: 
 
-Skill 2: Demon Slaughter
+Skill 2: Demon Slice
  1-hit AoE Melee BRV attack.
  Inflicts [Target Lock] on all targets for 2 turns.
+ Triggers Demon Slaughter after use when attacking an enemy targeting self.
  Uses: 5
 35cp: Neo-Ishgardian Manatrigger
  +
-c.60: Demon Slaughter Extend
+c.60: Demon Slice Extend
  +
  
 Put any buff/debuff descriptions or brv/hp+ variants here
  
 EX: Lion Heart
- +Equips EX ability name
+ +Equips EX ability Sonic Break
  Recast: Normal
   -LB1:
   -LB2:
