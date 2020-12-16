@@ -6,38 +6,72 @@ Spheres: A A B
 Skill 1: Keen Edge Combo
  7-Hit Melee BRV+HP attack.
  Increases Cartidge count by 1.
+ Grants [Camouflage] to self for 4 turns.
  Uses: 7
 15cp: High Steel Gunblade
  +Increases BRV potency
+ +Increases base duration of [Camouflage] by 2 turns
+Burst Strike:
+ +Increases BRV potency
 c.55: Keen Edge Combo Extend
- +
+ +Adds 1 use
+ +Becomes a 4-hit Melee BRV+HP attack triggered twice
+ +Grants BRV to self based on HP damage dealt after both HP attacks (20%)
+ +Increases BRV and HP damage reduction effects of [Camouflage] by 10%
+Burst Strike:
+ +Increases BRV gain based on Max BRV (+10%)
+ +Becomes a 3-hit Melee BRV+HP attack
+ +Extends duration of all self buffs by 1 turn
+
+[Camouflage]: Reduces BRV and HP damage taken by 20%.
 
 Powder Gauge: Holds 2 cartridges.
+When Cartridge count is 0 or greater:
+ -Prevents KO if HP is at least 50% of Max HP and leaves HP value at 1
 When Cartridge count>0:
  -Follows Demon Slaughter with Fated Circle
  -Changes HP Attack, HP Attack+ to Burst Strike
+ -If HP drops below 1%, reduces own HP to 1 and triggers Superbollide
 
-Burst Strike: Gain BRV based on Max BRV (40%).
+Burst Strike: Consumes 1 Cartridge.
+              Gain BRV based on Max BRV (40%).
               1-hit Melee BRV+HP attack.
               Recovers BRV to self based on HP Damage dealt (50%)
-Fated Circle: Gain BRV based on Max BRV (40%).
+Fated Circle: Consumes 1 Cartridge.
+              Gain BRV based on Max BRV (40%).
               1-hit AoE Melee BRV+HP attack.
               Deals split HP damage.
+Superbollide: Consumes 1 Cartridge.
+              Grants BRV to self based on HP Damage taken in last 2 turns (30%)
+              Grants [Superbollide] to self for 2 actions
+[Superbollide]: Nullifies all incoming damage to self.
 
 Skill 2: Demon Slaughter
  2-hit AoE Melee BRV+HP attack.
  Deals split HP damage.
- Inflicts [Target Lock] on all enemies for 3 turns.
- Uses: 6
+ Inflicts [Target Lock] on all enemies for 2 turns.
+ Uses: 4
 35cp: Shire Bayonet
- +
-c.60: Demon Slice Extend
- +
- 
-Put any buff/debuff descriptions or brv/hp+ variants here
- 
+ +Increases BRV potency
+ +Extends base duration of [Target Lock] by 2 turns
+c.60: Demon Slaughter Extend
+ +Adds 2 uses
+ +Becomes a 2-hit AoE Melee BRV+HP attack triggered twice
+ +Grants BRV to self based on HP damage dealt after both HP attacks (30%)
+Fated Circle: 
+ +Becomes a 3-hit AoE Melee BRV+HP attack
+ +Extends duration of existing [Target Lock] by 1 turn
+
 EX: Weathered Lionheart
  +Equips EX ability Wicked Talon Combo
+Grants [No Mercy] to self for 6 turns.
+2-hit Melee BRV+HP attack triggered 4 times.
+Grants BRV to self based on TOTAL HP damage dealt after each HP attack (20%).
+If Cartridge count is greater than 0, becomes Wicked Talon Combo+
+-Wicked Talon Combo+
+Grants [No Mercy] to self for 6 turns.
+2-hit Melee BRV+HP attack triggered 6 times.
+Grants BRV to self based on TOTAL HP damage dealt after each HP attack (20%).
  Recast: Slightly Slow
   -LB1:
   -LB2:
