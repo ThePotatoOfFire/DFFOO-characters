@@ -1,39 +1,44 @@
-Thancred Waters (Gunbreaker)
+Thancred Waters (GNB)
 Weapon type: Sword
 Crystal Color: White
 Spheres: A A B
 
 Skill 1: Keen Edge Combo
- 3-hit Melee BRV+HP attack.
- Grants [No Mercy] to self for 3 turns.
- Adds 1 cartridge to Powder Gauge if used on an enemy targeting self.
- Uses: 8
+ 7-Hit Melee BRV+HP attack.
+ Increases Cartidge count by 1.
+ Uses: 7
 15cp: High Steel Gunblade
  +Increases BRV potency
- +Extends base duration of [No Mercy] by 3 turns
-c.55: Keen Edge Extend
- +Becomes a 4-hit Melee BRV+HP attack
-
-[No Mercy]: ATK Up (30%), Max BRV UP (30%)
-            BRV damage dealt up when an enemy is targeting self (50%)
-
-Powder Gauge: Holds 2 Cartridges.
-When Cartridge count >= 1: Turns HP Attack to Burst Strike
-                           Turns BRV Attack to Fated Circle
-
-Skill 2: Bow Shock
- 2-hit AoE Melee BRV attack.
- Inflicts [Target Lock] and [Bow Shock] on all targets for 2 turns.
-35cp: Nabaath Manatrigger
+c.55: Keen Edge Combo Extend
  +
-c.60: Bow Shock Extend
+
+Powder Gauge: Holds 2 cartridges.
+When Cartridge count>0:
+ -Follows Demon Slaughter with Fated Circle
+ -Changes HP Attack, HP Attack+ to Burst Strike
+
+Burst Strike: Gain BRV based on Max BRV (40%).
+              1-hit Melee BRV+HP attack.
+              Recovers BRV to self based on HP Damage dealt (50%)
+Fated Circle: Gain BRV based on Max BRV (40%).
+              1-hit AoE Melee BRV+HP attack.
+              Deals split HP damage.
+
+Skill 2: Demon Slaughter
+ 2-hit AoE Melee BRV+HP attack.
+ Deals split HP damage.
+ Inflicts [Target Lock] on all enemies for 3 turns.
+ Uses: 6
+35cp: Shire Bayonet
+ +
+c.60: Demon Slice Extend
  +
  
-[Bow Shock]: 
+Put any buff/debuff descriptions or brv/hp+ variants here
  
-EX: Lion Heart
- +Equips EX ability Gnashing Fang
- Recast: Normal
+EX: Weathered Lionheart
+ +Equips EX ability Wicked Talon Combo
+ Recast: Slightly Slow
   -LB1:
   -LB2:
   -LB3:
@@ -42,15 +47,19 @@ EX: Lion Heart
   -LB2:
   -LB3:
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[No Mercy]: ATK Up (50%), Max BRV Up (50%)
+            BRV Damage Taken Down (30%)
 
 LD: Crownsblade
  +Equips LD ability Gunmetal Soul
+Grants party BRV based on own Max BRV (70%)
+Grants gold-framed [Gunmetal Soul] to self for 2 turns.
  Uses: 2
   -LB1:
   -LB2:
   -LB3:
-Board Passive: LD Extend
+Board Passive: Gunmetal Soul Extend
  +
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Gunmetal Soul]: Reduces BRV/HP damage received by party by 100%.
+                 Duration cannot be extended.
