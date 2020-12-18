@@ -1,0 +1,81 @@
+Ardbert
+Weapon type: Greatsword
+Crystal Color: Black
+Spheres: A B D
+
+Skill 1: Overpower
+ 3-hit AoE Melee BRV+ST HP attack
+ Deals 20% HP damage to non-targets
+ Inflicts [Target Lock] on all enemies for 2 turns
+ Uses: 8
+15cp: Farsha
+ +Increases splash HP damage dealt to non-targets (+30%)
+ +Extends base duration of [Target Lock] by 2 turns
+c.55: Overpower Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+Skill 2: Holmgang
+ Multiplies own BRV by 1.3.
+ Grants [Holmgang] to self for 3 turns.
+ Inflicts [Brutal Chains] on target for 1 turn.
+ Uses: 4
+35cp: Bluespirit Axe
+ +Gain BRV based on ATK (100%) before BRV multiply
+ +Extends base duration of [Holmgang] by 3 turns
+ +Extends base duration of [Brutal Chains] by 1 turn
+ +Grants Max BRV Up (40%) to self for 6 turns
+c.60: Holmgang Extend
+ +Adds 2 uses
+ +Triggers a 3-hit Melee BRV+HP attack after use
+ +Allows for 150% Gained BRV Overflow
+ +Allows for 150% Stolen BRV Overflow
+ +[Holmgang]'s Last Stand effect triggers at 20% HP
+ 
+[Holmgang]: Last Stand (50% HP)
+            BRV Damage Reduction (20%)
+            ATK Up (20%)
+[Brutal Chains]: Paralysis
+                 HP Poison (30% ATK)
+
+EX: Bravura Atma
+ +Equips EX ability Fell Cleave
+Grants [Berserk] to self for 3 turns.
+6-hit Melee BRV+HP attack.
+Guaranteed Critical hit.
+Allows for 150% Stolen BRV Overflow.
+ Recast: Normal
+  -LB1: 
+  -LB2: 
+  -LB3: 
+ EX+: 
+  -LB1: 
+  -LB2: 
+  -LB3: 
+
+[Berserk]: Skills trigger twice (Does not affect EX Recast charge)
+           Critical Hit Rate Up (100%)
+           Critical BRV Damage Up (100%)
+           BRV Regen (30% Max BRV)
+
+LD: Weathered Chango
+ +Equips LD ability Decimate
+8-hit AoE Melee BRV+HP attack.
+Deals 100% HP damage to all targets.
+Allows for 150% Stolen BRV Overflow.
+Grants [Thrill of Battle] to self for 6 turns.
+ Uses: 3
+  -LB1: Increases ATK (20%) and Max BRV (30%)
+        Increases BRV damage dealt (10%)
+  -LB2: Increases ATK (20%) and Max BRV (30%)
+        Increases base duration of [Thrill of Battle] by 6 turns
+  -LB3: Increases ATK (20%) and Max BRV (30%)
+        Adds 1 use
+Board Passive: Decimate Extend
+ +
+
+[Thrill of Battle]: Max HP Up (50%)
+                    Triggers Equilibrium when HP falls below 20%
+Equilibrium: Restores HP to self (150% ATK)
+             Overheal converted to BRV (100%)
