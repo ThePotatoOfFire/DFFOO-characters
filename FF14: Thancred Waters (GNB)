@@ -6,7 +6,7 @@ Spheres: A A B
 Skill 1: Keen Edge Combo
  7-Hit Melee BRV+HP attack.
  Increases Cartidge count by 1.
- Grants [Camouflage] to self for 4 turns.
+ Grants [Camouflage] to self for 2 turns.
  Uses: 7
 15cp: High Steel Gunblade
  +Increases BRV potency
@@ -31,7 +31,7 @@ When Cartridge count is 0 or greater:
 When Cartridge count>0:
  -Follows Demon Slaughter with Fated Circle
  -Changes HP Attack, HP Attack+ to Burst Strike
- -If HP drops below 1%, reduces own HP to 1 and triggers Superbollide
+ -If HP drops below 5%, reduces own HP to 1 and triggers Superbollide
 
 Burst Strike: Consumes 1 Cartridge.
               Gain BRV based on Max BRV (40%).
@@ -43,7 +43,7 @@ Fated Circle: Consumes 1 Cartridge.
               Deals split HP damage.
 Superbollide: Consumes 1 Cartridge.
               Grants BRV to self based on HP Damage taken in last 2 turns (30%)
-              Grants [Superbollide] to self for 2 actions
+              Grants [Superbollide] to self for 2 turns
 [Superbollide]: Nullifies all incoming damage to self.
 
 Skill 2: Demon Slaughter
@@ -62,6 +62,11 @@ Fated Circle:
  +Becomes a 3-hit AoE Melee BRV+HP attack
  +Extends duration of existing [Target Lock] by 1 turn
 
+Skill 3: Cartridge Boost Up
+ Increases Cartidge count by 2.
+ Increases party's Max BRV by 10% for 4 turns.
+ Uses: 3
+
 EX: Weathered Lionheart
  +Equips EX ability Wicked Talon Combo
 Grants [No Mercy] to self for 6 turns.
@@ -70,30 +75,69 @@ Grants BRV to self based on TOTAL HP damage dealt after each HP attack (20%).
 If Cartridge count is greater than 0, becomes Wicked Talon Combo+
 -Wicked Talon Combo+
 Grants [No Mercy] to self for 6 turns.
-2-hit Melee BRV+HP attack triggered 6 times.
+2-hit Melee BRV+HP attack triggered 7 times.
 Grants BRV to self based on TOTAL HP damage dealt after each HP attack (20%).
- Recast: Slightly Slow
-  -LB1:
-  -LB2:
-  -LB3:
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
+Consumes 1 Cartridge.
+ Recast: Slow
+  -LB1: BRV damage increase (10%)
+  -LB2: Prevents BREAK if BRV is at least 50% of Max BRV and leaves BRV value at 1
+  -LB3: Recast Up (10%)
+ EX+: Increases BRV potency
+      When Cartridge count is 0:
+      -Turns BRV Attack to BRV Attack+
+      -Turns HP Attack to HP Attack+
+      When Cartridge count is greater than 0:
+      -Turns BRV Attack to BRV Attack++
+  -LB1: Increases own ATK (30%) and Max BRV (40%)
+  -LB2: At QUEST Start:
+        -Grants [No Mercy] to self for 6 turns
+        -Cartridge Count starts at 1
+        -First turn has no Action Delay and does not increase Turn counter
+        -Will not consume skill uses on first turn
+  -LB3: When using Wicked Talon Combo/+:
+        -Increases BRV potency tremendously
+        -Allows for 150% Stolen BRV Overflow
+        -Allows for 120% Gained BRV Overflow
+        When using Wicked Talon Combo+:
+        -Increases BRV gained based on TOTAL HP damage dealt (+20%)
+        -Removes target's BREAK status before attacking
 
 [No Mercy]: ATK Up (50%), Max BRV Up (50%)
+            Stolen BRV Overflow Up (30%)
             BRV Damage Taken Down (30%)
+BRV Attack+: 2-hit Melee BRV attack
+             Increases Cartidge count by 1
+BRV Attack++: 3-hit Melee BRV attack
+              Increases Cartidge count by 1
+HP Attack+: 2-hit Melee BRV+HP attack
+            Allows for 120% Stolen BRV Overflow
 
 LD: Crownsblade
  +Equips LD ability Gunmetal Soul
-Grants party BRV based on own Max BRV (70%)
-Grants gold-framed [Gunmetal Soul] to self for 2 turns.
+Grants party BRV based on own Max BRV (70%).
+Allows for 120% Gained BRV Overflow.
+Grants gold-framed [Gunmetal Soul] to self for 1 turn.
+Sets own next turn to AFTER selected enemy's next turn.
  Uses: 2
-  -LB1:
-  -LB2:
-  -LB3:
+  -LB1: Increases ATK (30%) and Max HP (20%)
+        Increases BRV gain based on Max BRV (+10%)
+  -LB2: Increases ATK (30%) and Max HP (20%)
+        Extends base duration of [Gunmetal Soul] by 1 turn
+  -LB3: Increases ATK (30%) and Max HP (20%)
+        Adds 1 use
 Board Passive: Gunmetal Soul Extend
- +
+ +Triggers Bow Shock after use
+ +Fills EX Recast gauge by 50%
+When using Superbollide:
+ +[Superbollide] becomes gold-framed
 
-[Gunmetal Soul]: Reduces BRV/HP damage received by party by 100%.
+[Gunmetal Soul]: Reduces BRV/HP damage received by party by 90%.
+                 Debuff Evasion Rate Up (100%)
+                 Counters any enemy action on the party with Bow Shock.
                  Duration cannot be extended.
+Bow Shock: 3-hit AoE Melee BRV+HP attack
+           Deals 100% HP damage to all targets
+           Increases Cartidge count by 1.
+           Inflicts [Bow Shock] on all targets for 4 turns
+[Bow Shock]: ATK Down (20%)
+             Poison (80% iBRV)
