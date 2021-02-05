@@ -1,0 +1,59 @@
+2B
+Weapon type: Unique
+Crystal Color: White
+Spheres: A A A
+
+Skill 1: Virtuous Treaty
+ 
+ Uses: X
+15cp: Virtuous Contract
+ +
+c.55: Skill1 Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+Skill 2: Virtuous Grief
+ Description
+ Uses: X
+35cp: Machine Sword
+ +
+c.60: Skill2 Extend
+ +
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Beastbane
+ +Equips EX ability Manual Override
+ Recast: Normal
+  -LB1:
+  -LB2:
+  -LB3:
+ EX+:
+  -LB1:
+  -LB2:
+  -LB3:
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+LD: Type-40 Sword
+ +Equips LD ability Self Destruct
+ Uses: X
+  -LB1:
+  -LB2:
+  -LB3:
+Board Passive: LD Extend
+ +
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+BT: YoRHa-Issue Blade
+ +Equips Burst ability Purpose
+description
+Maximum BRV damage limit +x% (up to x)
+Maximum HP damage limit +x% (up to x)
+
+BURST effect (x turns, party-wide):
+-
+
+BT Theme: x
