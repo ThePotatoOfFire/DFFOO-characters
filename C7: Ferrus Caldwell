@@ -80,10 +80,13 @@ Uses: 4
 Before final HP attack, recovers BRV to self based on 50% of total HP damage dealt.
 BRV Damage Cap Up: 200%
 HP Damage Cap Up: 400%
-BT Effect (8 turns):
+BT Effect (6 turns):
  Party:
  -HP Damage Cap Up (20%)
  -BRV Damage Dealt Up (100%)
  -HP Damage Dealt Up (20%)
  -Inflicted Debuff Duration +3
  -EX Recast Speed Up (20%)
+ Self:
+ -After own turn, grants an additional turn that does not increase turn count.
+ -Own buff durations will not decrease (excluding unextendable buffs).
