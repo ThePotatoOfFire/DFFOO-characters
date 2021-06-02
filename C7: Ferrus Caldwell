@@ -1,133 +1,89 @@
 Ferrus Caldwell (Original Character)
 Weapon type: Sword
 Crystal Color: Yellow
-Spheres: A E E
+Spheres: A A E
 
-Skill 1: Blast Punch
- Gain BRV based on ATK (50%) before a 1-hit Melee BRV+HP attack.
- Becomes Blast Rush when [Ascension] is active.
-Blast Rush:
- 3-hit Melee BRV+HP attack.
- Uses: 6
-15cp: Lumia
- +Greatly increases BRV potency of Blast Punch and Blast Rush
- +Increases BRV gain based of ATK when using Blast Punch (+50%)
- +Grants ATK Up (40%) to self for 6 turns after using Blast Punch or Blast Rush
-c.55: Blast Punch Extend
- +Greatly increases BRV gain based on ATK (+100%)
- +Becomes a 3-hit Melee BRV+HP attack
- +Greatly increases BRV potency
- +Allows for 120% Gained BRV overflow
- +Allows for 150% Stolen BRV overflow
-Blast Rush:
- +Raises BRV based on own ATK (150%)
- +Becomes a 1-hit Melee BRV+HP attack, triggered 4 times
- +Increases own BRV by 20% of total HP damage dealt after each HP attack (excl. last)
- +Allows for 120% Gained BRV overflow
- +Allows for 150% Stolen BRV overflow
+ -Skill 1: Quickdraw
+2-hit Melee BRV+HP attack + 4-hit Melee BRV+HP attack.
+Does not consume own BRV after first HP attack.
+High Turn Rate.
+Uses: 12
 
-Skill 2: Riptide
- Raises own BRV based on ATK (30%), then multiplies BRV by x1.3.
- Grants [Ascension] to self for 4 turns.
- Becomes Unbound Blade when [Ascension] is active.
- Does not consume skill usage.
-Unbound Blade:
- 2-hit AoE Melee BRV+ST HP attack.
- Deals 20% splash HP damage to non-targets.
- Delays all targets by 2 turns.
- Inflicts [Banish] on all enemies for 2 turns.
- Uses: 3
-35cp: Flamentine
- +Greatly increases BRV gain based on ATK (+50%) when using Riptide
- +Greatly increases BRV potency of Unbound Blade
- +Increases splash HP damage dealt with Unbound Blade (+30%)
- +Extends duration of [Banish] by 2 turns
-c.60: Riptide Extend
- +Adds 1 use
- +Increases BRV gain based on ATK (+70%) when using Riptide
- +Triggers a 3-hit Melee BRV+HP attack after using Riptide
- +Turns BRV Attack to BRV Attack+ while [Ascension] is active
- +Turns HP Attack to HP Attack+ while [Ascension] is active
-Unbound Blade:
- +Tremendously increases BRV potency
- +Becomes a 4-hit AoE Melee BRV+ST HP attack
- +Allows for 180% Stolen BRV overflow
- 
-[Ascension]: ATK Up (40%), Max BRV Up (80%)
-             HP Regen (20%)
-             Thunder Enchant (20%)
-[Banish]: INT BRV Down (30%)
-          Prevents target from gaining buffs
-BRV Attack+: 4-hit Thunder Melee BRV attack
-HP Attack+: 3-hit AoE Thunder Melee BRV+ST HP attack
-            Allows for 120% Stolen BRV overflow
- 
-EX: Champion
- +Equips EX ability Fatal Volley
-3-hit AoE Ranged Thunder BRV+HP attack.
-Deals 100% HP damage to all targets.
-Inflicts INT BRV Down (50%) and Sap on all targets for 4 turns.
-Inflicts Confusion on all targets for 1 turn.
-Grants [Daring Duelist] to self for 3 turns.
- Recast: Slightly Slow
-  -LB1: Increases BRV damage dealt by 10%
-  -LB2: Increases recast speed of Fatal Volley by 20%
-  -LB3: Extends duration of [Daring Duelist] by 3 turns
- EX+: Combines INT BRV Down and Sap into [Hollow Curse], and extends its duration by 2 turns
-      Grants [Ascension] to self for 4 turns after use
-  -LB1: Raises own ATK (40%) and Max BRV (60%)
-  -LB2: At Quest Start:
-        Grants [Daring Duelist] and ATK Up (50%) to self for 6 turns
-        Fills Recast Gauge to 70%
-  -LB3: Becomes a 6-hit AoE Thunder Ranged BRV+HP attack
-        Allows for 150% Stolen BRV overflow
-        If [Ascension] is active, resets all targets' BREAK status before BRV hits
-        Turns BRV Attack, BRV Attack+ to Shock when [Ascension] is active
-        Turns HP Attack, HP Attack+ to Dynamo when [Ascension] is active
+ -Skill 2: Reload
+Sets own BRV to 50% Max BRV.
+Multiplies own BRV by 1.3.
+Grants [Lock and Load] to self for 3 turns.
+Has no action delay,and does not increase turn count (excluding Friend, Summon, and Burst).
+Does not consume skill usage.
+Becomes Chamber Round while [Lock and Load] is active.
+ -Skill 2 alt: Chamber Round
+3-hit AoE Melee BRV attack + 2-hit Single Target Melee BRV+HP attack.
+Deals 20% splash HP damage.
+Inflicts [Buckshot] on all enemies for 2 turns.
+Uses: 6
 
-[Daring Duelist]: INT BRV Up (150%), Max BRV Up (50%)
-                  Raises own ATK based on number of enemies present (30%/60%/90%)
-                  BRV Regen, effect up based on number of enemies present (50%/100%/150% iBRV)
-[Hollow Curse]: INT BRV Down (50%), Max BRV Down (50%), Sap
-                Thunder Resistance Down
-Shock: 3-hit AoE Thunder Melee BRV attack.
-       Dispels 1 buff on all targets when Breaking/attacking a Broken target
-Dynamo: 2-hit Thunder Melee BRV+HP attack, triggered twice.
+[Lock and Load]: When dealing critical BRV damage with any attack, follows up with [Trigger]
+                 Max BRV Up (30%)
+[Buckshot] DEF Down (50%)
+           BRV Damage Taken Up (20%)
+           Critical BRV Damage Taken Up (30%)
 
-LD: Repulsor
- +Equips LD ability Danse Macabre
-Sets own HP to 1.
-1-hit Melee BRV+HP attack, triggered 8 times.
-BRV/HP attacks are distributed based on number of enemies.
-Converts 50% of total HP damage dealt to BRV before last HP attack.
-Allows for 150% Stolen BRV overflow.
-Allows for 120% Gained BRV overflow.
-Grants [Shadow Image] to self for 2 turns.
- Uses: 2
-  -LB1: Raises own ATK (20%)
-        Increases BRV damage dealt by 10%
-  -LB2: Raises own ATK (20%)
-        Extends duration of [Shadow Image] by 2 turns
-  -LB3: Raises own ATK (20%)
-        Adds 1 use
-Board Passive: LD Extend
- +Becomes a 2-hit Melee BRV+HP attack, triggered 8 times
- +Deals 50% total splash HP damage to non-targets on last HP attack
- +Allows for 180% Stolen BRV overflow
- +Allows for 150% Gained BRV overflow
- +Greatly increases BRV potency
- 
-[Shadow Image]: Raises BRV damage dealt based on how low current HP is compared to Max HP (minimum 20%, maximum 110%)
-                Evasion Rate Up (90%)
-                Extends base duration of all debuffs inflicted by self by 2 turns
+Trigger: Gain BRV based on own ATK (150%).
+         3-hit Melee BRV+HP attack triggered twice.
+         Restores BRV to self based on 30% of HP damage dealt after first HP attack.
 
-BT: Caliburn
- +Equips Burst ability Pride of Gavalon
-12-HIT Thunder Melee BRV+HP attack
+ -EX: Unbound Blade
+4-hit AoE Melee+Single Target HP attack repeated 5 times.
+Deals 20% total splash HP damage after each HP attack.
+Grants [Tempered Fury] to self for 6 turns.
+Inflicts [Banish] on all enemies for 4 turns.
+Extends duration of existing [Lock and Load] by 1 turn.
+Recast: Slightly Slow
 
-Maximum BRV damage limit +150%
-Maximum HP damage limit +200%
+[Tempered Fury]: ATK Up (60%)
+                 Critical BRV Damage Dealt Up (50%)
+                 At end of own action, restores BRV to self based on total HP damage dealt (30%)
+[Banish]: BRV Gain Down (100%)
+          Own BRV is reduced by 50% of BRV damage dealt (cannot inflict BREAK)
 
-BURST effect (3 turns, all enemies):
--Disables all BRV/HP damage reduction and BRV gain reduction auras
--Maximum BRV Damage limit -40% (to 5999)
+ -LD: Fatal Volley
+6-hit AoE Melee BRV+HP attack repeated twice.
+Deals 100% HP damage to all enemies.
+Inflicts [INT BRV Down] (40%), [Max BRV Down] (50%), and [Hollow Curse] on all targets for 6 turns.
+Grants 1 stack of special effect [Daring Duelist] to self for 12 turns.
+Subsequent uses will not increase stack count.
+Uses: 4
+
+[Hollow Curse]: When taking a turn, the following effects are applied to Ferrus:
+                -Grants additional turn after target's turn
+                -Does not increase turn count
+                -Returns to original turn order after additional turn
+                -Abilities will not consume skill usage (excl. certain abilities)
+[Daring Duelist]: Gains a stack every time Ferrus attacks the same target (Max 3 stacks).
+                  Effect only occurs once per turn.
+                  Reverts to 1 stack when attacking a different target (When using AoE attacks, only reverts if selected target is changed).
+                 -1 Stack:
+                  BRV Damage Dealt Up (10%)
+                  HP Damage Dealt Up (10%)
+                  BRV Stolen Up (10%)
+                 -2 Stacks:
+                  BRV Damage Dealt Up (25%)
+                  HP Damage Dealt Up (15%)
+                  BRV Stolen Up (20%)
+                 -3 Stacks:
+                  BRV Damage Dealt Up (40%)
+                  HP Damage Dealt Up (20%)
+                  BRV Stolen Up (30%)
+
+ -Burst: Dynamo
+2-hit Melee BRV+HP attack repeated 14 times.
+Before final HP attack, recovers BRV to self based on 50% of total HP damage dealt.
+BRV Damage Cap Up: 200%
+HP Damage Cap Up: 400%
+BT Effect (8 turns):
+ Party:
+ -HP Damage Cap Up (20%)
+ -BRV Damage Dealt Up (100%)
+ -HP Damage Dealt Up (20%)
+ -Inflicted Debuff Duration +3
+ -EX Recast Speed Up (20%)
