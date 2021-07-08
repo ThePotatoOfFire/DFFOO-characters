@@ -33,7 +33,7 @@ Trigger: Gain BRV based on own ATK (150%).
          Restores BRV to self based on 30% of HP damage dealt after first HP attack.
 
  -EX: Unbound Blade
-4-hit AoE Melee+Single Target HP attack repeated 5 times.
+4-hit AoE Melee BRV+Single Target HP attack repeated 5 times.
 Deals 20% total splash HP damage after each HP attack.
 Grants [Tempered Fury] to self for 6 turns.
 Inflicts [Banish] on all enemies for 4 turns.
@@ -44,7 +44,7 @@ Recast: Slightly Slow
                  Critical BRV Damage Dealt Up (50%)
                  At end of own action, restores BRV to self based on total HP damage dealt (30%)
 [Banish]: BRV Gain Down (100%)
-          Own BRV is reduced by 50% of BRV damage dealt (cannot inflict BREAK)
+          Own BRV is reduced by 50% of BRV damage dealt when attacking (cannot inflict BREAK)
 
  -LD: Fatal Volley
 6-hit AoE Melee BRV+HP attack repeated twice.
@@ -71,7 +71,7 @@ Uses: 4
                   HP Damage Dealt Up (15%)
                   BRV Stolen Up (20%)
                  -3 Stacks:
-                  BRV Damage Dealt Up (40%)
+                  BRV Damage Dealt Up (50%)
                   HP Damage Dealt Up (20%)
                   BRV Stolen Up (30%)
 
@@ -80,13 +80,12 @@ Uses: 4
 Before final HP attack, recovers BRV to self based on 50% of total HP damage dealt.
 BRV Damage Cap Up: 200%
 HP Damage Cap Up: 400%
-BT Effect (6 turns):
+BT Effect (10 turns):
  Party:
  -HP Damage Cap Up (20%)
  -BRV Damage Dealt Up (100%)
  -HP Damage Dealt Up (20%)
- -Inflicted Debuff Duration +3
+ -Inflicted Debuff Duration +2
  -EX Recast Speed Up (20%)
  Self:
- -After own turn, grants an additional turn that does not increase turn count.
- -Own buff durations will not decrease (excluding unextendable buffs).
+ -Allows [Trigger] to be executed after ally attacks as well as own attacks
