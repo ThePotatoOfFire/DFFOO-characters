@@ -3,141 +3,68 @@ Weapon type: Sword
 Crystal Color: White
 Spheres: A A B
 
-Skill 1: Keen Edge Combo
- 7-Hit Melee BRV+HP attack.
- Increases Cartidge count by 1.
- Grants [Camouflage] to self for 2 turns.
- Uses: 7
-15cp: High Steel Gunblade
- +Increases BRV potency
- +Increases base duration of [Camouflage] by 2 turns
-Burst Strike:
- +Increases BRV potency
-c.55: Keen Edge Combo Extend
- +Adds 1 use
- +Becomes a 4-hit Melee BRV+HP attack triggered twice
- +Grants BRV to self based on HP damage dealt after both HP attacks (20%)
- +Increases BRV and HP damage reduction effects of [Camouflage] by 10%
-Burst Strike:
- +Increases BRV gain based on Max BRV (+10%)
- +Becomes a 3-hit Melee BRV+HP attack
- +Extends duration of all self buffs by 1 turn
+Skill 1: Keen Edge
+4-hit Melee BRV+HP attack repeated 3 times.
+Restores BRV to self based on 20% of total HP damage dealt after each HP attack.
+Restores HP to self based on 10% of total HP damage dealt (max: 25% max HP)
+Grants [Brutal Shell] to self for 6 turns, its effect scaling based on HP healed.
+Adds 1 cartridge to the Powder Gauge.
+Uses: 8
 
-[Camouflage]: Reduces BRV and HP damage taken by 20%.
+[Brutal Shell]: Shields from incoming BRV damage. 
+                Dispelled when shield value is reduced to 0.
+Powder Gauge: Special overhead buff. Holds 2 cartridges.
+              Certain actions will change when cartridge count is 1 or higher.
 
-Powder Gauge: Holds 2 cartridges.
-When Cartridge count is 0 or greater:
- -Prevents KO if HP is at least 50% of Max HP and leaves HP value at 1
-When Cartridge count>0:
- -Follows Demon Slaughter with Fated Circle
- -Changes HP Attack, HP Attack+ to Burst Strike
- -If HP drops below 5%, reduces own HP to 1 and triggers Superbollide
-
-Burst Strike: Consumes 1 Cartridge.
-              Gain BRV based on Max BRV (40%).
-              1-hit Melee BRV+HP attack.
-              Recovers BRV to self based on HP Damage dealt (50%)
-Fated Circle: Consumes 1 Cartridge.
-              Gain BRV based on Max BRV (40%).
-              1-hit AoE Melee BRV+HP attack.
-              Deals split HP damage.
-Superbollide: Consumes 1 Cartridge.
-              Grants BRV to self based on HP Damage taken in last 2 turns (30%)
-              Grants [Superbollide] to self for 2 turns
-[Superbollide]: Nullifies all incoming damage to self.
+Burst Strike: Restores BRV to self based on ATK (250%)
+              4-hit Melee BRV+HP attack triggered twice.
+              Neither HP attack consumes own BRV.
+              Replaces BRV Attack when cartridge count is at least 1.
+              Reduces cartridge count by 1.
+Fated Circle: Restores BRV to self based on ATK (250%)
+              3-hit AoE Melee BRV+HP attack.
+              Deals full HP damage to all enemies.
+              Replaces HP Attack when cartridge count is at least 1.
+              Reduces cartridge count by 1.
 
 Skill 2: Demon Slaughter
- 2-hit AoE Melee BRV+HP attack.
- Deals split HP damage.
- Inflicts [Target Lock] on all enemies for 2 turns.
- Uses: 4
-35cp: Shire Bayonet
- +Increases BRV potency
- +Extends base duration of [Target Lock] by 2 turns
-c.60: Demon Slaughter Extend
- +Adds 2 uses
- +Becomes a 2-hit AoE Melee BRV+HP attack triggered twice
- +Grants BRV to self based on HP damage dealt after both HP attacks (30%)
-Fated Circle: 
- +Becomes a 3-hit AoE Melee BRV+HP attack
- +Extends duration of existing [Target Lock] by 1 turn
+5-hit AoE Melee BRV+HP attack repeated twice.
+Restores BRV to self based on 20% of total HP damage dealt after each HP attack.
+Inflicts [Target Lock] on all enemies for 4 turns.
+Increases cartridge count by 1.
+Uses: 6
 
-Skill 3: Cartridge Boost Up
- Increases Cartidge count by 2.
- Increases party's Max BRV by 10% for 4 turns.
- Uses: 3
-
-EX: Weathered Lionheart
- +Equips EX ability Wicked Talon Combo
+EX: Gnashing Fang
 Grants [No Mercy] to self for 6 turns.
-2-hit Melee BRV+HP attack triggered 4 times.
-Grants BRV to self based on TOTAL HP damage dealt after each HP attack (20%).
-If Cartridge count is greater than 0, becomes Wicked Talon Combo+
--Wicked Talon Combo+
-Grants [No Mercy] to self for 6 turns.
-2-hit Melee BRV+HP attack triggered 7 times.
-Grants BRV to self based on TOTAL HP damage dealt after each HP attack (20%).
-Consumes 1 Cartridge.
- Recast: Slow
-  -LB1: BRV damage increase (10%)
-  -LB2: Prevents BREAK if BRV is at least 50% of Max BRV and leaves BRV value at 1
-  -LB3: Recast Up (10%)
- EX+: Increases BRV potency
-      When Cartridge count is 0:
-      -Turns BRV Attack to BRV Attack+
-      -Turns HP Attack to HP Attack+
-      When Cartridge count is greater than 0:
-      -Turns BRV Attack to BRV Attack++
-  -LB1: Increases own ATK (30%) and Max BRV (40%)
-  -LB2: At QUEST Start:
-        -Grants [No Mercy] to self for 6 turns
-        -Cartridge Count starts at 1
-        -First turn has no Action Delay and does not increase Turn counter
-        -Will not consume skill uses on first turn
-  -LB3: When using Wicked Talon Combo/+:
-        -Increases BRV potency tremendously
-        -Allows for 150% Stolen BRV Overflow
-        -Allows for 120% Gained BRV Overflow
-        When using Wicked Talon Combo+:
-        -Increases BRV gained based on TOTAL HP damage dealt (+20%)
-        -Removes target's BREAK status before attacking
+Becomes Gnashing Fang+ when cartridge count is at least 1.
+ -Gnashing Fang:
+4-hit Melee BRV+HP attack, triggered 4 times.
+Restores BRV to self based on 20% of total HP damage dealt after each HP attack (excl. last)
+ -Gnashing Fang+:
+4-hit Melee BRV+HP attack, triggered 8 times.
+Restores BRV to self based on 20% of total HP damage dealt after each HP attack (excl. last)
+Reduces cartridge count by 1.
 
-[No Mercy]: ATK Up (50%), Max BRV Up (50%)
-            Stolen BRV Overflow Up (30%)
-            BRV Damage Taken Down (30%)
-BRV Attack+: 2-hit Melee BRV attack
-             Increases Cartidge count by 1
-BRV Attack++: 3-hit Melee BRV attack
-              Increases Cartidge count by 1
-HP Attack+: 2-hit Melee BRV+HP attack
-            Allows for 120% Stolen BRV Overflow
+[No Mercy]: BRV Damage Dealt Up (20%)
+            HP Damage Dealt Up (20%)
+            ATK Up (80%)
 
-LD: Crownsblade
- +Equips LD ability Gunmetal Soul
-Grants party BRV based on own Max BRV (70%).
-Allows for 120% Gained BRV Overflow.
-Grants gold-framed [Gunmetal Soul] to self for 1 turn.
-Sets own next turn to AFTER selected enemy's next turn.
- Uses: 2
-  -LB1: Increases ATK (30%) and Max HP (20%)
-        Increases BRV gain based on Max BRV (+10%)
-  -LB2: Increases ATK (30%) and Max HP (20%)
-        Extends base duration of [Gunmetal Soul] by 1 turn
-  -LB3: Increases ATK (30%) and Max HP (20%)
-        Adds 1 use
-Board Passive: Gunmetal Soul Extend
- +Triggers Bow Shock after use
- +Fills EX Recast gauge by 50%
-When using Superbollide:
- +[Superbollide] becomes gold-framed
+AA: Cartridge Up
+Increases cartridge count by 2.
+Increases own ATK by 30%.
+BRV Damage Cap Up (10%)
+Duration: 7 Turns
+Uses: 2
 
-[Gunmetal Soul]: Reduces BRV/HP damage received by party by 90%.
-                 Debuff Evasion Rate Up (100%)
-                 Counters any enemy action on the party with Bow Shock.
-                 Duration cannot be extended.
-Bow Shock: 3-hit AoE Melee BRV+HP attack
-           Deals 100% HP damage to all targets
-           Increases Cartidge count by 1.
-           Inflicts [Bow Shock] on all targets for 4 turns
-[Bow Shock]: ATK Down (20%)
-             Poison (80% iBRV)
+LD: Bow Shock
+6-hit AoE Melee BRV+HP attack, triggered twice.
+Deals full HP damage to all enemies.
+Inflicts [Bow Shock] on all enemies for 8 turns.
+Grants [Nebula] to self for 12 turns.
+Uses: 4
+
+[Bow Shock]: HP Poison (150% of Thancred's ATK)
+             BRV Poison (120% INT BRV)
+             HP Damage Taken Up (10%)
+[Nebula]: BRV Damage Taken Down (30%)
+          HP Damage Taken Down (30%)
