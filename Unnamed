@@ -3,112 +3,101 @@ Weapon type: Dagger
 Crystal Color: Yellow
 Spheres: A A D
 
-Skill 1: Hypercharge
- Grants special effect [Unleashed] to self.
- Raises BRV by 50% of Max BRV.
- Uses: 1
-15cp: Swashbuckler
- +Increases the effects of [Unleashed] (+10% ATK and mBRV up)
- +Increases BRV potency of Shadow Slash and Brilliance
-c.55: Hypercharge Extend
- +Increases BRV gain based on Max BRV (+30%)
- +Triggers a 2-hit Melee BRV+HP attack after use
- +Allows for 120% Gained BRV overflow
- +Allows for 150% Stolen BRV overflow
+Skill 1: Riptide
+Sets own BRV to max.
+Fully charges own EX Recast gauge.
+Grants special effect [Riptide] to self.
+Uses: 1
+
+[Riptide]:
+-ATK +100%
+-Max BRV +60%
+-INT BRV +50%
+-BRV Damage Dealt +30%
+-Triggers Counter-Charge upon being Broken.
+
+Counter-Charge:
+-Fully restores own HP, and sets BRV to max.
+-Fully charges party's EX Recast gauges.
+-Delays all enemies by 2 turns.
+-Dispels [Riptide].
+-Restores 1 use to Riptide.
+
+Skill 2: Inspire
+Recovers BRV to party based on own Max BRV (70%)
+Grants [Inspiration] to allies (except self) for 2 turns.
+Grants [Charge!] to self for 6 turns.
+3-hit Melee BRV+HP attack, repeated twice.
+Recovers BRV to self based on 30% of total HP damage dealt after each HP attack.
+Uses: 6
+
+[Charge!]:
+-BRV Regen 120% iBRV
+While [Charge!] is active:
+-Grants additional turn after an ally with [Inspiration] acts
+-Does not increase turn count
+-Returns to original turn order after additional turn
+
+[Inspiration]:
+-Max BRV +20%
+-INT BRV +30%
+-BRV Regen 120% iBRV
+
+AA: BRV Up
+Restores BRV to party based on 100% of their INT BRV.
+Raises own ATK by 30%.
+20% Party Max BRV Damage Cap Up (to 11,998).
+Duration: 5 turns
+Uses: 3
+
+EX: Steel Drive
+4-hit Melee BRV+HP attack, triggered 5 times.
+Deals 50% splash HP damage.
+Recovers BRV to self based on 30% of total HP damage dealt after each HP attack (except last).
+Inflicts [Crush Armor] on all enemies for 4 turns.
+While [Riptide] is active, changes BRV Attack to Shadow Slash and HP Attack to Brilliance.
+Recast: Normal
+
 Shadow Slash:
- +Greatly increases BRV potency
- +Allows for 120% Stolen BRV overflow
+4-Hit Dark Melee BRV+HP attack, repeated 3 times.
+Deals 50% splash HP damage.
+Dispels party's [Field Tactics: Light]
+Grants [Field Tactics: Dark] to party for 3 turns.
+
 Brilliance:
- +Greatly increases BRV potency
- +Further increases BRV damage dealt vs a single target
- +Allows for 120% Stolen BRV overflow
+5-Hit AoE Light Melee BRV+HP attack, repeated twice.
+Deals split HP damage.
+Dispels party's [Field Tactics: Dark]
+Grants [Field Tactics: Light] to party for 3 turns.
 
-[Unleashed]: ATK Up (60%), Max BRV Up (70%)
-             DEF Down (70%), HP Damage Taken Up (20%)
-             When Breaking an enemy, delays their next turn by 1
-             Changes BRV Attack/+ to Shadow Slash
-             Changes HP Attack/+ to Brilliance
-             Dispels when self is Broken (bad English I know but it's more specific this way)
-             Restores 1 use of Hypercharge upon being Broken
-Shadow Slash: 2-hit Melee BRV+HP attack
-              Grants BRV based on (50% of) HP damage dealt
-              Low Action Delay
-Brilliance: 2-hit AoE Melee BRV+ST HP attack
-            Deals 20% splash HP damage to non-targets
+[Field Tactics: Dark]:
+-Dark Enchant +20%
+-HP Damage Dealt Up +10%
+-BRV Regen 30% Max BRV
 
-Skill 2: Hero's Might
- 3-hit Melee BRV+HP attack.
- Ignores target's DEF.
- Grants BRV Regen (20%) to self for 4 turns.
- Uses: 8
-35cp: Dragon Dagger
- +Greatly increases BRV potency
- +Improves the effects of BRV Regen (+30%) and extends its duration by 2 turns
-c.60: Hero's Might Extend
- +Adds 2 uses
- +Tremendously increases BRV potency
- +Becomes a 2-hit Melee BRV+HP attack, triggered 4 times
- +Gain BRV based on (30% of) HP damage dealt after each HP attack
- 
-EX: Wooden Sword
- +Equips EX ability Steel Drive
- 6-hit Melee BRV+HP attack.
- Allows for 120% Stolen BRV overflow.
- Grants [Fierce Determination] to self for 3 turns.
- Becomes Steel Drive+ when [Unleashed] is active:
-  6-hit Melee BRV+HP attack
-  Allows for 150% Stolen BRV overflow
-  BRV potency up compared to Steel Drive
- Recast: Normal
-  -LB1: Slightly increases BRV damage dealt
-  -LB2: Slightly reduces Recast speed
-  -LB3: Extends duration of [Fierce Determination] by 3 turns.
- EX+: Greatly increases BRV potency of Steel Drive/+
-      Turns BRV Attack to BRV Attack+ when [Unleashed] is not active.
-      Turns HP Attack to HP Attack+ when [Unleashed] is not active.
-  -LB1: Increases own ATK (60%) and Max BRV (50%)
-  -LB2: Start Quest with 6 turns of BRV Regen (50%) and 6 turns of [Fierce Determination]
-  -LB3: Steel Drive:
-         +Becomes a 3-hit Melee BRV+HP attack, followed by a 7-hit Melee BRV+HP attack.
-         +Greatly increases total BRV potency.
-         +Deals 20% total splash HP damage after last HP attack.
-        Steel Drive+:
-         +Becomes a 3-hit Melee BRV+HP attack, followed by a 7-hit Melee BRV+HP attack.
-         +Tremendously increases total BRV potency.
-         +Grants BRV to self based on (40% of) HP damage dealt after first HP attack.
-         +Deals 50% total splash HP damage after last HP attack.
+[Field Tactics: Light]:
+-Holy Enchant +20%
+-HP Damage Dealt Up +10%
+-HP Regen 12% Max HP
 
-[Fierce Determination]: Self: Max BRV Up (40%)
-                        Party: SPD Up (40%), BRV Regen (20% iBRV)
-BRV Attack+: 3-hit Melee BRV attack
-HP Attack+: 2-hit Melee BRV+HP attack
+[Crush Armor]:
+-HP Damage Taken +20%
+-BRV Damage Taken +20%
+-Critical BRV Damage Taken +50%
+-DEF Down -40%
+-Dark Resist Down
+-Holy Resist Down
 
 LD: Starshower
- 1-hit Ranged BRV+HP attack, triggered 12 times.
- Allows for 120% Stolen BRV overflow.
- BRV hits are dispersed when multiple enemies are present.
- Gain BRV based on (20% of) total HP damage dealt after each HP attack.
- Grants [Iron Will] to self for 6 turns.
- Uses: 2
-  -LB1: ATK Up (30%)
-        Slightly increases BRV potency
-        Increases BRV gained based on HP damage dealt (+10%)
-  -LB2: ATK Up (30%)
-        Increases base duration of [Iron Will] by 4 turns
-  -LB3: ATK Up (30%)
-        Adds +1 use to Starshower
-Board Passive: Starshower Extend
- +Slightly increases BRV gain based on HP damage dealt (+10%)
- +Greatly increases BRV potency
- +Allows for 120% Gained BRV overflow
-  
-[Iron Will]: Self: INT BRV Up (150%)
-                   Turns Shadow Slash to Shadow Slash+, Brilliance to Brilliance+
-             Party: ATK Up (40%), Stolen BRV overflow +30%
-Shadow Slash+: 3-hit Melee BRV+HP attack
-               Allows for 120% Stolen BRV overflow
-               Grants BRV based on (60% of) HP damage dealt
-               Low Action Delay
-Brilliance+: 3-hit AoE Melee BRV+ST HP attack
-             Allows for 150% Stolen BRV overflow
-             Deals 50% splash HP damage to non-targets
+1-hit AoE Melee BRV+HP attack, repeated 12 times.
+Deals full HP damage.
+HP attacks will not consume own BRV.
+Grants [Fighting Spirit] to self for 16 turns.
+Uses: 3
+
+[Fighting Spirit]:
+Party:
+-BRV Gained +20%
+-BRV Stolen +20%
+-Elemental Weakness BRV Damage +30%
+-Elemental Weakness HP Damage +20%
