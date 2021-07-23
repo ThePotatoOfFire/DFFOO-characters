@@ -3,6 +3,11 @@ Weapon type: Sword
 Crystal Color: White
 Spheres: A A B
 
+15cp: High Steel Gunblade
+35cp: Neo-Ishgardian Manatrigger
+EX: Weathered Lionheart
+LD: Crownsblade
+
 Skill 1: Keen Edge
 4-hit Melee BRV+HP attack repeated 3 times.
 Restores BRV to self based on 20% of total HP damage dealt after each HP attack.
