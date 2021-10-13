@@ -1,0 +1,61 @@
+Joker
+Weapon type: Dagger
+Crystal Color: Red
+Spheres: A A E
+
+Skill 1: Phantom Slash
+2-hit Melee BRV+HP attack, triggered 3 times.
+Restores BRV to self based on 50% of total HP damage dealt after each HP attack (excl. last)
+Grants [Third Eye] to self for 6 turns.
+Uses: 8
+
+[Third Eye]: ATK +50%
+             Max BRV +30%
+             When inflicting BREAK, inflicts [Knocked Down] on target or targets for 1 turn.
+[Knocked Down]: Confuse effect
+                DEF -100%
+                HP Damage Taken +10%
+
+Skill 2: Eigaon
+6-hit Dark Magic BRV+HP attack triggered 4 times.
+Deals 50% total splash HP damage on last HP attack.
+Uses: 7
+ 
+Put any buff/debuff descriptions or brv/hp+ variants here
+ 
+EX: Showtime
+4-hit AoE Dark Magic BRV+HP attack, triggered 5 times.
+Restores BRV to self based on 50% of total HP damage dealt after each HP attack (excl. last)
+Grants special effect [TAKE YOUR HEART] to self for 6 turns.
+Recast: Slightly Slow
+
+[TAKE YOUR HEART]: All Allies: Dark Enchant +20%
+                   All Enemies: Dark Resist Down
+                   Self: Dark Enchant +20% (total 40%)
+                   BRV Damage Dealt +50%
+                   HP Damage Dealt +20%
+
+LD: Phantom Show
+Grants BRV to party based on own ATK.
+Removes enemy BREAK status and sets BRV to 0.
+AoE Magic HP attack triggered 3 times.
+Deals full HP damage.
+Does not consume own BRV.
+Inflicts [Sleep] on all enemies for 4 turns.
+Uses: 4
+
+[Sleep]: Sleep effect
+         Duration decreases by 1 when taking BRV/HP damage
+         Delays target's next turn by 1 when debuff duration is reduced to 0
+         HP Damage Taken +20%
+
+BT: All-Out Attack!
+10-Hit Dark AoE Melee BRV + AoE HP Attack. Deals split HP Damage.
+When against a single target, increases BRV Damage Dealt by x1.6.
+Max BRV Damage Cap Up by 400% (49,995).
+Max Obtainable BRV & Max HP Damage Cap Up by 800% (899,991).
+
+BURST effect (6 turns, party-wide):
+-
+
+BT Theme: Last Surprise
