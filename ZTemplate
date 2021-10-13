@@ -5,50 +5,28 @@ Spheres: X X X
 
 Skill 1: name
  
- Uses: X
-15cp: Weapon
- +
-c.55: Skill1 Extend
- +
+Uses: X
 
 Put any buff/debuff descriptions or brv/hp+ variants here
 
 Skill 2: name
  Description
- Uses: X
-35cp: Weapon
- +
-c.60: Skill2 Extend
- +
+Uses: X
+
  
 Put any buff/debuff descriptions or brv/hp+ variants here
  
-EX: Weapon
- +Equips EX ability name
+EX: name
  Recast: Normal
-  -LB1:
-  -LB2:
-  -LB3:
- EX+:
-  -LB1:
-  -LB2:
-  -LB3:
 
 Put any buff/debuff descriptions or brv/hp+ variants here
 
-LD: Weapon
- +Equips LD ability name
- Uses: X
-  -LB1:
-  -LB2:
-  -LB3:
-Board Passive: LD Extend
- +
+LD: name
+Uses: x
 
 Put any buff/debuff descriptions or brv/hp+ variants here
 
-BT: Weapon
- +Equips Burst ability name
+BT: name
 description
 Maximum BRV damage limit +x% (up to x)
 Maximum HP damage limit +x% (up to x)
