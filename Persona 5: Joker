@@ -11,23 +11,31 @@ Uses: 8
 
 [Third Eye]: ATK +50%
              Max BRV +30%
-             When inflicting BREAK, inflicts [Knocked Down] on target or targets for 1 turn.
+             BRV and HP attacks ignore Evasion and Blind.
+             When inflicting BREAK, inflicts [Knocked Down] on affected targets for 1 turn.
 [Knocked Down]: Confuse effect
                 DEF -100%
                 HP Damage Taken +10%
 
 Skill 2: Eigaon
 6-hit Dark Magic BRV+HP attack triggered 4 times.
-Deals 50% total splash HP damage on last HP attack.
+Triggers twice when inflicting BREAK.
 Uses: 7
  
 Put any buff/debuff descriptions or brv/hp+ variants here
  
 EX: Showtime
 4-hit AoE Dark Magic BRV+HP attack, triggered 5 times.
+Deals split HP damage.
 Restores BRV to self based on 50% of total HP damage dealt after each HP attack (excl. last)
 Grants special effect [TAKE YOUR HEART] to self for 6 turns.
+HP Attack becomes [Down Shot] after use.
 Recast: Slightly Slow
+(Note: Refer to Persona 5: Strikers)
+
+[Down Shot]: 3-hit Ranged BRV+HP Attack, triggered 3 times.
+             Resets target's BREAK status and forces BREAK before attacking.
+             Reverts to what it was previously after use.
 
 [TAKE YOUR HEART]: All Allies: Dark Enchant +20%
                    All Enemies: Dark Resist Down
@@ -48,6 +56,22 @@ Uses: 4
          Duration decreases by 1 when taking BRV/HP damage
          Delays target's next turn by 1 when debuff duration is reduced to 0
          HP Damage Taken +20%
+         Overwrites pre-existing debuffs of the same name
+
+FR: Bladed Runner
+Partner: Seifer (Akechi)
+Melee BRV attack + HP attack delivered 12 times
+Converts 50% of total HP damage dealt to BRV before last HP attack
+Deals 20% of total HP damage to non-targets on last HP attack
+Maximum BRV damage limit +300% (up to 39,996)
+Maximum obtainable BRV & HP damage limit +400% (up to 499,995)
+
+Force Time Effect:
+-Party deals elemental weakness damage during their turn, or elemental
+weakness damage is dealt outside of party turn: 
+Damage Bonus +5%
+-Enemy is unable to act during their turn:
+Damage Bonus +10%
 
 BT: All-Out Attack!
 10-Hit Dark AoE Melee BRV + AoE HP Attack. Deals split HP Damage.
@@ -56,6 +80,10 @@ Max BRV Damage Cap Up by 400% (49,995).
 Max Obtainable BRV & Max HP Damage Cap Up by 800% (899,991).
 
 BURST effect (6 turns, party-wide):
--
+-BRV Damage Dealt +100%
+-HP Damage Dealt +50%
+-Stolen BRV Overflow +50%
+-Max BRV Damage Cap +50% (14,998)
+-Gain BRV based on Max BRV when dealing Critical BRV Damage (10%)
 
 BT Theme: Last Surprise
