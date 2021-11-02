@@ -26,6 +26,16 @@ Uses: x
 
 Put any buff/debuff descriptions or brv/hp+ variants here
 
+FR: name
+Partner: name
+
+Maximum BRV damage limit +x% (up to x)
+Maximum obtainable BRV & HP damage limit +x% (up to x)
+
+Force Time Effect:
+condition
+Damage Bonus: +x%
+
 BT: name
 description
 Maximum BRV damage limit +x% (up to x)
