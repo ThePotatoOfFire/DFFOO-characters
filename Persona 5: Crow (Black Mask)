@@ -35,18 +35,18 @@ LD: Rebellion Blade
 3-hit AoE Melee BRV+HP attack triggered 4 times.
 Deals split HP damage.
 Restores BRV to self based on HP damage dealt after each HP attack (excl. last)
-While LD passive is equipped, special effect [Black Mask] will be granted to Akechi.
+While LD passive is equipped, special effect [Black Mask] will be granted to Crow.
 Uses: 3
 
 [Black Mask]: BRV Damage Dealt +50%
               HP Damage Dealt +20%
               Stacks:
-              Gains one stack at the end of Akechi's turn.
+              Gains one stack at the end of Crow's turn.
               When effect reaches 5 stacks, changes to [Psychotic] for 2 turns.
 [Psychotic]: BRV Damage Dealt +100%
              HP Damage Dealt +50%
-             BRV Damage Received +50%
-             HP Damage Received +20%
+             BRV Damage Taken +50%
+             HP Damage Taken +20%
              Guaranteed hit for all skills
              Null Action Delay
              Skills will not consume use count (excl. some)
@@ -66,11 +66,17 @@ Party member takes two consecutive turns
 Damage Bonus: +10%
 
 BT: Execution
-description
-Maximum BRV damage limit +x% (up to x)
-Maximum HP damage limit +x% (up to x)
+10-hit AoE Melee BRV+ST HP attack, triggered twice.
+Maximum BRV damage limit +250% (up to 34,996)
+Maximum HP damage limit +400% (up to 499,995)
 
-BURST effect (8 turns, party-wide):
--
+BURST effect (8 turns, enemy/party):
+Allies:
+-HP Damage Cap +20%
+Enemies:
+-ATK, DEF, Max BRV, INT BRV, SPD Down -40%
+-Debuff durations do not decrease
+-BRV Damage Taken +100%
+-HP Damage Taken +20%
 
 BT Theme: Rivers in the Desert
