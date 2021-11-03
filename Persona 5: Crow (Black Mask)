@@ -1,0 +1,76 @@
+Crow (Goro Akechi)
+Weapon type: Sword
+Crystal Color: Black
+Spheres: A A E
+
+Skill 1: Negative Pile
+6-hit Melee BRV+HP attack, triggered 3 times.
+Deals 50% total splash HP damage to non-targets.
+Inflicts [Terror] on all enemies for 2 turns.
+Uses: 6
+
+[Terror]: Paralyze effect when targeting inflictor
+
+Skill 2: Laevateinn
+2-hit Melee BRV+HP attack, triggered 7 times.
+Does not consume own BRV until final HP attack.
+Grants [I Decide the Truth] to self for 6 turns.
+Uses: 8
+
+[I Decide the Truth]: ATK +30%
+                      BRV Regen +80% iBRV
+                      Recovers to INT BRV in one turn after BREAK/HP Attack
+                      Turn Delete when inflicting BREAK
+ 
+EX: Megidolaon
+1-hit AoE Magic BRV+HP attack, triggered 12 times.
+Deals full HP damage.
+Restores BRV to self based on 50% of total HP damage dealt after each HP attack (excl. last)
+Ignores DEF and BRV Damage Reduction effects.
+Extends duration of existing [Terror] by 1 turn.
+Recast: Very Slow
+
+LD: Rebellion Blade
+5-hit Magic BRV+HP attack triggered 3 times.
+3-hit AoE Melee BRV+HP attack triggered 4 times.
+Deals split HP damage.
+Restores BRV to self based on HP damage dealt after each HP attack (excl. last)
+While LD passive is equipped, special effect [Black Mask] will be granted to Akechi.
+Uses: 3
+
+[Black Mask]: BRV Damage Dealt +50%
+              HP Damage Dealt +20%
+              Stacks:
+              Gains one stack at the end of Akechi's turn.
+              When effect reaches 5 stacks, changes to [Psychotic] for 2 turns.
+[Psychotic]: BRV Damage Dealt +100%
+             HP Damage Dealt +50%
+             BRV Damage Received +50%
+             HP Damage Received +20%
+             Guaranteed hit for all skills
+             Null Action Delay
+             Skills will not consume use count (excl. some)
+             When duration ends,reverts to 1 stack of [Black Mask]
+
+FR: Firing Squad
+Partner: Vincent
+6-hit AoE Ranged BRV+HP attack, triggered 3 times.
+Maximum BRV damage limit +200% (up to 29,997)
+Maximum obtainable BRV & HP damage limit +250% (up to 349,996)
+No action delay.
+
+Force Time Effect:
+BRV Damage is dealt to a debuffed enemy during or outside party turn
+Damage Bonus: +5%
+Party member takes two consecutive turns
+Damage Bonus: +10%
+
+BT: Execution
+description
+Maximum BRV damage limit +x% (up to x)
+Maximum HP damage limit +x% (up to x)
+
+BURST effect (8 turns, party-wide):
+-
+
+BT Theme: Rivers in the Desert
