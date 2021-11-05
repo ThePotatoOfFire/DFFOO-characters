@@ -1,4 +1,4 @@
-Crow (Goro Akechi)
+Crow (Black Mask)
 Weapon type: Sword
 Crystal Color: Black
 Spheres: A A E
@@ -34,6 +34,7 @@ LD: Rebellion Blade
 5-hit Magic BRV+HP attack triggered 3 times.
 3-hit AoE Melee BRV+HP attack triggered 4 times.
 Deals split HP damage.
+Removes all buffs on all enemies (excl. gold frame).
 Restores BRV to self based on HP damage dealt after each HP attack (excl. last)
 While LD passive is equipped, special effect [Black Mask] will be granted to Crow.
 Uses: 3
@@ -42,19 +43,20 @@ Uses: 3
               HP Damage Dealt +20%
               Stacks:
               Gains one stack at the end of Crow's turn.
+              Gains one stack when Crow receives BRV or HP damage, or is inflicted with a debuff (occurs only once per turn)
               When effect reaches 5 stacks, changes to [Psychotic] for 2 turns.
 [Psychotic]: BRV Damage Dealt +100%
              HP Damage Dealt +50%
              BRV Damage Taken +50%
              HP Damage Taken +20%
              Guaranteed hit for all skills
-             Null Action Delay
+             Null Action Delay for all skills
              Skills will not consume use count (excl. some)
-             When duration ends,reverts to 1 stack of [Black Mask]
+             When duration ends, reverts to 1 stack of [Black Mask]
 
-FR: Firing Squad
-Partner: Vincent
-6-hit AoE Ranged BRV+HP attack, triggered 3 times.
+FR: Annihilation
+Partner: Kefka
+6-hit AoE Magic BRV+HP attack, triggered 3 times.
 Maximum BRV damage limit +200% (up to 29,997)
 Maximum obtainable BRV & HP damage limit +250% (up to 349,996)
 No action delay.
@@ -75,8 +77,8 @@ Allies:
 -HP Damage Cap +20%
 Enemies:
 -ATK, DEF, Max BRV, INT BRV, SPD Down -40%
--Debuff durations do not decrease
+-Duration for debuffs inflicted by Crow will not decrease
 -BRV Damage Taken +100%
--HP Damage Taken +20%
+-HP Damage Taken +50%
 
 BT Theme: Rivers in the Desert
