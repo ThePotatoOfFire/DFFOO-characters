@@ -4,7 +4,7 @@ Crystal Color: Red
 Spheres: A A E
 
 Skill 1: Phantom Slash
-2-hit Melee BRV+HP attack, triggered 3 times.
+4-hit Melee BRV+HP attack, triggered 3 times.
 Restores BRV to self based on 50% of total HP damage dealt after each HP attack (excl. last)
 Grants [Third Eye] to self for 6 turns.
 Uses: 8
@@ -22,8 +22,6 @@ Skill 2: Eigaon
 Triggers twice when inflicting BREAK.
 Uses: 7
  
-Put any buff/debuff descriptions or brv/hp+ variants here
- 
 EX: Showtime
 4-hit AoE Dark Magic BRV+HP attack, triggered 5 times.
 Deals split HP damage.
@@ -34,7 +32,9 @@ Recast: Slightly Slow
 (Note: Refer to Persona 5: Strikers)
 
 [Down Shot]: 3-hit Ranged BRV+HP Attack, triggered 3 times.
-             Resets target's BREAK status and forces BREAK before attacking.
+             Restores BRV to self based on 50% of total HP damage after each HP attack (excl. last)
+             Resets target's BREAK status and forces BREAK after last HP attack.
+             No Action Delay, does not increase turn counter.
              Reverts to what it was previously after use.
 
 [TAKE YOUR HEART]: All Allies: Dark Enchant +20%
@@ -50,19 +50,21 @@ AoE Magic HP attack triggered 3 times.
 Deals full HP damage.
 Does not consume own BRV.
 Inflicts [Sleep] on all enemies for 4 turns.
+Inflicts [Unmasked] on all enemies for 2 turns.
 Uses: 4
 
 [Sleep]: Sleep effect
          Duration decreases by 1 when taking BRV/HP damage
          Delays target's next turn by 1 when debuff duration is reduced to 0
-         HP Damage Taken +20%
          Overwrites pre-existing debuffs of the same name
+[Unmasked]: Recovery time from BREAK reduced to 1 turn
+            Duration decreases by 1 every time BREAK is inflicted
 
 FR: Bladed Runner
 Partner: Kadaj (Akechi)
-Melee BRV attack + HP attack delivered 12 times
-Converts 50% of total HP damage dealt to BRV before last HP attack
-Deals 20% of total HP damage to non-targets on last HP attack
+Melee BRV+HP attack triggered 12 times
+Restores BRV to self based on 50% of total HP damage dealt before last HP attack.
+Deals 20% total splash HP damage to non-targets on last HP attack.
 Maximum BRV damage limit +300% (up to 39,996)
 Maximum obtainable BRV & HP damage limit +400% (up to 499,995)
 
@@ -84,6 +86,6 @@ BURST effect (6 turns, party-wide):
 -HP Damage Dealt +50%
 -Stolen BRV Overflow +50%
 -Max BRV Damage Cap +50% (14,998)
--Gain BRV based on Max BRV when dealing Critical BRV Damage (10%)
+-Gain BRV based on Max BRV when dealing Elemental Weakness BRV Damage (10%)
 
 BT Theme: Last Surprise
