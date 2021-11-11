@@ -1,0 +1,46 @@
+Violet
+Weapon type: Sword
+Crystal Color: White
+Spheres: A A D
+
+Skill 1: Brave Step
+Grants BRV to all allies based on own Max BRV (80%)
+Grants [Revolution] to all allies for 6 turns.
+Uses: 5
+
+[Revolution]: Critical Hit Rate +100%
+              Critical BRV Damage +50%
+              BRV Gain after Critical Hit based on Max BRV (10%)
+              
+Skill 2: Makougaon
+4-hit AoE Magic Holy BRV+HP attack repeated 3 times.
+Deals split HP damage.
+Inflicts unframed Holy Resistance Down on all enemies for 6 turns.
+Uses: 8
+ 
+EX: Masquerade
+6-hit Melee BRV+HP attack, repeated 6 times.
+Deals 50% splash HP damage to non-targets on last HP attack.
+No Action Delay.
+Turns HP Attack to Sword Dance for 1 use.
+Recast: Fast
+
+Sword Dance: 4-hit Melee BRV+HP attack repeated 3 times.
+
+LD: Vorpal Blade
+3-hit AoE Melee BRV+HP attack triggered 9 times.
+Deals full HP damage.
+Grants [Dancing in Starlight] to self for 16 turns.
+Uses: 3
+
+Put any buff/debuff descriptions or brv/hp+ variants here
+
+FR: 
+Partner: Sherlotta
+
+Maximum BRV damage limit +x% (up to x)
+Maximum obtainable BRV & HP damage limit +x% (up to x)
+
+Force Time Effect:
+condition
+Damage Bonus: +x%
