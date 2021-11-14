@@ -5,7 +5,7 @@ Spheres: A A D
 
 Skill 1: Brave Step
 Grants BRV to all allies based on own Max BRV (80%)
-Grants [Revolution] to all allies for 6 turns.
+Grants [Rebellion] to all allies for 6 turns.
 Uses: 5
 
 [Revolution]: Critical Hit Rate +100%
@@ -13,6 +13,7 @@ Uses: 5
               BRV Gain after Critical Hit based on Max BRV (10%)
               
 Skill 2: Makougaon
+Grants BRV to all allies based on own Max BRV (40%)
 4-hit AoE Magic Holy BRV+HP attack repeated 3 times.
 Deals split HP damage.
 Inflicts unframed Holy Resistance Down on all enemies for 6 turns.
@@ -21,22 +22,36 @@ Uses: 8
 EX: Masquerade
 6-hit Melee BRV+HP attack, repeated 6 times.
 Deals 50% splash HP damage to non-targets on last HP attack.
+Grants BRV to party based on 20% of total HP damage dealt.
 No Action Delay.
+Will not add to turn count (excluding Summon, Burst, and Friend)
 Turns HP Attack to Sword Dance for 1 use.
 Recast: Fast
 
-Sword Dance: 4-hit Melee BRV+HP attack repeated 3 times.
+Sword Dance: 5-hit Melee BRV+HP attack repeated 3 times.
+             Removes target's BREAK status before attacking.
+             Deals 20% splash HP damage to non-targets on last HP attack.
+             Extends duration of party's existing [Rebellion] by 1 turn.
+             
 
 LD: Vorpal Blade
-3-hit AoE Melee BRV+HP attack triggered 9 times.
+2-hit AoE Melee BRV+HP attack triggered 9 times.
 Deals full HP damage.
+Grants BRV to party based on 20% of total HP damage dealt.
 Grants [Dancing in Starlight] to self for 16 turns.
+Will not consume ability usage on following turn (excl. some)
 Uses: 3
 
-Put any buff/debuff descriptions or brv/hp+ variants here
+[Dancing in Starlight]: Self:
+                        Holy Enchant +10%
+                        HP Damage Dealt +20%
+                        Party:
+                        BRV Damage Dealt +30%
+                        Holy Enchant +10% (Self total 20%)
+                        HP Damage Dealt +10% (Self total 30%)
 
 FR: 
-Partner: Sherlotta
+Partner: Arciela
 
 Maximum BRV damage limit +x% (up to x)
 Maximum obtainable BRV & HP damage limit +x% (up to x)
