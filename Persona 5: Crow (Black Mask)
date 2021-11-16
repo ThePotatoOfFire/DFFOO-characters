@@ -6,13 +6,14 @@ Spheres: A A E
 Skill 1: Negative Pile
 6-hit Melee BRV+HP attack, triggered 3 times.
 Deals 50% total splash HP damage to non-targets.
-Inflicts [Terror] on all enemies for 2 turns.
+Inflicts [Despair] on all enemies for 2 turns.
 Uses: 6
 
-[Terror]: Paralyze effect when targeting inflictor
+[Despair]: Paralyze effect when targeting inflictor
+           BRV Poison (30% iBRV)
 
 Skill 2: Laevateinn
-2-hit Melee BRV+HP attack, triggered 7 times.
+1-hit Melee BRV+HP attack, triggered 7 times.
 Does not consume own BRV until final HP attack.
 Grants [I Decide the Truth] to self for 6 turns.
 Uses: 8
@@ -27,7 +28,7 @@ EX: Megidolaon
 Deals full HP damage.
 Restores BRV to self based on 50% of total HP damage dealt after each HP attack (excl. last)
 Ignores DEF and BRV Damage Reduction effects.
-Extends duration of existing [Terror] by 1 turn.
+Extends duration of existing [Despair] by 1 turn.
 Recast: Very Slow
 
 LD: Rebellion Blade
@@ -63,7 +64,7 @@ No action delay.
 
 Force Time Effect:
 BRV Damage is dealt to a debuffed enemy during or outside party turn
-Damage Bonus: +5%
+Damage Bonus: +10%
 Party member takes two consecutive turns
 Damage Bonus: +20%
 
