@@ -35,7 +35,7 @@ Sword Dance: 5-hit Melee BRV+HP attack repeated 3 times.
              
 
 LD: Vorpal Blade
-2-hit AoE Melee BRV+HP attack triggered 9 times.
+3-hit AoE Melee BRV+HP attack triggered 9 times.
 Deals full HP damage.
 Grants BRV to party based on 20% of total HP damage dealt.
 Grants [Dancing in Starlight] to self for 16 turns.
@@ -49,6 +49,7 @@ Uses: 3
                         BRV Damage Dealt +30%
                         Holy Enchant +10% (Self total 20%)
                         HP Damage Dealt +10% (Self total 30%)
+                        Prevents Break if BRV is at least 50% of Max BRV, and leaves value at 1 
 
 FR: 
 Partner: Arciela
