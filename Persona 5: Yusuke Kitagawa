@@ -1,0 +1,57 @@
+Fox
+Weapon type: Unique
+Crystal Color: Blue
+Spheres: A A B
+
+Skill 1: Deadly Fury
+4-hit Melee BRV+HP attack triggered 5 times.
+Restores BRV to self based on 20% of total HP damage dealt after each HP attack, excl last.
+Uses: 8
+
+Skill 2: High Counter
+Grants special effect [Legendary Thief] to self.
+Grants BRV to self based on Max BRV (80%).
+High Action Delay.
+Uses: 6
+ 
+[Legendary Thief]: When targeted by an enemy, cancels the attack before it hits.
+                    >Cannot cancel Lufenia orbs or Force attacks 
+                   Dispels after Counter, or at start of own next turn
+                   When BRV/HP damage is received,triggers Counter
+
+Counter: 2-Hit Melee BRV+HP attack triggered 6 times.
+         Restores BRV to self based on 50% of total HP damage dealt after each HP attack.
+         Delays target's next action by 2 turns, and ignores delay immunity.
+         Removes [Legendary Thief].
+ 
+EX: Myriad Slashes
+2-hit Melee BRV+HP attack, triggered 9 times.
+Restores BRV to self based on 50% of total HP damage dealt after each HP attack, excl. last.
+Grants [The Phantom Artist] to self for 8 turns.
+Recast: Very Slow
+
+[The Phantom Artist]: Ice Enchant +10%
+                      BRV Damage Dealt +80%
+                      HP Damage Dealt +20%
+
+LD: Hyakka Ryouran
+Grants [Heat Riser] to party for 12 turns.
+Uses: 4
+
+[Heat Riser]: ATK +100%
+              DEF +100%
+              SPD +50%
+              Evasion Rate +10%
+              HP Damage Dealt +20%
+
+FR: name
+Partner: name
+
+Maximum BRV damage limit +x% (up to x)
+Maximum obtainable BRV & HP damage limit +x% (up to x)
+
+Force Time Effect:
+condition
+Damage Bonus: +x%
+condition
+Damage Bonus: +x%
