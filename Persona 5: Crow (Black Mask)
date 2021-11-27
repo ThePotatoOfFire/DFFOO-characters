@@ -18,8 +18,8 @@ Does not consume own BRV until final HP attack.
 Grants [I Decide the Truth] to self for 6 turns.
 Uses: 8
 
-[I Decide the Truth]: ATK +30%
-                      BRV Regen +80% iBRV
+[I Decide the Truth]: ATK +50%
+                      BRV Regen +120% iBRV
                       Recovers to INT BRV in one turn after BREAK/HP Attack
                       Turn Delete when inflicting BREAK
  
