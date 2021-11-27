@@ -38,25 +38,27 @@ LD: Vorpal Blade
 3-hit AoE Melee BRV+HP attack triggered 9 times.
 Deals full HP damage.
 Grants BRV to party based on 20% of total HP damage dealt.
-Grants [Dancing in Starlight] to self for 16 turns.
+Grants [Veil of Midnight] to self for 16 turns.
 Will not consume ability usage on following turn (excl. some)
 Uses: 3
 
-[Dancing in Starlight]: Self:
-                        Holy Enchant +10%
-                        HP Damage Dealt +20%
-                        Party:
-                        BRV Damage Dealt +30%
-                        Holy Enchant +10% (Self total 20%)
-                        HP Damage Dealt +10% (Self total 30%)
-                        Prevents Break if BRV is at least 50% of Max BRV, and leaves value at 1 
+[Veil of Midnight]: Self:
+                    Holy Enchant +10%
+                    HP Damage Dealt +20%
+                    Party:
+                    BRV Damage Dealt +30%
+                    Holy Enchant +10% (Self total 20%)
+                    HP Damage Dealt +10% (Self total 30%)
+                    Prevents Break if BRV is at least 50% of Max BRV, and leaves value at 1 
 
-FR: 
+FR: Dazzling Dance
 Partner: Arciela
-
+6-hit AoE Holy Magic BRV+HP attack,triggered 3 times.
 Maximum BRV damage limit +x% (up to x)
 Maximum obtainable BRV & HP damage limit +x% (up to x)
 
 Force Time Effect:
-condition
-Damage Bonus: +x%
+Party member deals Holy BRV damage (once per turn)
+Damage Bonus: +15%
+Enemy takes Critical BRV damage outside of BREAK
+Damage Bonus: +30%
