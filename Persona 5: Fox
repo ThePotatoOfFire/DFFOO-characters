@@ -17,7 +17,7 @@ Uses: 6
 [Legendary Thief]: When targeted by an enemy, cancels the attack before it hits.
                     >Cannot cancel Lufenia orbs or Force attacks 
                    Dispels after Counter, or at start of own next turn
-                   When BRV/HP damage is received,triggers Counter
+                   When BRV/HP damage is received, triggers Counter
 
 Counter: 2-Hit Melee BRV+HP attack triggered 6 times.
          Restores BRV to self based on 50% of total HP damage dealt after each HP attack.
@@ -30,28 +30,40 @@ Restores BRV to self based on 50% of total HP damage dealt after each HP attack,
 Grants [The Phantom Artist] to self for 8 turns.
 Recast: Very Slow
 
-[The Phantom Artist]: Ice Enchant +10%
+[The Phantom Artist]: Self:
+                      Ice Enchant +10%
                       BRV Damage Dealt +80%
+                      BRV Gained +30%
                       HP Damage Dealt +20%
+                      Enemies:
+                      Ice Imperil
+                      SPD Down (20%)
 
 LD: Hyakka Ryouran
 Grants [Heat Riser] to party for 12 turns.
+Grants BRV to party based on own mBRV (80%).
+Charges party's EX gauges by 50%.
 Uses: 4
 
 [Heat Riser]: ATK +100%
               DEF +100%
               SPD +50%
               Evasion Rate +10%
+              BRV Damage Dealt +20%
               HP Damage Dealt +20%
 
-FR: name
-Partner: name
+FR Ability: Way of the Sword
+- Partner: Cyan
+- Usage: 2
 
-Maximum BRV damage limit +x% (up to x)
-Maximum obtainable BRV & HP damage limit +x% (up to x)
+6 Hit Ranged BRV + HP attack 4 times
+Max BRV Damage Cap up by 400% (49,995)
+Max Obtainable Stolen/Obtained Overflow is 299,997, BRV & Max HP Damage Cap up by 300% (299,997)
+Triggers Force Time after use:
+ - Force Time: 10 turns
+ - Force Time Starting Bonus: 120%
+ - Consumes 80% of Force Gauge after Force Time finishes
 
 Force Time Effect:
-condition
-Damage Bonus: +x%
-condition
-Damage Bonus: +x%
+ - When a character deals Ice elemental BRV damage: HP Damage Bonus +15%
+ - When a character counters an enemy attack: HP Damage Bonus +30%
