@@ -19,7 +19,7 @@ Uses: 8
 
 Skill 2: Eigaon
 6-hit Dark Magic BRV+HP attack triggered 4 times.
-Triggers twice when inflicting BREAK.
+Triggers a second time when inflicting BREAK.
 Uses: 7
  
 EX: Showtime
@@ -29,7 +29,7 @@ Restores BRV to self based on 50% of total HP damage dealt after each HP attack 
 Grants special effect [TAKE YOUR HEART] to self for 6 turns.
 HP Attack becomes [Down Shot] after use.
 Recast: Slightly Slow
-(Note: Refer to Persona 5: Strikers)
+(Note: Refer to Persona 5 Scramble)
 
 [Down Shot]: 3-hit Ranged BRV+HP Attack, triggered 3 times.
              Restores BRV to self based on 50% of total HP damage after each HP attack (excl. last)
@@ -60,26 +60,27 @@ Uses: 4
 [Unmasked]: Recovery time from BREAK reduced to 1 turn
             Duration decreases by 1 every time BREAK is inflicted
 
-FR: Bladed Runner
-Partner: Kadaj (Akechi)
-Melee BRV+HP attack triggered 12 times
-Restores BRV to self based on 50% of total HP damage dealt before last HP attack.
-Deals 20% total splash HP damage to non-targets on last HP attack.
-Maximum BRV damage limit +300% (up to 39,996)
-Maximum obtainable BRV & HP damage limit +400% (up to 499,995)
+FR Ability: Bladed Runner
+- Partner: Kadaj
+- Usage: 2
+
+6 Hit Ranged BRV + HP attack 4 times
+Max BRV Damage Cap up by 400% (49,995)
+Max Obtainable Stolen/Obtained Overflow is 299,997, BRV & Max HP Damage Cap up by 300% (299,997)
+Triggers Force Time after use:
+ - Force Time: 10 turns
+ - Force Time Starting Bonus: 120%
+ - Consumes 80% of Force Gauge after Force Time finishes
 
 Force Time Effect:
--Party deals elemental weakness damage during their turn, or elemental
-weakness damage is dealt outside of party turn: 
-Damage Bonus +5%
--Enemy is unable to act during their turn:
-Damage Bonus +10%
+ - When a character deals Elemental Weakness BRV damage: HP Damage Bonus +15%
+ - When an enemy is unable to act during their turn: HP Damage Bonus +30%
 
 BT: All-Out Attack!
-10-Hit Dark AoE Melee BRV + AoE HP Attack. Deals split HP Damage.
-When against a single target, increases BRV Damage Dealt by x1.6.
-Max BRV Damage Cap Up by 400% (49,995).
-Max Obtainable BRV & Max HP Damage Cap Up by 800% (899,991).
+10 Hit Magic AoE BRV + HP attack 2 times 
+Deals 1.6 BRV damage against a single enemy
+Max BRV Damage Cap up by 150% (24,997)
+Max Obtainable BRV & Max HP Damage Cap up by 400% (499,995)
 
 BURST effect (6 turns, party-wide):
 -BRV Damage Dealt +100%
